@@ -1,0 +1,105 @@
+{
+  "status": "completed_and_replayed",
+  "diagnostic_only": true,
+  "completed": true,
+  "stop_reason": "complete",
+  "source_unchanged": true,
+  "checkpoint_selection_and_replay_verified": true,
+  "independent_aggregation": {
+    "worst_phase_psnr": 30.185872536234115,
+    "psnr": 30.280424200449346,
+    "ssim": 0.8579762629353285,
+    "psnr_is_infinite": false
+  },
+  "successful_updates": 5000,
+  "target_updates": 5000,
+  "selected_update": 4800,
+  "training_seconds": 5347.168834207987,
+  "train_source_count": 32,
+  "development_source_count": 8,
+  "training_seed": 42,
+  "development_phases": 16,
+  "quality": 20,
+  "worst_phase_gain_over_input_db": 0.9549147965953892,
+  "mean_phase_ssim_delta_over_input": 0.01809202776970875,
+  "pragmatic_continuation_threshold": {
+    "worst_phase_gain_at_least_db": 0.1,
+    "no_mean_phase_ssim_decrease": true,
+    "passed": true
+  },
+  "full_image_psnr": 32.139600160332826,
+  "full_image_ssim": 0.8717645525812064,
+  "full_image_gain_over_input_db": 0.8579496642034954,
+  "selected_checkpoint_sha256": "db32a6373fad66a5d2e86bc6b2cc00ffc8e9935bad3aeb8b8e42ff553c0bdcb9",
+  "latest_checkpoint_sha256": "934cf1464a3b8a8e8ae3a29169837f2d6f9793604bdd8f0cce8b2eb133bf831e",
+  "per_image": [
+    {
+      "id": "0721",
+      "worst_phase_psnr": 31.120523401289937,
+      "input_worst_phase_psnr": 29.235322267882072,
+      "gain_db": 1.8852011334078647,
+      "mean_phase_psnr": 31.231820610227793,
+      "mean_phase_ssim": 0.9475503651322845
+    },
+    {
+      "id": "0722",
+      "worst_phase_psnr": 22.40347950012572,
+      "input_worst_phase_psnr": 21.915828133100717,
+      "gain_db": 0.487651367025002,
+      "mean_phase_psnr": 22.497696686494592,
+      "mean_phase_ssim": 0.7609329844481755
+    },
+    {
+      "id": "0723",
+      "worst_phase_psnr": 29.17543206220352,
+      "input_worst_phase_psnr": 28.82487065837644,
+      "gain_db": 0.35056140382707923,
+      "mean_phase_psnr": 29.25932688676604,
+      "mean_phase_ssim": 0.8282377766096205
+    },
+    {
+      "id": "0724",
+      "worst_phase_psnr": 31.491296281582414,
+      "input_worst_phase_psnr": 30.429783779373754,
+      "gain_db": 1.061512502208661,
+      "mean_phase_psnr": 31.55611360323945,
+      "mean_phase_ssim": 0.8758516219481889
+    },
+    {
+      "id": "0725",
+      "worst_phase_psnr": 27.017080103237447,
+      "input_worst_phase_psnr": 26.139944491375623,
+      "gain_db": 0.8771356118618243,
+      "mean_phase_psnr": 27.11855697267134,
+      "mean_phase_ssim": 0.8091557375205973
+    },
+    {
+      "id": "0726",
+      "worst_phase_psnr": 30.04105335936664,
+      "input_worst_phase_psnr": 29.57201789967186,
+      "gain_db": 0.4690354596947799,
+      "mean_phase_psnr": 30.090746045875555,
+      "mean_phase_ssim": 0.7899278048259165
+    },
+    {
+      "id": "0727",
+      "worst_phase_psnr": 35.20506945762169,
+      "input_worst_phase_psnr": 34.311425658042346,
+      "gain_db": 0.893643799579344,
+      "mean_phase_psnr": 35.32832164290363,
+      "mean_phase_ssim": 0.9025500009502878
+    },
+    {
+      "id": "0728",
+      "worst_phase_psnr": 35.03304612444553,
+      "input_worst_phase_psnr": 33.41846902928698,
+      "gain_db": 1.6145770951585448,
+      "mean_phase_psnr": 35.16081115541639,
+      "mean_phase_ssim": 0.9496038120475568
+    }
+  ],
+  "protected_test_scored": false,
+  "novelty_established": false,
+  "comparison_limit": "The 5000-update cosine horizon differs from the 1000-update screening. Budget/schedule diagnostic only, not matched inference about the consistency loss or an isolated duration effect. Same dev data select checkpoints; no held-out generalization claim.",
+  "analysis_sha256": "efa01e50f900eff6a04dd5ca88ee37e4edbd9a031ae756362642511a07553f82"
+}

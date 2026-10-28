@@ -1,0 +1,232 @@
+{
+  "status": "verified_completed_training_and_development",
+  "outer_sha256": "f944a3474664439d73ba50ee10e749d106a5dea52e3597389d67b1b28eeeccb6",
+  "step": 5000,
+  "best_step": 4500,
+  "skipped_updates": 0,
+  "microsteps": 10000,
+  "selected_sha256": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+  "source_files": 84,
+  "snapshot_inventory": {
+    "best_step": 4500,
+    "files": {
+      "best_model.pth": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+      "config.yaml": "6c6277f58fa587c4ecc2771f1396742373026e159447589563faed747a4ade4a",
+      "environment.json": "09997067cd20d415516fcc6236391c91482fb107c9eecf0aa6539715bd193d80",
+      "latest.pth": "30c47f4176ff1c8aca2306635b4c1f04641deb038cde8fbe4373a2d914e3efa6",
+      "manifests.json": "e9c0f0ecf11c4f82b11e967d7fa29217bde6decf78116abe39d45370d5da0a58",
+      "metrics.csv": "d9eb3b83408207efa8d1963d9646c956957db72d574dc0f67298f288258428a5",
+      "resume_environment.json": "e2a455b627c9faf3547589c647082ac7fb6d6b768365e7d9d6b4d3c2012bb651",
+      "summary.json": "91a85b281df1a2757062bad7f3da33795f2b02ce4f30ddaf588dab0eb99d292d"
+    },
+    "microsteps": 10000,
+    "schema_version": 1,
+    "step": 5000
+  },
+  "development": {
+    "peak_120_development.json": {
+      "count": 8,
+      "psnr": 32.701839236178266,
+      "ssim": 0.9124387055656027,
+      "protocol": "project_rgb_float_v1",
+      "checkpoint": "/content/Image_Restoration_Extension_v3/experiments/cloud/poisson_rgb_5000_v3_cache/poisson_seed42_resume_f7c78664/best_model.pth",
+      "step": 4500,
+      "dataset_hash": "843a9c546b4e5ef0291186e6ed29669dfa1251d52616833d3c2d20f36277ff60",
+      "split": "val",
+      "procedural_test_only": false,
+      "device": "cpu",
+      "checkpoint_sha256": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+      "training_seed": 42,
+      "training_config": {
+        "device": "cuda",
+        "precision": "fp16",
+        "batch_size": 8,
+        "accumulation_steps": 2,
+        "num_workers": 0,
+        "max_steps": 5000,
+        "epochs": null,
+        "max_seconds": 900,
+        "learning_rate": 0.0002,
+        "min_lr": 1e-06,
+        "weight_decay": 0,
+        "warmup_steps": 100,
+        "clip_grad": 1.0,
+        "validation_interval": 100,
+        "checkpoint_interval": 100
+      },
+      "selection_horizon": 5000,
+      "degradation": {
+        "profile": "poisson_linear_rgb_v1",
+        "sigma": 25.0,
+        "sigma_min": 10.0,
+        "sigma_max": 50.0,
+        "peak_photons": 120.0,
+        "poisson_training_peaks": [
+          30,
+          60,
+          120
+        ],
+        "jpeg_quality": 20
+      },
+      "training_source_hash": "6e50fc7c39f8c8dfd07e40866c2d658e86cd558ac93ae94d1392b456db0f7fc2",
+      "model": {
+        "name": "dncnn_rgb_l1",
+        "width": 64,
+        "depth": 20,
+        "scale": 1,
+        "blocks": 16
+      },
+      "jpeg_study": {
+        "mode": "off",
+        "augment": true
+      },
+      "codec": {
+        "pillow": "11.3.0",
+        "jpeg_library": "6.2",
+        "subsampling": "4:4:4",
+        "optimize": "false",
+        "progressive": "false"
+      },
+      "phase_constructor": null,
+      "reference_crop": "full_image",
+      "frozen_study_sha256": null,
+      "psnr_is_infinite": false
+    },
+    "peak_30_development.json": {
+      "count": 8,
+      "psnr": 28.290368496527027,
+      "ssim": 0.8206955226586419,
+      "protocol": "project_rgb_float_v1",
+      "checkpoint": "/content/Image_Restoration_Extension_v3/experiments/cloud/poisson_rgb_5000_v3_cache/poisson_seed42_resume_f7c78664/best_model.pth",
+      "step": 4500,
+      "dataset_hash": "843a9c546b4e5ef0291186e6ed29669dfa1251d52616833d3c2d20f36277ff60",
+      "split": "val",
+      "procedural_test_only": false,
+      "device": "cpu",
+      "checkpoint_sha256": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+      "training_seed": 42,
+      "training_config": {
+        "device": "cuda",
+        "precision": "fp16",
+        "batch_size": 8,
+        "accumulation_steps": 2,
+        "num_workers": 0,
+        "max_steps": 5000,
+        "epochs": null,
+        "max_seconds": 900,
+        "learning_rate": 0.0002,
+        "min_lr": 1e-06,
+        "weight_decay": 0,
+        "warmup_steps": 100,
+        "clip_grad": 1.0,
+        "validation_interval": 100,
+        "checkpoint_interval": 100
+      },
+      "selection_horizon": 5000,
+      "degradation": {
+        "profile": "poisson_linear_rgb_v1",
+        "sigma": 25.0,
+        "sigma_min": 10.0,
+        "sigma_max": 50.0,
+        "peak_photons": 30.0,
+        "poisson_training_peaks": [
+          30,
+          60,
+          120
+        ],
+        "jpeg_quality": 20
+      },
+      "training_source_hash": "6e50fc7c39f8c8dfd07e40866c2d658e86cd558ac93ae94d1392b456db0f7fc2",
+      "model": {
+        "name": "dncnn_rgb_l1",
+        "width": 64,
+        "depth": 20,
+        "scale": 1,
+        "blocks": 16
+      },
+      "jpeg_study": {
+        "mode": "off",
+        "augment": true
+      },
+      "codec": {
+        "pillow": "11.3.0",
+        "jpeg_library": "6.2",
+        "subsampling": "4:4:4",
+        "optimize": "false",
+        "progressive": "false"
+      },
+      "phase_constructor": null,
+      "reference_crop": "full_image",
+      "frozen_study_sha256": null,
+      "psnr_is_infinite": false
+    },
+    "peak_60_development.json": {
+      "count": 8,
+      "psnr": 30.564402247111204,
+      "ssim": 0.876466254039235,
+      "protocol": "project_rgb_float_v1",
+      "checkpoint": "/content/Image_Restoration_Extension_v3/experiments/cloud/poisson_rgb_5000_v3_cache/poisson_seed42_resume_f7c78664/best_model.pth",
+      "step": 4500,
+      "dataset_hash": "843a9c546b4e5ef0291186e6ed29669dfa1251d52616833d3c2d20f36277ff60",
+      "split": "val",
+      "procedural_test_only": false,
+      "device": "cpu",
+      "checkpoint_sha256": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+      "training_seed": 42,
+      "training_config": {
+        "device": "cuda",
+        "precision": "fp16",
+        "batch_size": 8,
+        "accumulation_steps": 2,
+        "num_workers": 0,
+        "max_steps": 5000,
+        "epochs": null,
+        "max_seconds": 900,
+        "learning_rate": 0.0002,
+        "min_lr": 1e-06,
+        "weight_decay": 0,
+        "warmup_steps": 100,
+        "clip_grad": 1.0,
+        "validation_interval": 100,
+        "checkpoint_interval": 100
+      },
+      "selection_horizon": 5000,
+      "degradation": {
+        "profile": "poisson_linear_rgb_v1",
+        "sigma": 25.0,
+        "sigma_min": 10.0,
+        "sigma_max": 50.0,
+        "peak_photons": 60.0,
+        "poisson_training_peaks": [
+          30,
+          60,
+          120
+        ],
+        "jpeg_quality": 20
+      },
+      "training_source_hash": "6e50fc7c39f8c8dfd07e40866c2d658e86cd558ac93ae94d1392b456db0f7fc2",
+      "model": {
+        "name": "dncnn_rgb_l1",
+        "width": 64,
+        "depth": 20,
+        "scale": 1,
+        "blocks": 16
+      },
+      "jpeg_study": {
+        "mode": "off",
+        "augment": true
+      },
+      "codec": {
+        "pillow": "11.3.0",
+        "jpeg_library": "6.2",
+        "subsampling": "4:4:4",
+        "optimize": "false",
+        "progressive": "false"
+      },
+      "phase_constructor": null,
+      "reference_crop": "full_image",
+      "frozen_study_sha256": null,
+      "psnr_is_infinite": false
+    }
+  }
+}

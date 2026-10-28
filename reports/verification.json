@@ -1,0 +1,64 @@
+{
+  "architecture": "approved v1.0; D01-D10",
+  "milestone": "offline baseline, resumable CLI pipeline and approved DIV2K data preparation",
+  "tests": {
+    "runner": "stdlib unittest",
+    "count": 28,
+    "passed": 28,
+    "seconds": 11.145,
+    "skipped": 0,
+    "verified_date_local": "2026-10-21"
+  },
+  "checks": {
+    "syntax": "passed",
+    "smoke": "passed",
+    "cpu_exact_resume": "passed",
+    "mps_forward_backward": "passed",
+    "mps_two_update_dry_run": "passed",
+    "multiworker_validation_repeatability": "passed",
+    "independent_numpy_ssim_parity": "passed",
+    "cli_eval_inference_conflict_checks": "passed",
+    "pip_check": "No broken requirements found",
+    "notebook_schema_code": "passed",
+    "div2k_archive_integrity": "passed",
+    "div2k_900_image_manifest_validation": "passed",
+    "div2k_source_content_split_checks": "passed",
+    "div2k_screening_manifest_cli": "validated train=32 val=8",
+    "div2k_training_loader_contract": "passed"
+  },
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.12.0",
+    "torchvision_installed": "0.27.0",
+    "numpy": "1.26.4",
+    "pillow": "12.2.0",
+    "device_paths_verified": [
+      "cpu",
+      "mps"
+    ],
+    "cuda_verified": false
+  },
+  "standard_dncnn_parameters": 669379,
+  "research_results": null,
+  "data_or_weight_bodies_downloaded": true,
+  "git_commit": null,
+  "git_note": "Repository remains unborn/uncommitted; checkpoints record dirty source hashes.",
+  "remaining": [
+    "full-model real-data hardware profile",
+    "candidate prior-art/feasibility gates",
+    "candidate implementation/ablations",
+    "approved bounded research training",
+    "pretrained task comparators",
+    "scientific evaluation/report"
+  ],
+  "dataset_bodies_downloaded": [
+    "DIV2K_train_HR.zip",
+    "DIV2K_valid_HR.zip"
+  ],
+  "pretrained_weights_downloaded": false,
+  "real_data_training_started": false,
+  "acquisition_report": "reports/div2k_acquisition.json",
+  "loader_report": "reports/div2k_loader_check.json",
+  "historical_record": true,
+  "superseded_by": "reports/sdlc_acceptance_poststudy.json"
+}

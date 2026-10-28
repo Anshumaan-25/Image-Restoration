@@ -1,0 +1,12 @@
+{
+  "status": "prepared_not_trained",
+  "train_sources": 32,
+  "development_sources": 8,
+  "train_manifest": "data/manifests/div2k_jpeg_v1/screening/train.jsonl",
+  "val_manifest": "data/manifests/poisson_v2/val.jsonl",
+  "val_manifest_sha256": "655293027843e7d0856ea3cf6242edaddae555607036631c148a3fb62d01e0ca",
+  "split_before_crop": true,
+  "protected_test_scored": false,
+  "crop_size": 128,
+  "parent_identities_retained": true
+}

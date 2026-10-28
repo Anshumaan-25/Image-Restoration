@@ -1,0 +1,30 @@
+{
+  "status": "approved_execution_pending_operator_launch",
+  "date_asia_kolkata": "2026-10-22",
+  "approval_source": "Direct human user message in this chat",
+  "exact_user_message": "yeah approve cloud study",
+  "proposal": "reports/proposals/colab_matched5000_v1/proposal.json",
+  "proposal_sha256": "008d9cc8cc3169d4c1b4555ef22bf99548244462708afa4be5027c7622bc89cb",
+  "approved_scope": {
+    "environment": "Colab Free single Tesla T4",
+    "arms": [
+      "A_seed42",
+      "B_seed42",
+      "C_seed42"
+    ],
+    "updates_per_arm": 5000,
+    "seconds_per_arm_invocation": 9000,
+    "total_training_seconds": 27000,
+    "spending_usd": 0,
+    "precision": "fp16",
+    "patch_size": 128,
+    "clean_microbatch": 2,
+    "accumulation_steps": 4,
+    "downloads": false,
+    "protected_test_scoring": false,
+    "automatic_restarts": false
+  },
+  "sequence": "Seal actual profile/source/environment and persist reviewed plan; run A, then B, then C; stop on failure or incomplete run",
+  "exclusions": "No paid resources, seed expansion, protected scoring, downloads, checkpoint deletion or additional resume allowance",
+  "observed_training_status": "Not yet launched by the operator; no completed research run inferred from approval"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Restormer",
+    "repository": "swz30/Restormer",
+    "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+    "source_path": "basicsr/models/archs/restormer_arch.py",
+    "upstream_sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+    "project_port": "models/vendor/restormer.py",
+    "port_sha256": "ff3fbfd6ab68cce07e6b17114ae8463819ed8319266740383fe46751759f9962",
+    "license": "docs/third_party/Restormer.LICENSE",
+    "changes": [
+      "Replace einops/timm helper dependencies with a four-pattern native torch permutation adapter and native initialization/stochastic-depth helpers.",
+      "SwinIR meshgrid explicitly uses ij indexing; remove executable upstream demo.",
+      "Project tensor contract and dynamic pad/unpad are external subclasses; official state-dict key layout retained."
+    ],
+    "reference_test": "tests/test_transformers.py compares aligned inputs/strict state dicts against retained exact upstream source; tiny test variants are not scientific checkpoints."
+  },
+  {
+    "name": "SwinIR",
+    "repository": "JingyunLiang/SwinIR",
+    "commit": "6545850fbf8df298df73d81f3e8cba638787c8bd",
+    "source_path": "models/network_swinir.py",
+    "upstream_sha256": "9e143898679ebeebc5d2fc94ad1b89c38aa4a4d43da4e0fcba0f93e476994913",
+    "project_port": "models/vendor/swinir.py",
+    "port_sha256": "e2448e92b3c0fb61fbaedc17ddda99cefa9487f26e963a8ca81151365f8ffe70",
+    "license": "docs/third_party/SwinIR.LICENSE",
+    "changes": [
+      "Replace einops/timm helper dependencies with a four-pattern native torch permutation adapter and native initialization/stochastic-depth helpers.",
+      "SwinIR meshgrid explicitly uses ij indexing; remove executable upstream demo.",
+      "Project tensor contract and dynamic pad/unpad are external subclasses; official state-dict key layout retained."
+    ],
+    "reference_test": "tests/test_transformers.py compares aligned inputs/strict state dicts against retained exact upstream source; tiny test variants are not scientific checkpoints."
+  }
+]

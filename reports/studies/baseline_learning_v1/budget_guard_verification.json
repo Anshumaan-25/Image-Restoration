@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "unmatched_budget_rejected": true,
+  "exit_code": 1,
+  "reason": "Traceback (most recent call last):\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/scripts/compare_study.py\", line 33, in <module>\n    main()\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/scripts/compare_study.py\", line 24, in main\n    result=compare_phase_reports([json.loads(Path(p).read_text()) for p in args.baseline],\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/utils/study.py\", line 101, in compare_phase_reports\n    raise ValueError(f'Incomparable evaluation protocol: {field}')\nValueError: Incomparable evaluation protocol: training_config\n",
+  "protected_test_scored": false
+}

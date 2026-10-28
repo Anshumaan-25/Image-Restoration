@@ -1,0 +1,25 @@
+{
+  "status": "profile_failed_projection_gate_no_training",
+  "observed_at_utc": "2026-10-25T21:59:35.704794+00:00",
+  "notebook": "https://colab.research.google.com/drive/1NnLlX-IhljFFGHdS_xtXfwhmmwIVmZqM",
+  "drive_mount": "observed_mounted",
+  "approved_source_bundle_sha256": "f3665a079fb7c028244a8df6cbf4b6f9bb1808834bb1ad6e15fd9e944550024b",
+  "launcher_sha256": "bbbe6ffdf8490337cb1682facec1296c12857b288f36f3d00f82fca9329424be",
+  "runtime_profile_run": "experiments/poisson_v2/20261025T215832Z_51a401e7",
+  "setup_note": "Drive direct UI upload completed; blocked Colab file-picker canceled before profile. Cell now verifies both Drive file hashes and copies to runtime. No model/config/source changes.",
+  "profile_gate": "10 warmup + 50 measured; zero skips, peak allocated <=12 GiB, projected training updates <4320 seconds",
+  "training_approved_conditionally": true,
+  "training_started_observed": false,
+  "spending_usd": 0,
+  "protected_test_scoring": false,
+  "cell_sha256": "f726dd729cd7f35dea30cabdde091dacdf284570dbc31ebcf9911b23100e4d20",
+  "actual_profile": {
+    "completed": true,
+    "measured_updates": 50,
+    "mean_update_seconds": 2.3063072738000256,
+    "projected_update_minutes": 192.1922728166688,
+    "peak_allocated_GiB": 0.631828784942627,
+    "skipped_updates": 0
+  },
+  "next_step": "Reprofile bitwise-equivalent bounded CPU decoded-reference cache in preserved v3 checkout. No extension of approved run budget."
+}

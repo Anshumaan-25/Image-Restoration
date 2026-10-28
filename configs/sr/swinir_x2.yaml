@@ -1,0 +1,21 @@
+# Supplied official aligned bicubic pairs; no silent LR regeneration.
+model:
+  name: swinir_light_sr
+  scale: 2
+degradation:
+  profile: div2k_bicubic_pairs_v1
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/sr_x2/train.jsonl
+  val_manifest: data/manifests/sr_x2/val.jsonl
+  patch_size: 128
+training:
+  device: cuda
+  precision: fp16
+  batch_size: 1
+  accumulation_steps: 8
+  max_steps: 1000
+  max_seconds: 1800
+loss:
+  kind: l1

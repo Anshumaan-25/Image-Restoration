@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checkpoint": "experiments/studies/mps_screening_v1/B_seed42/best_model.pth",
+  "command": [
+    ".venv/bin/python",
+    "inference.py",
+    "--input",
+    "reports/studies/mps_screening_v1/0721_input.png",
+    "--output",
+    "reports/studies/mps_screening_v1/0721_B_cli.png",
+    "--weights",
+    "experiments/studies/mps_screening_v1/B_seed42/best_model.pth",
+    "--device",
+    "mps"
+  ],
+  "exit_code": 0,
+  "device": "mps",
+  "shape": [
+    128,
+    128,
+    3
+  ],
+  "mode": "RGB",
+  "same_as_direct_export": true,
+  "max_absolute_uint8_difference": 0,
+  "output_sha256": "49166392e6223525dfa2f02086c84b55bfc5c4331c982fc0f41753eeaaaca6a3",
+  "protected_test_scored": false
+}

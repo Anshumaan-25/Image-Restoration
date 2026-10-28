@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "variant": "tiny EDSR integration fixture, width 8 / blocks 2 / scale 2",
+  "train_checkpoint_reload": true,
+  "inference_export_shape": [
+    3,
+    14,
+    18
+  ],
+  "eval_cli_exit_code": 0,
+  "procedural_test_only": true,
+  "research_quality_claim": false
+}

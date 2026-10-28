@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "Actual approved official Gaussian checkpoint strict-load and 16x16 FP32 tensor parity; no scientific image-quality evaluation",
+  "provenance": {
+    "filename": "gaussian_color_denoising_blind.pth",
+    "bytes": 104611957,
+    "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_color_denoising_blind.pth",
+    "repository": "swz30/Restormer",
+    "source_commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+    "model": "restormer_denoising",
+    "scale": 1,
+    "profile": "awgn_unclipped_v1",
+    "param_key": "params",
+    "allow_direct_state_dict": false,
+    "training_provenance": "Supervised L1 denoising from official Restormer configs",
+    "training_sources": "DFWB (DIV2K, Flickr2K, WaterlooED, BSD400)",
+    "publisher_sha256": null,
+    "id": "restormer_gaussian",
+    "sha256": "4e2314dae77bb907184da6e2ac625b921491d6b33de26a52512eff1c6bb37fbd",
+    "origin": "official_supervised_pretrained",
+    "training_seed": null,
+    "project_training_performed": false,
+    "publisher_hash_available": false,
+    "training_overlap": "Author-described sources; per-image training membership not independently verified",
+    "weights_path": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/pretrained/approved_v2/gaussian_color_denoising_blind.pth"
+  },
+  "parameters": 26111668,
+  "cpu_upstream_max_abs_delta": 0.0,
+  "cpu_mps_max_abs_delta": 3.2782554626464844e-06,
+  "seconds": 2.087328791996697
+}

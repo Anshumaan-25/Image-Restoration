@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "arms": {
+    "A": {
+      "completed_updates": 1000,
+      "selected_step": 1000,
+      "skipped_updates": 0
+    },
+    "B": {
+      "completed_updates": 1000,
+      "selected_step": 900,
+      "skipped_updates": 0
+    },
+    "C": {
+      "completed_updates": 1000,
+      "selected_step": 900,
+      "skipped_updates": 0
+    }
+  },
+  "total_successful_updates": 3000,
+  "protected_test_scored": false,
+  "report": "reports/results.md"
+}

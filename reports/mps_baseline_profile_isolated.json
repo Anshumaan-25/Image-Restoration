@@ -1,0 +1,37 @@
+{
+  "device": "mps",
+  "precision": "fp32",
+  "procedural_test_only": false,
+  "measured_updates": 50,
+  "warmup_updates": 10,
+  "median_update_seconds": 1.2919321880035568,
+  "mean_update_seconds": 1.3027418100013164,
+  "batch_size": 2,
+  "accumulation_steps": 4,
+  "patch_size": 128,
+  "run_dir": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/runs/20261020T193117Z_c0d773d4",
+  "peak_cuda_allocated_bytes": null,
+  "peak_cuda_reserved_bytes": null,
+  "mps_current_allocated_bytes": 0,
+  "mps_driver_allocated_bytes": 380993536,
+  "model": {
+    "name": "dncnn_rgb_l1",
+    "width": 64,
+    "depth": 20,
+    "scale": 1,
+    "blocks": 16
+  },
+  "jpeg_study": {
+    "mode": "off",
+    "augment": true
+  },
+  "completed": true,
+  "stop_reason": "complete",
+  "model_parameters": 669379,
+  "requested_measured_updates": 50,
+  "views_per_clean_crop": 1,
+  "mps_max_observed_driver_allocated_bytes": 380993536,
+  "mps_memory_note": "Driver allocation sampled at optimizer boundaries, not a measured peak or CUDA VRAM",
+  "validation_executed": false,
+  "timing_scope": "sample loading/degradation, forward, backward, clipping, optimizer and scheduler; excludes validation/log/checkpoint"
+}

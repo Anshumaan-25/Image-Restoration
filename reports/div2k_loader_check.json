@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "config": "configs/jpeg/div2k_screening.yaml",
+  "source_id": "0001",
+  "shape": [
+    3,
+    128,
+    128
+  ],
+  "dtype": "torch.float32",
+  "device": "cpu",
+  "repeated_sample_identical": true,
+  "jpeg_changes_input": true,
+  "finite_normalized_rgb": true,
+  "model_or_training_executed": false,
+  "test_images_scored": false
+}

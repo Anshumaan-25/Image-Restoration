@@ -1,0 +1,43 @@
+{
+  "date_asia_kolkata": "2026-10-22",
+  "evidence_source": "User-pasted Colab outputs; not directly executed by the local agent",
+  "archive_sha256": "37066216dcce9ae8f53fa449b22dcdef20a7a83e098001bb39bd62baaf87cb3f",
+  "data_integrity": {
+    "train": 32,
+    "val": 8,
+    "image_MiB_reported": 175.58,
+    "passed": true
+  },
+  "environment_reported": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "device": "cuda",
+    "device_name": "Tesla T4",
+    "total_gpu_GiB": 14.56317138671875,
+    "numpy": "2.1.3",
+    "Pillow": "11.3.0",
+    "PyYAML": "6.0.3",
+    "tqdm": "4.67.3",
+    "jpeg_library": "6.2"
+  },
+  "qa": {
+    "cloud_helper_tests": 7,
+    "cloud_helper_test_seconds": 1.377,
+    "cloud_helper_status": "OK",
+    "cpu_smoke": "passed",
+    "cuda_dry_run": {
+      "precision": "fp32",
+      "successful_updates": 2,
+      "completed": true,
+      "checkpoint_reload": "passed",
+      "run_path": "experiments/runs/20261021T190616Z_fbc2bbe5"
+    },
+    "terminal_marker": "SETUP CHECKS PASSED"
+  },
+  "fix_applied_in_cloud": "Create missing reports directory before original cloud helper suite",
+  "fp16_full_workload_profile": "pending",
+  "long_research_training": "not started; separate measured budget and approval required",
+  "protected_test_scored": false,
+  "novelty_established": false
+}

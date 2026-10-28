@@ -1,0 +1,30 @@
+{
+  "status": "approved_execution_chain_running",
+  "checkpoint_step": 4100,
+  "checkpoint_sha256": "db13d20b37564c390e732453db0b1601ff4123feb1c6ac542c80ae01bf483127",
+  "remaining_training_updates": 900,
+  "recovery_approval": "poisson_recovery_approval_20261027.json",
+  "sidd_approval": "sidd_full_validation_approval.json",
+  "core_test_count": 68,
+  "core_source_unchanged_since_acceptance": true,
+  "blocker": null,
+  "single_cell": "reports/engineering_v2/RUN_APPROVED_FINAL_STAGES.py",
+  "downloads_copy": "/Users/anshu/Downloads/RUN_APPROVED_FINAL_STAGES.txt",
+  "drive_payloads_observed": [
+    "test.zip (440.4MiB)",
+    "real_denoising.pth (99.8MiB)",
+    "frozen colab_extension_v3.zip",
+    "recovery/preflight/finalization/SIDD helper scripts"
+  ],
+  "spending_usd": 0,
+  "protected_test_scoring": false,
+  "notebook_final_cell": "Cell5, starts # APPROVED FINAL STAGES \u2014 Poisson recovery + SIDD validation",
+  "notebook_save_observed": "All changes saved",
+  "user_reported_preflight": {
+    "step": 4100,
+    "remaining_updates": 900,
+    "environment_differences": []
+  },
+  "operator_action": "Final cell has been started successfully; do not restart",
+  "screenshot": "reports/engineering_v2/final_cell_label.jpg"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "subset_count": 40,
+  "full_import_count": 1280,
+  "psnr": 40.08712350176477,
+  "ssim": 0.9316494726611605,
+  "per_image_reaggregation": "exact within 1e-10",
+  "independent_mat_png_alignment_checks": [
+    {
+      "field": "input_path",
+      "parent": 0,
+      "block": 0,
+      "pixel_exact": true
+    },
+    {
+      "field": "input_path",
+      "parent": 20,
+      "block": 15,
+      "pixel_exact": true
+    },
+    {
+      "field": "input_path",
+      "parent": 39,
+      "block": 31,
+      "pixel_exact": true
+    },
+    {
+      "field": "target_path",
+      "parent": 0,
+      "block": 0,
+      "pixel_exact": true
+    },
+    {
+      "field": "target_path",
+      "parent": 20,
+      "block": 15,
+      "pixel_exact": true
+    },
+    {
+      "field": "target_path",
+      "parent": 39,
+      "block": 31,
+      "pixel_exact": true
+    }
+  ],
+  "scope": "Actual supervised pretrained Restormer on fixed public-validation subset, project RGB floating protocol, not official full SIDD/hidden benchmark score",
+  "no_training": true
+}

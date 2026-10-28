@@ -1,0 +1,22 @@
+{
+  "date_asia_kolkata": "2026-10-22",
+  "evidence_source": "User screenshot of Colab GPU-usage-limit popup and prior cell output",
+  "screenshot_path": "/var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/codex-clipboard-e22cd08e-c116-4b59-a198-3bed4c26e0a8.png",
+  "condition": "Cannot connect to GPU backend due to Colab usage limits",
+  "A_status": "Completed 5000 updates; operator final output already recorded",
+  "B_status": "Success inferred from guarded continuation starting C; final ZIP/summary pending direct verification",
+  "C_status": "Incomplete; screenshot shows successful Drive-backup message through step3700/microstep14800",
+  "latest_visible_C_snapshot": "step_003700_micro_00014800.zip",
+  "C_reported_backed_up_fraction": 0.74,
+  "C_remaining_updates_if_this_latest_snapshot_valid": 1300,
+  "C_update_only_remaining_minutes_from_profile": 27.463496827000128,
+  "next_actions": [
+    "Preserve notebook output and Drive backups",
+    "Verify A/B final 5000-update ZIPs and latest complete C ZIP",
+    "Wait for free compatible CUDA access; no assumed reset time",
+    "Inspect snapshot/source/environment and remaining budget before C-only recovery; do not rerun A/B"
+  ],
+  "no_automatic_CPU_or_paid_fallback": true,
+  "resume_invocation_approval": "Not granted or launched by this screenshot; review concrete remaining budget before additional long invocation",
+  "scientific_status": "No independent selected-checkpoint replay or completed C result inferred"
+}

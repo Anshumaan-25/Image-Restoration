@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "scope": "Offline filesystem/inventory contracts with authored checkpoint/metric fixtures; not actual training, CUDA profiling or research scores",
+  "launcher_sha256": "7930e3608ea21ba65c3185ee9fe078d6965fd1cf240bafdcf2436c09d73843ad",
+  "checks": {
+    "exact_three_dev_levels_and_verified_export": true,
+    "incomplete_training_rejected_before_replay": true
+  }
+}

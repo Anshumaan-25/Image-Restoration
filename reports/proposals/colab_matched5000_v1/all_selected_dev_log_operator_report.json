@@ -1,0 +1,32 @@
+{
+  "date_asia_kolkata": "2026-10-23",
+  "evidence_source": "User-pasted CPU-only archive audit and selected metrics CSV extraction",
+  "scope": "Logged selected development scores; not independent inference replay",
+  "checksums": "All three final archives passed",
+  "A": {
+    "best_step": 4700,
+    "worst_phase_psnr": 30.09633,
+    "psnr": 30.186341,
+    "ssim": 0.857434
+  },
+  "B": {
+    "best_step": 4400,
+    "worst_phase_psnr": 30.162796,
+    "psnr": 30.257334,
+    "ssim": 0.857106
+  },
+  "C": {
+    "best_step": 4900,
+    "worst_phase_psnr": 30.165986,
+    "psnr": 30.261093,
+    "ssim": 0.856455
+  },
+  "C_minus_B": {
+    "worst_phase_psnr_db": 0.00319,
+    "mean_psnr_db": 0.003759,
+    "ssim": -0.000651
+  },
+  "existing_replay_reports": "None found in audited paths",
+  "protected_test_scoring": false,
+  "novelty_established": false
+}

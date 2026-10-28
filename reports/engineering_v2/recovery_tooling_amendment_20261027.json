@@ -1,0 +1,12 @@
+{
+  "status": "engineering_path_amendment_only",
+  "reason": "Interrupted Poisson run resumes in a unique folder; subsequent tools must read its explicit completed-run pointer rather than the original incomplete folder.",
+  "scientific_protocol_changed": false,
+  "evaluation_budget_changed": false,
+  "weights_or_dataset_changed": false,
+  "sidd_approval": "sidd_full_validation_approval.json",
+  "new_launchers": {
+    "colab_poisson_finalize_v4.py": "9206337afa94ac72a132761927e8fa1e59329c5d59f24777239c2ce9a30fd8c8",
+    "colab_sidd_full_validation_v2.py": "acf8a0ca2388b142c82736af475658c142e4a2d162b9a67424bd9a37f427cc51"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "test_count": 3,
+  "scope": "Offline authored loop tests only, not actual CUDA/SIDD full validation",
+  "launcher_sha256": "acf8a0ca2388b142c82736af475658c142e4a2d162b9a67424bd9a37f427cc51"
+}

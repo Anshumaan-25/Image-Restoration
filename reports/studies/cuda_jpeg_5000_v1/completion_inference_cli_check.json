@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "scope": "Real frozen B checkpoint through inference.py on authored odd-size procedural RGB PNG; no research scoring",
+  "command": [
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+    "inference.py",
+    "--input",
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/completion_inference_20261026/input.png",
+    "--output",
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/completion_inference_20261026/restored.png",
+    "--weights",
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/cuda_jpeg_5000_v1_import_20261025/B_seed42/best_model.pth",
+    "--device",
+    "cpu"
+  ],
+  "seconds": 1.1723915410111658,
+  "stdout": "restored=1 device=cpu output=/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/completion_inference_20261026/restored.png\n",
+  "stderr": ""
+}

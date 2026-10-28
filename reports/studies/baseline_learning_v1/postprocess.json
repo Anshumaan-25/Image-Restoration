@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-21T02:14:23.600811+00:00",
+  "device": "mps",
+  "protected_test_scored": false,
+  "commands": [
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "eval.py",
+        "--checkpoint",
+        "experiments/studies/baseline_learning_v1/B_seed42/best_model.pth",
+        "--phase-panel",
+        "dev",
+        "--device",
+        "mps",
+        "--output",
+        "reports/studies/baseline_learning_v1/development.json"
+      ],
+      "exit_code": 0,
+      "seconds": 5.159474541986128,
+      "stdout": "evaluated=8 report=reports/studies/baseline_learning_v1/development.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "eval.py",
+        "--checkpoint",
+        "experiments/studies/baseline_learning_v1/B_seed42/best_model.pth",
+        "--full-image",
+        "--device",
+        "mps",
+        "--output",
+        "reports/studies/baseline_learning_v1/full_image_development.json"
+      ],
+      "exit_code": 0,
+      "seconds": 37.79029449998052,
+      "stdout": "evaluated=8 report=reports/studies/baseline_learning_v1/full_image_development.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "reports/studies/baseline_learning_v1/input_reference.py"
+      ],
+      "exit_code": 0,
+      "seconds": 22.853006082994398,
+      "stdout": "{\n  \"count\": 8,\n  \"psnr\": 31.28165049612933,\n  \"ssim\": 0.8533819958907705,\n  \"split\": \"val\",\n  \"endpoint\": \"full_image_jpeg_input\",\n  \"dataset_hash\": \"37c0db83f1eb41975fc6f6ed8fafc7b70b05878282ea9567f02c8cdb2a057561\",\n  \"degradation\": {\n    \"profile\": \"jpeg_rgb_444_v1\",\n    \"sigma\": 25.0,\n    \"sigma_min\": 10.0,\n    \"sigma_max\": 50.0,\n    \"peak_photons\": 60.0,\n    \"jpeg_quality\": 20\n  },\n  \"protocol\": \"project_rgb_float_v1\",\n  \"ssim_protocol\": \"project_ssim_v1\",\n  \"codec\": {\n    \"pillow\": \"12.2.0\",\n    \"jpeg_library\": \"9.0\",\n    \"subsampling\": \"4:4:4\",\n    \"optimize\": \"false\",\n    \"progressive\": \"false\"\n  },\n  \"trained\": false,\n  \"protected_test_scored\": false,\n  \"analysis_sha256\": \"3b87ae22757f4282bdb6857fc0a6495d8ed44f6bc9c1311850801b011738f299\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "eval.py",
+        "--checkpoint",
+        "experiments/studies/baseline_learning_v1/B_seed42/best_model.pth",
+        "--data-dir",
+        ".",
+        "--manifest",
+        "reports/studies/baseline_learning_v1/unselected_development72.jsonl",
+        "--split",
+        "val",
+        "--phase-panel",
+        "dev",
+        "--device",
+        "mps",
+        "--output",
+        "reports/studies/baseline_learning_v1/supplementary_development72.json"
+      ],
+      "exit_code": 0,
+      "seconds": 40.74713762500323,
+      "stdout": "evaluated=72 report=reports/studies/baseline_learning_v1/supplementary_development72.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "reports/studies/baseline_learning_v1/render_examples.py",
+        "--device",
+        "mps"
+      ],
+      "exit_code": 0,
+      "seconds": 2.3576911249838304,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "reports/studies/baseline_learning_v1/0721_input.png",
+        "--output",
+        "reports/studies/baseline_learning_v1/0721_B_5000_cli.png",
+        "--weights",
+        "experiments/studies/baseline_learning_v1/B_seed42/best_model.pth",
+        "--device",
+        "mps"
+      ],
+      "exit_code": 0,
+      "seconds": 0.9258925000031013,
+      "stdout": "restored=1 device=mps output=reports/studies/baseline_learning_v1/0721_B_5000_cli.png\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "reports/studies/baseline_learning_v1/analyze.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.8435515419987496,
+      "stdout": "{\n  \"status\": \"completed_and_replayed\",\n  \"diagnostic_only\": true,\n  \"completed\": true,\n  \"stop_reason\": \"complete\",\n  \"source_unchanged\": true,\n  \"checkpoint_selection_and_replay_verified\": true,\n  \"independent_aggregation\": {\n    \"worst_phase_psnr\": 30.185872536234115,\n    \"psnr\": 30.280424200449346,\n    \"ssim\": 0.8579762629353285\n  },\n  \"successful_updates\": 5000,\n  \"target_updates\": 5000,\n  \"selected_update\": 4800,\n  \"training_seconds\": 5347.168834207987,\n  \"train_source_count\": 32,\n  \"development_source_count\": 8,\n  \"training_seed\": 42,\n  \"development_phases\": 16,\n  \"quality\": 20,\n  \"worst_phase_gain_over_input_db\": 0.9549147965953892,\n  \"mean_phase_ssim_delta_over_input\": 0.01809202776970875,\n  \"pragmatic_continuation_threshold\": {\n    \"worst_phase_gain_at_least_db\": 0.1,\n    \"no_mean_phase_ssim_decrease\": true,\n    \"passed\": true\n  },\n  \"full_image_psnr\": 32.139600160332826,\n  \"full_image_ssim\": 0.8717645525812064,\n  \"full_image_gain_over_input_db\": 0.8579496642034954,\n  \"selected_checkpoint_sha256\": \"db32a6373fad66a5d2e86bc6b2cc00ffc8e9935bad3aeb8b8e42ff553c0bdcb9\",\n  \"latest_checkpoint_sha256\": \"934cf1464a3b8a8e8ae3a29169837f2d6f9793604bdd8f0cce8b2eb133bf831e\",\n  \"protected_test_scored\": false,\n  \"novelty_established\": false,\n  \"comparison_limit\": \"The 5000-update cosine horizon differs from the 1000-update screening. Budget/schedule diagnostic only, not matched inference about the consistency loss or an isolated duration effect. Same dev data select checkpoints; no held-out generalization claim.\",\n  \"analysis_sha256\": \"efa01e50f900eff6a04dd5ca88ee37e4edbd9a031ae756362642511a07553f82\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "scripts/compare_study.py",
+        "--baseline",
+        "reports/studies/mps_screening_v1/B_dev.json",
+        "--candidate",
+        "reports/studies/baseline_learning_v1/development.json",
+        "--output",
+        "reports/studies/baseline_learning_v1/INVALID_unmatched_budget_comparison.json"
+      ],
+      "exit_code": 1,
+      "seconds": 0.5264034169958904,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/scripts/compare_study.py\", line 33, in <module>\n    main()\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/scripts/compare_study.py\", line 24, in main\n    result=compare_phase_reports([json.loads(Path(p).read_text()) for p in args.baseline],\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/utils/study.py\", line 101, in compare_phase_reports\n    raise ValueError(f'Incomparable evaluation protocol: {field}')\nValueError: Incomparable evaluation protocol: training_config\n"
+    }
+  ],
+  "script_sha256": "06395ba11b9c97f5237ed65332032a978cedd98ffe58b6f0205ecd329fc12427",
+  "elapsed_seconds": 111.23444283398567,
+  "source_unchanged": true,
+  "expected_budget_guard_rejection": true,
+  "completed_at_utc": "2026-10-21T02:16:14.835096+00:00"
+}

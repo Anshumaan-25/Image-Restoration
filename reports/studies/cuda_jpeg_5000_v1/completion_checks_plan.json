@@ -1,0 +1,24 @@
+{
+  "status": "authorized_prepared_not_executed",
+  "authorized_on": "2026-10-26",
+  "authority": "User: okay then we have the next 3 steps, you can start working",
+  "scope": [
+    "Full uncropped Q20 evaluation on all frozen 16 test images for A/B/C",
+    "Fixed IDs 0801/0802/0803 visual exports and matching centre crops",
+    "CUDA FP32 latency benchmarks for all three frozen checkpoints: 256/512, 10 warmups and 30 measured forwards"
+  ],
+  "device": "cuda",
+  "spending_usd": 0,
+  "new_training": false,
+  "new_downloads": false,
+  "full_image_per_arm_cap_seconds": 1200,
+  "benchmark_per_arm_cap_seconds": 120,
+  "total_child_wall_cap_seconds": 3960,
+  "setup_and_archive_overhead": "additional; no background continuation",
+  "allocator_limit_GiB": 12,
+  "source_files_unchanged": true,
+  "launcher_sha256": "845643531cdf037c4b55b7091972d80b422347177efd943c9f72666341a7ce9e",
+  "outputs": "Drive/RestorationProject/studies/cuda_jpeg_5000_v1/completion_checks_v1; standalone restoration_completion_checks_v1.zip",
+  "failure_policy": "Save each completed image and job to Drive; stop on errors, quota loss, timeout or OOM; no auto retry, tiling or device fallback",
+  "pending": "Actual Colab execution and subsequent artifact audit"
+}

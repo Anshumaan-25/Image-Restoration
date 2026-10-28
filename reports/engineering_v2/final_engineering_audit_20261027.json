@@ -1,0 +1,143 @@
+{
+  "status": "approved_engineering_delivery_complete_research_novelty_unestablished",
+  "date": "2026-10-27",
+  "engineering_complete": true,
+  "pending_approved_runs": [],
+  "execution_blocker": null,
+  "novelty_established": false,
+  "scientific_project_100_percent_claim": false,
+  "core_tests": {
+    "passed": 68,
+    "skipped": 0,
+    "mandatory_checks_passed": 5,
+    "source_files": 84,
+    "source_hashes_unchanged": true,
+    "evidence": "acceptance_final_delivery_20261027.json"
+  },
+  "functionality": {
+    "jpeg": "Project-trained A/B/C5k pilot, frozen all-phase/full-image test, original-source preservation and standalone inference",
+    "poisson": "Project-trained5k, selected4500, zero skipped AMP updates, full-state recovery, three-level dev8 replay and actual selected-model CLI verification",
+    "gaussian": "Official supervised Restormer actual sigma15/25/50 patch comparisons; CPU/reference/MPS checks",
+    "real_noise": "Official supervised Restormer all1280 genuine SIDD public-validation blocks; no synthesis",
+    "sr": "Official supervised lightweight SwinIR x2/x4 Set5 replay; learned EDSR training/inference contracts verified"
+  },
+  "poisson": {
+    "step": 5000,
+    "best_step": 4500,
+    "skipped_updates": 0,
+    "microsteps": 10000,
+    "selected_sha256": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+    "outer_sha256": "f944a3474664439d73ba50ee10e749d106a5dea52e3597389d67b1b28eeeccb6"
+  },
+  "sidd": {
+    "status": "passed",
+    "date": "2026-10-27",
+    "archive": "/Users/anshu/Downloads/sidd_completed_17877781.zip",
+    "bytes": 297204,
+    "sha256": "b5fb7aa44a12b469574d9c50e234baffcb5e30fa0f9ea1f209a8d056ef801717",
+    "destination": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/sidd_full_v3_import_20261027",
+    "count": 1280,
+    "identities_match_independent_local_import": true,
+    "source_files": 84,
+    "all_results_finite": true,
+    "per_image_reaggregation": {
+      "restoration": {
+        "psnr": 40.01557105902148,
+        "ssim": 0.9224636313977967
+      },
+      "input": {
+        "psnr": 23.662381963733772,
+        "ssim": 0.33346900526070206
+      }
+    },
+    "elapsed_scoring_seconds": 407.9904704380001,
+    "profile": {
+      "measured_blocks": 10,
+      "warmup_forwards": 3,
+      "mean_block_seconds": 0.28148645890000806,
+      "projected_full_seconds": 360.30266739201033,
+      "peak_allocated_bytes": 708752896,
+      "max_reference_ssim_error": 1.5432100042289676e-14,
+      "reference_parity_pairs": 20,
+      "timing_scope": "paired PNG decode, FP32 forward, transfer, restoration and input CPU float64 metrics"
+    },
+    "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+    "protocol": "project_rgb_float_v1; RGB; border0; no quantization; valid Gaussian11 SSIM; CPU float64 separable verified against frozen reference",
+    "scope": "All official public validation blocks; not hidden benchmark or exact published-protocol reproduction",
+    "training": false,
+    "spending_usd": 0,
+    "novelty_established": false
+  },
+  "portable_release": {
+    "artifact": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/dist/restoration_engineering_v3.zip",
+    "bytes": 232472964,
+    "sha256": "4551ed10207c99f45c4284c017a0097a46d4206aca561534292260ce9f73c3d1",
+    "payload_files": 150,
+    "status": "verified_portable_engineering_delivery"
+  },
+  "portable_validation": {
+    "eight_actual_checkpoint_inferences": true,
+    "standalone_two_update_dry_run_checkpoint_reload": true,
+    "all_outputs_rgb_correct_scale": true,
+    "no_implicit_downloads": true,
+    "evidence": "engineering_release_v3_standalone_verification.json"
+  },
+  "edge_case_and_integration_coverage": [
+    "Tiny/odd inputs and dynamic architecture padding",
+    "Strict task/scale/weight/source incompatibility failures",
+    "Invalid RGB/range/nonfinite inputs and metric borders",
+    "Manifest identity/hash pairing and split-leakage rejection",
+    "Atomic full-state resume and exact fixed-environment CPU replay",
+    "AMP successful-update accounting, clipping and overflow/failure paths",
+    "Bounded CPU-cache ownership, eviction and RNG/sample parity",
+    "ZIP traversal/symlink/duplicate/integrity guards",
+    "Full/partial/timeout scoring status and exact counts",
+    "Separable SSIM analytic-boundary/reference parity; max cloud error1.55e-14",
+    "Portable package all8 assets, dimensions and new-output collision policy"
+  ],
+  "architecture": "Approvedv1.0 D01\u2013D10 unchanged; no GAN, LDM, cascade or new framework",
+  "performance": {
+    "poisson_resume_training_seconds": 354.7647913380001,
+    "poisson_original_total_seconds": null,
+    "sidd_full_scoring_seconds": 407.9904704380001,
+    "sidd_allocated_GiB": 0.6600775718688965,
+    "sidd_profile_scope": "paired PNG decode, FP32 forward, transfer, restoration and input CPU float64 metrics",
+    "jpeg_memory_latency": "Previously verified frozen T4 full-image/latency audit; unchanged",
+    "original_sidd_profile": "Failed time gate before full scoring; retained. Separately approved optimized attempt retained identical model/data/protocol/caps."
+  },
+  "unresolved_scientific_limits": [
+    "Publishable novelty/new-method benefit not established",
+    "JPEG one training seed and small32/8/16 split; image-bootstrap intervals do not capture training-seed variance",
+    "Poisson development-only8 references; no protected-test/generalization claim",
+    "Poisson approximate RGB operator is not raw sensor-noise simulation",
+    "SIDD public-validation pretrained score is not a hidden official benchmark or exact published-protocol reproduction",
+    "Set5 pretrained5-image replay does not establish broad SR superiority",
+    "Natural-image EDSR/transformer training and optional VGG/LPIPS/NAFNet/diffusion are not delivered research results"
+  ],
+  "operational_limits": [
+    "No Git commit/remote exists; version identity is retained through explicit source hashes and release inventory",
+    "CUDA and Mac use different torch/Python/Pillow environments; no cross-platform bitwise replay guarantee",
+    "Colab notebook later displayed a concurrent remote-save conflict/disconnected state; durable Drive scripts/exports were already downloaded and verified. No overwrite or duplicate execution was attempted."
+  ],
+  "changes_this_completion": [
+    "docs/delivery.md and current README/runbook/SDLC/implementation-status/final-audit updates",
+    "reports/engineering_v2: explicit optimized SIDD launcher plus metric/reference/timeout tests, approvals and actual import/audit records",
+    "Portable8-checkpoint source/config/test/license/sample package and standalone verification",
+    "No frozen core source, checkpoint, original experiment artifact or submitted report was modified"
+  ],
+  "spending_usd": 0,
+  "submitted_documents_modified": false,
+  "evidence_sha256": {
+    "acceptance_final_delivery_20261027.json": "05c49c2ac89c9ae6b8c3ecb17dba1d7fa31bf7e70a0157c5ad0bf390d0293d66",
+    "poisson_completed_import_audit_20261027.json": "da75659b7a695b71381820dba6f42418881ce31be39abeb19f3808d35d690bf2",
+    "poisson_actual_inference_verification.json": "2d5e8bb927edadf90e47d278def93b8e13060fa58f634973bf83d51bf8cc88c6",
+    "poisson_recovery_execution_20261027.json": "6045c55f072c3f9212b9aa89473071b9643c93472c85e0159f20d3cb1ec46685",
+    "sidd_full_results_audit_20261027.json": "032030e3f43bedea97283f231c2139d030c62e7f1f7691222ca4b846d32dd484",
+    "sidd_fast_metrics_verification.json": "b029401424f23b076ad12528de338a79b7696c19c32bdb1eee66f83b9f6b7738",
+    "sidd_full_optimized_v3_loop_verification.json": "03508a77cb104765610f8aef1235d0b3fd6709fc70fd521b4a4590cbb1ee12f7",
+    "sidd_optimized_validation_approval_20261027.json": "1bbde1aadba8dbe4bf16d5aacca115579db96d89617caa7aee233b207a5ddf54",
+    "engineering_release_v3.json": "2598d880730ee984bfbd744457aa7bd1f40e2bd1d56905b8c7731fcfc70a3456",
+    "engineering_release_v3_standalone_verification.json": "a52e9eb26314b306f61dd5734058aad8a84073168f24133c346c5ec920a9d3f5",
+    "final_pretrained_replay_verification.json": "95d34fd842badef90514ad38385e1e8455849c8e8e2e0b67b1ae1ff80e2d71ae"
+  }
+}

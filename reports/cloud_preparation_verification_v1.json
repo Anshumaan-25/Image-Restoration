@@ -1,0 +1,26 @@
+{
+  "verified_at_utc": "2026-10-21T04:24:50.197328+00:00",
+  "actual_cuda_executed": false,
+  "drive_mount_executed": false,
+  "long_local_training_started": false,
+  "cloud_helper_tests": {
+    "command": [
+      "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+      "notebooks/test_cloud_workflow.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.2227862079998886,
+    "stdout": "device=cpu precision=fp32 run=/var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmp45pq7w8p/full updates=0/4\ndevice=cpu precision=fp32 run=/var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmp45pq7w8p/split updates=0/4\nSaved backup: /var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmp45pq7w8p/drive/step_000002_micro_00000004.zip\ndevice=cpu precision=fp32 run=/private/var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmp45pq7w8p/restored updates=2/4\nArm elapsed including setup/backup: 0.0s\nSaved backup: /var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmp5_3vhtve/drive/step_000100_micro_00000400.zip\n",
+    "stderr": "test_plan_is_matched_cuda_and_requires_explicit_training_gate (__main__.CloudWorkflowTests.test_plan_is_matched_cuda_and_requires_explicit_training_gate) ... ok\ntest_real_cpu_checkpoint_survives_snapshot_resume_exactly (__main__.CloudWorkflowTests.test_real_cpu_checkpoint_survives_snapshot_resume_exactly) ... ok\ntest_safe_members_rejects_traversal_symlink_and_duplicates (__main__.CloudWorkflowTests.test_safe_members_rejects_traversal_symlink_and_duplicates) ... ok\ntest_simulated_preflight_enforces_memory_identity_and_environment (__main__.CloudWorkflowTests.test_simulated_preflight_enforces_memory_identity_and_environment) ... ok\ntest_snapshot_corruption_is_rejected_before_restore (__main__.CloudWorkflowTests.test_snapshot_corruption_is_rejected_before_restore) ... ok\ntest_snapshot_trims_future_logs_and_restores_without_overwrite (__main__.CloudWorkflowTests.test_snapshot_trims_future_logs_and_restores_without_overwrite) ... ok\ntest_transfer_integrity_and_protected_payload_guard (__main__.CloudWorkflowTests.test_transfer_integrity_and_protected_payload_guard) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 1.086s\n\nOK\n"
+  },
+  "notebook_code_cells_compiled": 12,
+  "notebook_outputs_empty": true,
+  "core_source_matches_trained_baseline": true,
+  "core_source_file_count": 61,
+  "core_acceptance": "reports/cloud_preparation_acceptance_v1.json",
+  "core_tests_passed": 47,
+  "cloud_tests_passed": 7,
+  "checked_local_links": 109,
+  "status": "local_preparation_and_transfer_checks_passed",
+  "bundle_verification": "reports/colab_bundle_verification_v1.json"
+}

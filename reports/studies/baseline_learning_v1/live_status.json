@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-21T02:14:50.734958+00:00",
+  "step": 5000,
+  "target": 5000,
+  "latest_loss": 0.01983983675017953,
+  "skipped": 0,
+  "latest_development": [
+    {
+      "step": 4900,
+      "worst_phase_psnr": 30.185184504941994,
+      "psnr": 30.281073136272692,
+      "ssim": 0.8579881456616738
+    },
+    {
+      "step": 5000,
+      "worst_phase_psnr": 30.15475510015922,
+      "psnr": 30.25007370635936,
+      "ssim": 0.8581505130788148
+    }
+  ],
+  "best_development": {
+    "step": 4800,
+    "worst_phase_psnr": 30.185872536234115,
+    "ssim": 0.8579762629353285
+  },
+  "completed_summary_exists": true
+}

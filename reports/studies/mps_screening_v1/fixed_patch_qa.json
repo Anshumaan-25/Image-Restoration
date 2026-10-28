@@ -1,0 +1,52 @@
+{
+  "diagnostic_only": true,
+  "purpose": "Check whether the full model/shared trainer can fit one fixed natural training patch; not a generalization or candidate-method experiment.",
+  "completed_updates": 200,
+  "target_updates": 200,
+  "time_cap_seconds": 60,
+  "completed": true,
+  "elapsed_seconds": 17.11288237500412,
+  "initial_train_patch": {
+    "count": 1,
+    "psnr": 25.874033974340197,
+    "ssim": 0.7986621763854758,
+    "psnr_is_infinite": false
+  },
+  "final_train_patch": {
+    "count": 1,
+    "psnr": 28.29490322612984,
+    "ssim": 0.8035606443629559,
+    "psnr_is_infinite": false
+  },
+  "jpeg_input_train_patch": {
+    "psnr": 28.270588230417324,
+    "ssim": 0.8022639220031982,
+    "psnr_is_infinite": false
+  },
+  "input_mae": 0.029816990718245506,
+  "restored_mae": 0.029665246605873108,
+  "provenance": [
+    {
+      "source": "data/raw/DIV2K_train_HR/0001.png",
+      "source_sha256": "cdb20d7a462744c269d8e197f735c7bc42e7cda367a940a9b7bc27803b1c8619",
+      "crop_top_left": [
+        638,
+        956
+      ],
+      "size": 128,
+      "role": "train"
+    },
+    {
+      "source": "data/raw/DIV2K_train_HR/0002.png",
+      "source_sha256": "82325cea74c2cd4681f69a10e36ba15c896d99ec47dc2c687ef07f7497781e09",
+      "crop_top_left": [
+        860,
+        956
+      ],
+      "size": 128,
+      "role": "val"
+    }
+  ],
+  "protected_test_scored": false,
+  "model_or_study_changed": false
+}

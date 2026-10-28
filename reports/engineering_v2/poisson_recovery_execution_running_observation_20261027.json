@@ -1,0 +1,17 @@
+{
+  "status": "running",
+  "approval": "poisson_recovery_approval_20261027.json",
+  "source_step": 4100,
+  "target_steps": 5000,
+  "max_additional_training_seconds": 900,
+  "run_dir": "/content/Image_Restoration_Extension_v3/experiments/cloud/poisson_rgb_5000_v3_cache/poisson_seed42_resume_f7c78664",
+  "initial_backup_observed": "/content/drive/MyDrive/RestorationProject/studies/poisson_rgb_5000_v3_cache/poisson_seed42_resume_f7c78664/step_004100_micro_00008200.zip",
+  "environment_differences": {},
+  "platform_note": "Current Linux kernel6.6.159 differs from original6.6.122; all explicit frozen Python/torch/CUDA/device/dependency/codec gates match. No cross-runtime bitwise CUDA guarantee.",
+  "spending_usd": 0,
+  "protected_test_scoring": false,
+  "subsequent_approved_stages": [
+    "development CPU replay/export",
+    "full SIDD public validation after its own CUDA profile gate"
+  ]
+}

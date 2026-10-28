@@ -1,0 +1,21 @@
+# Requires supplied aligned official LR/HR pairs; not acquired or benchmarked.
+model:
+  name: edsr_baseline
+  scale: 2
+  width: 64
+  blocks: 16
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/sr_x2/train.jsonl
+  val_manifest: data/manifests/sr_x2/val.jsonl
+  patch_size: 128
+degradation:
+  profile: div2k_bicubic_pairs_v1
+training:
+  device: cuda
+  precision: fp16
+  batch_size: 8
+  accumulation_steps: 2
+loss:
+  kind: l1

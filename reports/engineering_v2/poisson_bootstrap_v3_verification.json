@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "Actual archive/bootstrap filesystem integration only; CUDA timing, memory, AMP and training mocked, NOT a GPU profile or scientific result",
+  "launcher_sha256": "71790fa7380d06aa2c826b2be901a7c20b4c14b4516733c2432e33325612a9a4",
+  "checks": {
+    "fresh_parent_directory_extraction_profile_plan_backup": true,
+    "unmounted_drive_rejected_before_profile_or_training": true,
+    "matching_plan_calls_authorized_training_once": true,
+    "unapproved_training_rejected": true
+  }
+}

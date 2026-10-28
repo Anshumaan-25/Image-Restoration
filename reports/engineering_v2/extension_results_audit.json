@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "results": {
+    "restormer_awgn15_patch128.json": {
+      "count": 16,
+      "psnr": 34.60866230510553,
+      "ssim": 0.9282029013828104,
+      "reference_psnr": 24.84509521358009,
+      "protocol": "project_rgb_float_v1",
+      "weights_sha256": "4e2314dae77bb907184da6e2ac625b921491d6b33de26a52512eff1c6bb37fbd"
+    },
+    "restormer_awgn25_patch128.json": {
+      "count": 16,
+      "psnr": 32.16303233407237,
+      "ssim": 0.8877903807250526,
+      "reference_psnr": 20.602057056559598,
+      "protocol": "project_rgb_float_v1",
+      "weights_sha256": "4e2314dae77bb907184da6e2ac625b921491d6b33de26a52512eff1c6bb37fbd"
+    },
+    "restormer_awgn50_patch128.json": {
+      "count": 16,
+      "psnr": 29.007674332712092,
+      "ssim": 0.8114726286185167,
+      "reference_psnr": 15.145859920209915,
+      "protocol": "project_rgb_float_v1",
+      "weights_sha256": "4e2314dae77bb907184da6e2ac625b921491d6b33de26a52512eff1c6bb37fbd"
+    },
+    "swinir_set5_x2_y_replay.json": {
+      "count": 5,
+      "psnr": 38.13938991859973,
+      "ssim": 0.9611210000904942,
+      "reference_psnr": 33.97143947494665,
+      "protocol": "swinir_sr_replay_v1",
+      "weights_sha256": "193b229909ca89cd8b55de9c9e7fce146ae759d59dfcd78d8feb9dd1d6fa0fd7"
+    },
+    "swinir_set5_x4_y_replay.json": {
+      "count": 5,
+      "psnr": 32.441985967246566,
+      "ssim": 0.8976450524330831,
+      "reference_psnr": 28.632272213558927,
+      "protocol": "swinir_sr_replay_v1",
+      "weights_sha256": "09fad24e32ae62722e1a055efde9921328f4137981bab0a42a4a3a806306c58e"
+    }
+  },
+  "scope": "Author-pretrained models, distinct from project-trained JPEG study; no novel-method or SIDD result claimed",
+  "poisson_data": "32 training sources and 8 source-disjoint fixed development centre crops verified; training not started",
+  "SIDD": "Provider quota blocks acquisition; importer/model validated using fixtures/tensors only"
+}

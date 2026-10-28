@@ -1,0 +1,32 @@
+# Prepared long run; explicit actual-device profile and run approval required.
+model:
+  name: dncnn_rgb_l1
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/div2k_jpeg_v1/screening/train.jsonl
+  val_manifest: data/manifests/poisson_v2/val.jsonl
+  patch_size: 128
+  cache_max_mib: 1536
+degradation:
+  profile: poisson_linear_rgb_v1
+  peak_photons: 60
+  poisson_training_peaks: [30, 60, 120]
+training:
+  device: cuda
+  precision: fp16
+  batch_size: 8
+  accumulation_steps: 2
+  max_steps: 5000
+  max_seconds: 5400
+  seed: 42
+  learning_rate: 0.0002
+  min_lr: 0.000001
+  weight_decay: 0
+  warmup_steps: 100
+  validation_interval: 100
+  checkpoint_interval: 100
+loss:
+  kind: l1
+output:
+  root: experiments/poisson_v2

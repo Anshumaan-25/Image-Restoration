@@ -1,0 +1,26 @@
+{
+  "status": "research_training_running",
+  "observed_at_utc": "2026-10-25T22:20:53.384125+00:00",
+  "notebook": "https://colab.research.google.com/drive/1NnLlX-IhljFFGHdS_xtXfwhmmwIVmZqM",
+  "study": "poisson_rgb_5000_v3_cache",
+  "config": "configs/denoising/poisson_research_v2.yaml",
+  "profile": {
+    "passed": true,
+    "mean_update_seconds": 0.35921343930003785,
+    "projected_update_minutes": 29.934453275003154,
+    "peak_allocated_GiB": 0.631828784942627,
+    "measured_updates": 50,
+    "warmup_updates": 10,
+    "skipped_updates": 0
+  },
+  "approved_budget": {
+    "updates": 5000,
+    "training_seconds": 5400
+  },
+  "latest_observed_durable_backup_step": 1500,
+  "protected_test_scoring": false,
+  "spending_usd": 0,
+  "scientific_settings_changed": false,
+  "engineering_change": "Bounded CPU decoded-source cache, bitwise tested",
+  "source_bundle_sha256": "db81ac9de44a48699de33c00d5dba16aa476f11f376f797a8f0bee38ee8c2240"
+}

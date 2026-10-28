@@ -1,0 +1,8 @@
+# Install only for the corresponding approved comparison/protocol.
+# Match torchvision to the installed torch using the official compatibility matrix.
+torchvision>=0.19,<1
+lpips==0.1.4
+scipy>=1.11,<2
+h5py>=3.10,<4
+tensorboard>=2.14,<3
+opencv-python-headless>=4.8,<5

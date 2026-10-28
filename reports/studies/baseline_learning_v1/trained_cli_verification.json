@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "same_as_direct_export": true,
+  "max_absolute_uint8_difference": 0,
+  "output_sha256": "337b174e891850f91b65e8308fcdd8072120d25f40e674a078364258ed901445",
+  "protected_test_scored": false
+}

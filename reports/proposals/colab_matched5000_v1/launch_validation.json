@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "Both operator cells compile",
+    "Fresh original bundle supports preparation after reports initialization",
+    "Actual helper seal/config checks tested with mocked CUDA metadata",
+    "All A/B/C settings match approved 5000/9000s/seed42/micro2/accum4/fp16",
+    "Reviewed plan/profile copied byte-exact to simulated Drive",
+    "Cloud approval recorded with exact budget",
+    "Launch cell dispatches only A with approved=True",
+    "No actual training invoked",
+    "All frozen training source hashes unchanged"
+  ],
+  "actual_cuda_or_training_executed": false,
+  "files": {
+    "prepare_cell.py": "b2bfb53c24c86baf999c7eeb8437174c2e319f91f9deefef1223ae652c71e112",
+    "launch_A_cell.py": "d5f32e1f248e97ebf8b172ba8548a6df36cfdeb6656aeb456c89a53d969a34ab"
+  }
+}

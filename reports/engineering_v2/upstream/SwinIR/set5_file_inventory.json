@@ -1,0 +1,202 @@
+[
+  {
+    "path": "testsets/Set5/HR/baby.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d5b91f6b06e995282b6297d96f39762d658d60f8",
+    "size": 371264,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/d5b91f6b06e995282b6297d96f39762d658d60f8"
+  },
+  {
+    "path": "testsets/Set5/HR/bird.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "13bf5e1bc4290fabccbf3a1b5a1ee27ef3b7682c",
+    "size": 120453,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/13bf5e1bc4290fabccbf3a1b5a1ee27ef3b7682c"
+  },
+  {
+    "path": "testsets/Set5/HR/butterfly.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f6acb9a57b70d0eeec34eea46fef7811f74eac31",
+    "size": 127529,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/f6acb9a57b70d0eeec34eea46fef7811f74eac31"
+  },
+  {
+    "path": "testsets/Set5/HR/head.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "c14b1fdbc25e8043ddcaf2c12498228ca5bb6a68",
+    "size": 113787,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/c14b1fdbc25e8043ddcaf2c12498228ca5bb6a68"
+  },
+  {
+    "path": "testsets/Set5/HR/woman.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6d55382515ad3b0bcb6d93bd5463955883e6d2e",
+    "size": 118848,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/e6d55382515ad3b0bcb6d93bd5463955883e6d2e"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X2/babyx2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "0650d46ff2b22200bfa83fa2fad114c23ae047a4",
+    "size": 109515,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/0650d46ff2b22200bfa83fa2fad114c23ae047a4"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X2/birdx2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "cd5603d65b3febbc63c851a094d627575ffe078a",
+    "size": 38256,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/cd5603d65b3febbc63c851a094d627575ffe078a"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X2/butterflyx2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "a9557514b30b375a3b9a277b386ce20bb7ccd209",
+    "size": 35925,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/a9557514b30b375a3b9a277b386ce20bb7ccd209"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X2/headx2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "26a13e279f3f6bc8a211e5e71e19ac5df8e40da1",
+    "size": 33123,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/26a13e279f3f6bc8a211e5e71e19ac5df8e40da1"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X2/womanx2.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "be24dc1e41235e338b222fce69b7620fa4c130a3",
+    "size": 36618,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/be24dc1e41235e338b222fce69b7620fa4c130a3"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X3/babyx3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "e6bf244e4dd4938b4c5434a59520e19f5efbb22a",
+    "size": 52149,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/e6bf244e4dd4938b4c5434a59520e19f5efbb22a"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X3/birdx3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "d449ade59c786d18183149c82a4f9e0529b936d2",
+    "size": 18844,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/d449ade59c786d18183149c82a4f9e0529b936d2"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X3/butterflyx3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ecbfda94e7381ec085377534baca58b6fa8307ba",
+    "size": 17339,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/ecbfda94e7381ec085377534baca58b6fa8307ba"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X3/headx3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8538d141f7419b1d206814e7734b190676d57e52",
+    "size": 15315,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/8538d141f7419b1d206814e7734b190676d57e52"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X3/womanx3.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4312bc85dd0f7ae3618a5cd66743694b1a2c170",
+    "size": 17893,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/f4312bc85dd0f7ae3618a5cd66743694b1a2c170"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X4/babyx4.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "1ecbb31fe3bb6052b2d08bbfb294519e80d7fd2b",
+    "size": 31182,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/1ecbb31fe3bb6052b2d08bbfb294519e80d7fd2b"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X4/birdx4.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f3037c864ce94f749e26983fe3678aec400a5580",
+    "size": 11286,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/f3037c864ce94f749e26983fe3678aec400a5580"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X4/butterflyx4.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "b55686b453e6b9a1b41bcfe874dc4256529deb23",
+    "size": 10392,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/b55686b453e6b9a1b41bcfe874dc4256529deb23"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X4/headx4.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "8926d01aa42a931a529c2fbfed5891411e441184",
+    "size": 9060,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/8926d01aa42a931a529c2fbfed5891411e441184"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X4/womanx4.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "ca7de118ff34e5c0370d95920acd19b3480ed7c2",
+    "size": 10813,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/ca7de118ff34e5c0370d95920acd19b3480ed7c2"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X8/babyx8.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "bb7230c60e70a625fa4ee1847b1f5d98de5d7fe3",
+    "size": 8566,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/bb7230c60e70a625fa4ee1847b1f5d98de5d7fe3"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X8/birdx8.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "08212f8fb177e7e195dffe3e040bdcd792e6d6fc",
+    "size": 3264,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/08212f8fb177e7e195dffe3e040bdcd792e6d6fc"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X8/butterflyx8.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "51aac3832ac45deab54bdb78ba67a0f79ea31be0",
+    "size": 2915,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/51aac3832ac45deab54bdb78ba67a0f79ea31be0"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X8/headx8.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f7aa8b1656451364d6321ab2a3c1129e3efbe797",
+    "size": 2674,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/f7aa8b1656451364d6321ab2a3c1129e3efbe797"
+  },
+  {
+    "path": "testsets/Set5/LR_bicubic/X8/womanx8.png",
+    "mode": "100644",
+    "type": "blob",
+    "sha": "f4647baaf29111d948c1271b42d77f28aaacb7c9",
+    "size": 3072,
+    "url": "https://api.github.com/repos/JingyunLiang/SwinIR/git/blobs/f4647baaf29111d948c1271b42d77f28aaacb7c9"
+  }
+]

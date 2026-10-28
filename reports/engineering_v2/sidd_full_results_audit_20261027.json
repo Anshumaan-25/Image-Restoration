@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "date": "2026-10-27",
+  "archive": "/Users/anshu/Downloads/sidd_completed_17877781.zip",
+  "bytes": 297204,
+  "sha256": "b5fb7aa44a12b469574d9c50e234baffcb5e30fa0f9ea1f209a8d056ef801717",
+  "destination": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/sidd_full_v3_import_20261027",
+  "count": 1280,
+  "identities_match_independent_local_import": true,
+  "source_files": 84,
+  "all_results_finite": true,
+  "per_image_reaggregation": {
+    "restoration": {
+      "psnr": 40.01557105902148,
+      "ssim": 0.9224636313977967
+    },
+    "input": {
+      "psnr": 23.662381963733772,
+      "ssim": 0.33346900526070206
+    }
+  },
+  "elapsed_scoring_seconds": 407.9904704380001,
+  "profile": {
+    "measured_blocks": 10,
+    "warmup_forwards": 3,
+    "mean_block_seconds": 0.28148645890000806,
+    "projected_full_seconds": 360.30266739201033,
+    "peak_allocated_bytes": 708752896,
+    "max_reference_ssim_error": 1.5432100042289676e-14,
+    "reference_parity_pairs": 20,
+    "timing_scope": "paired PNG decode, FP32 forward, transfer, restoration and input CPU float64 metrics"
+  },
+  "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+  "protocol": "project_rgb_float_v1; RGB; border0; no quantization; valid Gaussian11 SSIM; CPU float64 separable verified against frozen reference",
+  "scope": "All official public validation blocks; not hidden benchmark or exact published-protocol reproduction",
+  "training": false,
+  "spending_usd": 0,
+  "novelty_established": false
+}

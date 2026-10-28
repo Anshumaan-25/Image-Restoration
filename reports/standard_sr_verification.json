@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "models": [
+    {
+      "scale": 2,
+      "width": 64,
+      "blocks": 16,
+      "parameters": 1369859,
+      "shape": [
+        1,
+        3,
+        14,
+        18
+      ],
+      "finite_backward": true
+    },
+    {
+      "scale": 4,
+      "width": 64,
+      "blocks": 16,
+      "parameters": 1517571,
+      "shape": [
+        1,
+        3,
+        28,
+        36
+      ],
+      "finite_backward": true
+    }
+  ],
+  "accuracy_evaluated": false
+}

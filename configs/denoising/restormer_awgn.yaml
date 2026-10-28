@@ -1,0 +1,25 @@
+# Canonical approved model; pretrained evaluation and project training remain distinct.
+model:
+  name: restormer_denoising
+degradation:
+  profile: awgn_unclipped_v1
+  sigma_min: 10
+  sigma_max: 50
+  sigma: 25
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/div2k_jpeg_v1/screening/train.jsonl
+  val_manifest: data/manifests/div2k_jpeg_v1/screening/val.jsonl
+  patch_size: 128
+training:
+  device: cuda
+  precision: fp16
+  batch_size: 1
+  accumulation_steps: 8
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  max_steps: 1000
+  max_seconds: 1800
+loss:
+  kind: l1

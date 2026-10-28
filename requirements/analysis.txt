@@ -1,0 +1,3 @@
+# Optional report plotting only; no dependency is installed implicitly.
+# Validated with the core local environment.
+matplotlib==3.10.9

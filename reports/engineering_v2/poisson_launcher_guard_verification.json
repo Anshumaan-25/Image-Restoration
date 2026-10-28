@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "scope": "Training gate only; no cloud execution",
+  "stderr": "Traceback (most recent call last):\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/reports/engineering_v2/colab_poisson_launcher.py\", line 94, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/reports/engineering_v2/colab_poisson_launcher.py\", line 22, in main\n    if args.mode=='train' and not args.approved_training:raise PermissionError('Specific 5000-update/5400-second Poisson run approval required')\n                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: Specific 5000-update/5400-second Poisson run approval required\n"
+}

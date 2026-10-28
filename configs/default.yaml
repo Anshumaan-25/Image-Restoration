@@ -1,0 +1,26 @@
+# Approved DIV2K JPEG project split. Research runs still require bounded approval.
+model:
+  name: dncnn_rgb_l1
+  width: 64
+  depth: 20
+  scale: 1
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/div2k_jpeg_v1/full/train.jsonl
+  val_manifest: data/manifests/div2k_jpeg_v1/full/val.jsonl
+  patch_size: 128
+degradation:
+  profile: jpeg_rgb_444_v1
+  jpeg_quality: 20
+training:
+  device: auto
+  precision: fp32
+  batch_size: 8
+  accumulation_steps: 2
+  max_steps: 1000
+  warmup_steps: 100
+loss:
+  kind: l1
+output:
+  root: experiments/runs

@@ -1,0 +1,112 @@
+{
+  "repository": "swz30/Restormer",
+  "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+  "files": {
+    "basicsr/models/archs/restormer_arch.py": {
+      "local": "reports/engineering_v2/upstream/Restormer/basicsr_models_archs_restormer_arch.py",
+      "sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a",
+      "url": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/basicsr/models/archs/restormer_arch.py"
+    },
+    "LICENSE.md": {
+      "local": "reports/engineering_v2/upstream/Restormer/LICENSE.md",
+      "sha256": "2b93776512924bc095ec5d97a79d76cf1ab401ae641d1ae1f46e94f1c53a2e59",
+      "url": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/LICENSE.md"
+    },
+    "Denoising/README.md": {
+      "local": "reports/engineering_v2/upstream/Restormer/Denoising_README.md",
+      "sha256": "5c7f00a76bc2590cfd4a2ae64b7044098363e0fe78ae2d53e3fef1730605001a",
+      "url": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/Denoising/README.md"
+    },
+    "Denoising/Options/GaussianColorDenoising_Restormer.yml": {
+      "local": "reports/engineering_v2/upstream/Restormer/Denoising_Options_GaussianColorDenoising_Restormer.yml",
+      "sha256": "e77c7ac4dbb602ff64d646e5a9aaf406934707ba478e92a73b70809813e8341a",
+      "url": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/Denoising/Options/GaussianColorDenoising_Restormer.yml"
+    }
+  },
+  "assets": [
+    {
+      "name": "deraining.pth",
+      "bytes": 104700429,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/deraining.pth",
+      "digest": null
+    },
+    {
+      "name": "dual_pixel_defocus_deblurring.pth",
+      "bytes": 104724374,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/dual_pixel_defocus_deblurring.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_color_denoising_blind.pth",
+      "bytes": 104611957,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_color_denoising_blind.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_color_denoising_sigma15.pth",
+      "bytes": 104611957,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_color_denoising_sigma15.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_color_denoising_sigma25.pth",
+      "bytes": 104611957,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_color_denoising_sigma25.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_color_denoising_sigma50.pth",
+      "bytes": 104611957,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_color_denoising_sigma50.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_gray_denoising_blind.pth",
+      "bytes": 104601589,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_gray_denoising_blind.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_gray_denoising_sigma15.pth",
+      "bytes": 104601589,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_gray_denoising_sigma15.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_gray_denoising_sigma25.pth",
+      "bytes": 104601589,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_gray_denoising_sigma25.pth",
+      "digest": null
+    },
+    {
+      "name": "gaussian_gray_denoising_sigma50.pth",
+      "bytes": 104601589,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_gray_denoising_sigma50.pth",
+      "digest": null
+    },
+    {
+      "name": "motion_deblurring.pth",
+      "bytes": 104700429,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/motion_deblurring.pth",
+      "digest": null
+    },
+    {
+      "name": "real_denoising.pth",
+      "bytes": 104611957,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/real_denoising.pth",
+      "digest": null
+    },
+    {
+      "name": "sample_images.zip",
+      "bytes": 4928696,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/sample_images.zip",
+      "digest": null
+    },
+    {
+      "name": "single_image_defocus_deblurring.pth",
+      "bytes": 104700429,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/single_image_defocus_deblurring.pth",
+      "digest": null
+    }
+  ]
+}

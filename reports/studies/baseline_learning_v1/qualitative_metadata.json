@@ -1,0 +1,96 @@
+{
+  "device": "mps",
+  "split": "val",
+  "phase": [
+    0,
+    0
+  ],
+  "selection": "first two development IDs without quality search",
+  "checkpoints": {
+    "B_1000": {
+      "checkpoint_sha256": "66eda9081d377434050664c9c3da6a328781c7634275923d7ebee3a23a3280f7",
+      "selected_step": 900,
+      "training_horizon": 1000
+    },
+    "B_5000": {
+      "checkpoint_sha256": "db32a6373fad66a5d2e86bc6b2cc00ffc8e9935bad3aeb8b8e42ff553c0bdcb9",
+      "selected_step": 4800,
+      "training_horizon": 5000
+    }
+  },
+  "records": [
+    {
+      "id": "0721",
+      "phase": [
+        0,
+        0
+      ],
+      "model": "input",
+      "psnr": 29.288133094683225,
+      "ssim": 0.9130193624275702,
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0721",
+      "phase": [
+        0,
+        0
+      ],
+      "model": "B_1000",
+      "psnr": 29.2684825143226,
+      "ssim": 0.911492774066612,
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0721",
+      "phase": [
+        0,
+        0
+      ],
+      "model": "B_5000",
+      "psnr": 31.13571780003913,
+      "ssim": 0.9468581177448179,
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0722",
+      "phase": [
+        0,
+        0
+      ],
+      "model": "input",
+      "psnr": 21.978435300372574,
+      "ssim": 0.7626983796918848,
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0722",
+      "phase": [
+        0,
+        0
+      ],
+      "model": "B_1000",
+      "psnr": 21.97791718178778,
+      "ssim": 0.7625559686496126,
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0722",
+      "phase": [
+        0,
+        0
+      ],
+      "model": "B_5000",
+      "psnr": 22.446128883515726,
+      "ssim": 0.7593931679182953,
+      "psnr_is_infinite": false
+    }
+  ],
+  "display": "8-bit PNG; metrics and error maps from float RGB",
+  "error_scale": [
+    0,
+    0.1
+  ],
+  "protected_test_scored": false,
+  "analysis_sha256": "518db98cdda51eddcdbee0799b50045f81b91619d70aa7322e78c054f4fefaae"
+}

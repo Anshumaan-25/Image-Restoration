@@ -1,0 +1,45 @@
+{
+  "status": "awaiting_specific_download_approval",
+  "assets": [
+    {
+      "name": "gaussian_color_denoising_blind.pth",
+      "bytes": 104611957,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/gaussian_color_denoising_blind.pth",
+      "digest": null,
+      "repository": "swz30/Restormer",
+      "source_commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f"
+    },
+    {
+      "name": "real_denoising.pth",
+      "bytes": 104611957,
+      "url": "https://github.com/swz30/Restormer/releases/download/v1.0/real_denoising.pth",
+      "digest": null,
+      "repository": "swz30/Restormer",
+      "source_commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f"
+    },
+    {
+      "name": "002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth",
+      "bytes": 17147989,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth",
+      "digest": null,
+      "repository": "JingyunLiang/SwinIR",
+      "source_commit": "6545850fbf8df298df73d81f3e8cba638787c8bd"
+    },
+    {
+      "name": "002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.pth",
+      "bytes": 17225941,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.pth",
+      "digest": null,
+      "repository": "JingyunLiang/SwinIR",
+      "source_commit": "6545850fbf8df298df73d81f3e8cba638787c8bd"
+    }
+  ],
+  "total_bytes": 243597844,
+  "spending_usd": 0,
+  "training": false,
+  "scientific_evaluation": false,
+  "provenance": "Official authors GitHub releases only. Restormer approved denoising configs use supervised L1. SwinIR selected names are lightweight classical/bicubic SR, excluding real-world/GAN variants.",
+  "hash_policy": "Release metadata provides no publisher SHA256. Record downloaded hashes and exact official URLs, require strict architecture load, and never claim a publisher-signed checksum.",
+  "destination": "experiments/pretrained/approved_v2",
+  "limits": "These four weights only; no datasets, pip installations, cloud runs or automatic retries."
+}

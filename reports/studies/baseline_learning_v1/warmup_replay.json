@@ -1,0 +1,14 @@
+{
+  "diagnostic_only": true,
+  "scope": "First 100 warmup updates before the different cosine horizons diverge",
+  "matched_updates": 100,
+  "maximum_absolute_differences": {
+    "loss": 0.0,
+    "learning_rate": 0.0,
+    "gradient_norm_before_clip": 0.0
+  },
+  "old_100_update_worst_phase_psnr": 28.958654685138512,
+  "new_100_update_worst_phase_psnr": 28.958654685138512,
+  "not_a_cross_hardware_reproducibility_guarantee": true,
+  "protected_test_scored": false
+}

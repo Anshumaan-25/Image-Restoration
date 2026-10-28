@@ -1,0 +1,63 @@
+{
+  "count": 8,
+  "psnr": 32.139600160332826,
+  "ssim": 0.8717645525812064,
+  "protocol": "project_rgb_float_v1",
+  "checkpoint": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/baseline_learning_v1/B_seed42/best_model.pth",
+  "step": 4800,
+  "dataset_hash": "37c0db83f1eb41975fc6f6ed8fafc7b70b05878282ea9567f02c8cdb2a057561",
+  "split": "val",
+  "procedural_test_only": false,
+  "device": "mps",
+  "checkpoint_sha256": "db32a6373fad66a5d2e86bc6b2cc00ffc8e9935bad3aeb8b8e42ff553c0bdcb9",
+  "training_seed": 42,
+  "training_config": {
+    "device": "mps",
+    "precision": "fp32",
+    "batch_size": 2,
+    "accumulation_steps": 4,
+    "num_workers": 0,
+    "max_steps": 5000,
+    "epochs": null,
+    "max_seconds": 6000,
+    "learning_rate": 0.0002,
+    "min_lr": 1e-06,
+    "weight_decay": 0.0,
+    "warmup_steps": 100,
+    "clip_grad": 1.0,
+    "validation_interval": 100,
+    "checkpoint_interval": 100
+  },
+  "selection_horizon": 5000,
+  "degradation": {
+    "profile": "jpeg_rgb_444_v1",
+    "sigma": 25.0,
+    "sigma_min": 10.0,
+    "sigma_max": 50.0,
+    "peak_photons": 60.0,
+    "jpeg_quality": 20
+  },
+  "training_source_hash": "95f68f81f267dd937c6b50a8f0983bc2167e4f7a1db0fda81fc2805cf00273f1",
+  "model": {
+    "name": "dncnn_rgb_l1",
+    "width": 64,
+    "depth": 20,
+    "scale": 1,
+    "blocks": 16
+  },
+  "jpeg_study": {
+    "mode": "stratified",
+    "augment": true
+  },
+  "codec": {
+    "pillow": "12.2.0",
+    "jpeg_library": "9.0",
+    "subsampling": "4:4:4",
+    "optimize": "false",
+    "progressive": "false"
+  },
+  "phase_constructor": null,
+  "reference_crop": "full_image",
+  "frozen_study_sha256": null,
+  "psnr_is_infinite": false
+}

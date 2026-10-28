@@ -1,0 +1,942 @@
+{
+  "status": "passed",
+  "archive": "/Users/anshu/Downloads/cuda_jpeg_5000_v1/restoration_final_results_ba8dd3e1.zip",
+  "archive_sha256": "d823f66325a7cf3951992173cd2d99e649dc125c10a04771a60c359e07818e31",
+  "archive_bytes": 747937,
+  "import_directory": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/cuda_jpeg_5000_v1_final_import_20261026",
+  "frozen_source_files_unchanged": true,
+  "jobs_verified": 9,
+  "images_per_job": 16,
+  "phases_per_image": 64,
+  "predictions_verified": 9216,
+  "summary": {
+    "A_Q20": {
+      "step": 4700,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 29.721401301429246,
+      "psnr": 29.846503237332364,
+      "ssim": 0.8280793656306242,
+      "checkpoint_sha256": "12781e660c01ef3e63e2acea4946cebb661e7c82aaa63311340e54d1374eed46"
+    },
+    "B_Q20": {
+      "step": 4400,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 29.75714275004354,
+      "psnr": 29.88599390176094,
+      "ssim": 0.8287490953420291,
+      "checkpoint_sha256": "641d49702f83210d2e592bc6b867677cb015e8a14282b24434c018f726dbcedf"
+    },
+    "C_Q20": {
+      "step": 4900,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 29.75654782726759,
+      "psnr": 29.886932247448378,
+      "ssim": 0.8281564651519363,
+      "checkpoint_sha256": "f0c7105bb7d490a36fbffcef29ccff36e9a396ebece5120412ec6eb04cc7fe3d"
+    },
+    "A_Q10": {
+      "step": 4700,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 26.97049425106568,
+      "psnr": 27.100235229919118,
+      "ssim": 0.741627393255244,
+      "checkpoint_sha256": "12781e660c01ef3e63e2acea4946cebb661e7c82aaa63311340e54d1374eed46"
+    },
+    "B_Q10": {
+      "step": 4400,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 27.02117586275132,
+      "psnr": 27.15649074023851,
+      "ssim": 0.7436997807508545,
+      "checkpoint_sha256": "641d49702f83210d2e592bc6b867677cb015e8a14282b24434c018f726dbcedf"
+    },
+    "C_Q10": {
+      "step": 4900,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 27.042973601419256,
+      "psnr": 27.182368148724517,
+      "ssim": 0.7441345413490862,
+      "checkpoint_sha256": "f0c7105bb7d490a36fbffcef29ccff36e9a396ebece5120412ec6eb04cc7fe3d"
+    },
+    "A_Q40": {
+      "step": 4700,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 31.854778577456283,
+      "psnr": 31.96851608777047,
+      "ssim": 0.8803372992254592,
+      "checkpoint_sha256": "12781e660c01ef3e63e2acea4946cebb661e7c82aaa63311340e54d1374eed46"
+    },
+    "B_Q40": {
+      "step": 4400,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 31.861663092512643,
+      "psnr": 31.97833329467968,
+      "ssim": 0.8791949034039442,
+      "checkpoint_sha256": "641d49702f83210d2e592bc6b867677cb015e8a14282b24434c018f726dbcedf"
+    },
+    "C_Q40": {
+      "step": 4900,
+      "count": 16,
+      "phase_count": 64,
+      "worst_phase_psnr": 31.820261823988275,
+      "psnr": 31.929737895190357,
+      "ssim": 0.8780196019037052,
+      "checkpoint_sha256": "f0c7105bb7d490a36fbffcef29ccff36e9a396ebece5120412ec6eb04cc7fe3d"
+    }
+  },
+  "comparisons": {
+    "B_minus_A_Q20": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.035741448614293736,
+      "image_bootstrap_ci95_db": [
+        0.0017741830052331446,
+        0.06702798164912202
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.035741448614293736
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.07690504905365003
+        },
+        {
+          "id": "0802",
+          "delta_db": -0.009007408931182681
+        },
+        {
+          "id": "0803",
+          "delta_db": 0.12996884718965163
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.05825671378078212
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.07584453290061788
+        },
+        {
+          "id": "0806",
+          "delta_db": 0.14968341919001915
+        },
+        {
+          "id": "0807",
+          "delta_db": 0.009026107895472535
+        },
+        {
+          "id": "0808",
+          "delta_db": 0.03060662694763394
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.014313149422072513
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.040624932837928895
+        },
+        {
+          "id": "0811",
+          "delta_db": -0.11981767997177428
+        },
+        {
+          "id": "0812",
+          "delta_db": -0.07148750075868548
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.06636680782828819
+        },
+        {
+          "id": "0814",
+          "delta_db": 0.09572342870248463
+        },
+        {
+          "id": "0815",
+          "delta_db": -0.004555598728000376
+        },
+        {
+          "id": "0816",
+          "delta_db": 0.029411750469741094
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_B_Q20": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": -0.000594922775946749,
+      "image_bootstrap_ci95_db": [
+        -0.028323620889794832,
+        0.02803278291063315
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        -0.000594922775946749
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.014251662144893373
+        },
+        {
+          "id": "0802",
+          "delta_db": -0.028067042606650716
+        },
+        {
+          "id": "0803",
+          "delta_db": -0.07134452680355707
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.0025006601519450555
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.00614289920209643
+        },
+        {
+          "id": "0806",
+          "delta_db": -0.1064016981123288
+        },
+        {
+          "id": "0807",
+          "delta_db": -0.004250861439096809
+        },
+        {
+          "id": "0808",
+          "delta_db": -0.012748686836165035
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.1331521628549126
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.01883632470272545
+        },
+        {
+          "id": "0811",
+          "delta_db": 0.07257314191576114
+        },
+        {
+          "id": "0812",
+          "delta_db": 0.039003090249565275
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.04731246548874779
+        },
+        {
+          "id": "0814",
+          "delta_db": -0.023468928836773983
+        },
+        {
+          "id": "0815",
+          "delta_db": -0.08312461710663044
+        },
+        {
+          "id": "0816",
+          "delta_db": -0.013884809384592245
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_A_Q20": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.03514652583834699,
+      "image_bootstrap_ci95_db": [
+        0.005148838672552521,
+        0.06489151693474154
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.03514652583834699
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.0911567111985434
+        },
+        {
+          "id": "0802",
+          "delta_db": -0.0370744515378334
+        },
+        {
+          "id": "0803",
+          "delta_db": 0.05862432038609455
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.06075737393272718
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.08198743210271431
+        },
+        {
+          "id": "0806",
+          "delta_db": 0.04328172107769035
+        },
+        {
+          "id": "0807",
+          "delta_db": 0.004775246456375726
+        },
+        {
+          "id": "0808",
+          "delta_db": 0.017857940111468906
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.14746531227698512
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.059461257540654344
+        },
+        {
+          "id": "0811",
+          "delta_db": -0.04724453805601314
+        },
+        {
+          "id": "0812",
+          "delta_db": -0.03248441050912021
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.11367927331703598
+        },
+        {
+          "id": "0814",
+          "delta_db": 0.07225449986571064
+        },
+        {
+          "id": "0815",
+          "delta_db": -0.08768021583463081
+        },
+        {
+          "id": "0816",
+          "delta_db": 0.015526941085148849
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "B_minus_A_Q10": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.050681611685643446,
+      "image_bootstrap_ci95_db": [
+        0.0324140385489456,
+        0.06975857685372622
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.050681611685643446
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.10272262502844853
+        },
+        {
+          "id": "0802",
+          "delta_db": 0.00449968548164037
+        },
+        {
+          "id": "0803",
+          "delta_db": 0.09690045592707008
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.025842351855342116
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.023336929127619754
+        },
+        {
+          "id": "0806",
+          "delta_db": 0.10334007456980387
+        },
+        {
+          "id": "0807",
+          "delta_db": 0.023331193099533465
+        },
+        {
+          "id": "0808",
+          "delta_db": 0.02653120808609799
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.00739516125882389
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.05169828048450498
+        },
+        {
+          "id": "0811",
+          "delta_db": 0.10775759902278281
+        },
+        {
+          "id": "0812",
+          "delta_db": 0.054266241360835465
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.049585873537544956
+        },
+        {
+          "id": "0814",
+          "delta_db": 0.10693533096381458
+        },
+        {
+          "id": "0815",
+          "delta_db": 0.018093239158520902
+        },
+        {
+          "id": "0816",
+          "delta_db": 0.00866953800791137
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_B_Q10": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.021797738667933997,
+      "image_bootstrap_ci95_db": [
+        -3.5708291341412717e-05,
+        0.04673201488678013
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.021797738667933997
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.015619886670613425
+        },
+        {
+          "id": "0802",
+          "delta_db": 0.0020791122220806812
+        },
+        {
+          "id": "0803",
+          "delta_db": 0.00493043262071069
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.022849986056712623
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.07432055097903145
+        },
+        {
+          "id": "0806",
+          "delta_db": -0.060290020919126164
+        },
+        {
+          "id": "0807",
+          "delta_db": -0.027096399696418416
+        },
+        {
+          "id": "0808",
+          "delta_db": 0.014078450861592984
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.11800485175990971
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.032499510674718124
+        },
+        {
+          "id": "0811",
+          "delta_db": 0.130416021482489
+        },
+        {
+          "id": "0812",
+          "delta_db": -0.000567610442672617
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.030122861870502504
+        },
+        {
+          "id": "0814",
+          "delta_db": -0.0006540385817217498
+        },
+        {
+          "id": "0815",
+          "delta_db": -0.016827909605524383
+        },
+        {
+          "id": "0816",
+          "delta_db": 0.009278132734046096
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_A_Q10": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.07247935035357744,
+      "image_bootstrap_ci95_db": [
+        0.046153416846562066,
+        0.10360027592359593
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.07247935035357744
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.11834251169906196
+        },
+        {
+          "id": "0802",
+          "delta_db": 0.006578797703721051
+        },
+        {
+          "id": "0803",
+          "delta_db": 0.10183088854778077
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.04869233791205474
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.0976574801066512
+        },
+        {
+          "id": "0806",
+          "delta_db": 0.04305005365067771
+        },
+        {
+          "id": "0807",
+          "delta_db": -0.0037652065968849513
+        },
+        {
+          "id": "0808",
+          "delta_db": 0.040609658947690974
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.1254000130187336
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.0841977911592231
+        },
+        {
+          "id": "0811",
+          "delta_db": 0.2381736205052718
+        },
+        {
+          "id": "0812",
+          "delta_db": 0.05369863091816285
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.07970873540804746
+        },
+        {
+          "id": "0814",
+          "delta_db": 0.10628129238209283
+        },
+        {
+          "id": "0815",
+          "delta_db": 0.0012653295529965192
+        },
+        {
+          "id": "0816",
+          "delta_db": 0.017947670741957467
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "B_minus_A_Q40": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.006884515056363227,
+      "image_bootstrap_ci95_db": [
+        -0.03155577071064074,
+        0.04888466763364745
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.006884515056363227
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.02885632311966191
+        },
+        {
+          "id": "0802",
+          "delta_db": -0.10571094501759859
+        },
+        {
+          "id": "0803",
+          "delta_db": 0.21114072378994564
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.05005010277124455
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.072063055638246
+        },
+        {
+          "id": "0806",
+          "delta_db": 0.09158730738687382
+        },
+        {
+          "id": "0807",
+          "delta_db": -0.029470950165475074
+        },
+        {
+          "id": "0808",
+          "delta_db": -0.051087633214123684
+        },
+        {
+          "id": "0809",
+          "delta_db": -0.01811755011698324
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.047006672490574886
+        },
+        {
+          "id": "0811",
+          "delta_db": -0.11771217137514611
+        },
+        {
+          "id": "0812",
+          "delta_db": -0.05667783914469737
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.024088579834298685
+        },
+        {
+          "id": "0814",
+          "delta_db": 0.06768327959134979
+        },
+        {
+          "id": "0815",
+          "delta_db": -0.07559360436447804
+        },
+        {
+          "id": "0816",
+          "delta_db": -0.027953110321881525
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_B_Q40": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": -0.041401268524371426,
+      "image_bootstrap_ci95_db": [
+        -0.08660603172004157,
+        0.0016527008268277879
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        -0.041401268524371426
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": -0.011781773027159659
+        },
+        {
+          "id": "0802",
+          "delta_db": -0.001196671313877573
+        },
+        {
+          "id": "0803",
+          "delta_db": -0.24280874275394382
+        },
+        {
+          "id": "0804",
+          "delta_db": -0.04438213256507595
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.023577585567245762
+        },
+        {
+          "id": "0806",
+          "delta_db": -0.12755024398325077
+        },
+        {
+          "id": "0807",
+          "delta_db": 0.027352563738876512
+        },
+        {
+          "id": "0808",
+          "delta_db": -0.042044874476999894
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.14735254213888282
+        },
+        {
+          "id": "0810",
+          "delta_db": -0.03481198464893609
+        },
+        {
+          "id": "0811",
+          "delta_db": 0.015792174832256478
+        },
+        {
+          "id": "0812",
+          "delta_db": -0.04533803802086567
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.027739610178493024
+        },
+        {
+          "id": "0814",
+          "delta_db": -0.1020135924892216
+        },
+        {
+          "id": "0815",
+          "delta_db": -0.1864242704543635
+        },
+        {
+          "id": "0816",
+          "delta_db": -0.06588244911200292
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_A_Q40": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": -0.0345167534680082,
+      "image_bootstrap_ci95_db": [
+        -0.08023742789891292,
+        0.008626046148807869
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 16,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        -0.0345167534680082
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0801",
+          "delta_db": 0.01707455009250225
+        },
+        {
+          "id": "0802",
+          "delta_db": -0.10690761633147616
+        },
+        {
+          "id": "0803",
+          "delta_db": -0.03166801896399818
+        },
+        {
+          "id": "0804",
+          "delta_db": 0.005667970206168604
+        },
+        {
+          "id": "0805",
+          "delta_db": 0.09564064120549176
+        },
+        {
+          "id": "0806",
+          "delta_db": -0.03596293659637695
+        },
+        {
+          "id": "0807",
+          "delta_db": -0.002118386426598562
+        },
+        {
+          "id": "0808",
+          "delta_db": -0.09313250769112358
+        },
+        {
+          "id": "0809",
+          "delta_db": 0.1292349920218996
+        },
+        {
+          "id": "0810",
+          "delta_db": 0.012194687841638796
+        },
+        {
+          "id": "0811",
+          "delta_db": -0.10191999654288963
+        },
+        {
+          "id": "0812",
+          "delta_db": -0.10201587716556304
+        },
+        {
+          "id": "0813",
+          "delta_db": 0.05182819001279171
+        },
+        {
+          "id": "0814",
+          "delta_db": -0.034330312897871806
+        },
+        {
+          "id": "0815",
+          "delta_db": -0.26201787481884153
+        },
+        {
+          "id": "0816",
+          "delta_db": -0.09383555943388444
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    }
+  },
+  "execution": {
+    "status": "complete",
+    "budget_seconds_per_job": 600,
+    "jobs": 9,
+    "device": "cuda",
+    "evaluation_precision": "fp32",
+    "spending_usd": 0,
+    "training": false,
+    "frozen_study_sha256": "400aa655d20b23a41c065a190811e38a52762e8a9ab9e6bc4c87e94bb0d52fb8",
+    "completed": [
+      {
+        "job": "A_Q20",
+        "seconds": 92.61806432100002,
+        "report_sha256": "28dada8e46d9470408d9bc1d4f28c72657fa84d43604377bc45da2604febe31e"
+      },
+      {
+        "job": "B_Q20",
+        "seconds": 85.56279547099984,
+        "report_sha256": "aa7e4f9dc7196afe8d1ff255302e97ed040baffb9be84cc5f8225fca780663e2"
+      },
+      {
+        "job": "C_Q20",
+        "seconds": 87.35501349599986,
+        "report_sha256": "def7eb520ed261546ea1abe81c6a4ace1e342db26482f8e7b670f0f503f38ae7"
+      },
+      {
+        "job": "A_Q10",
+        "seconds": 89.60766549699997,
+        "report_sha256": "301d9de0605f84187850b20430b508bf01761530a52f5049938be4e6aeeb888b"
+      },
+      {
+        "job": "B_Q10",
+        "seconds": 87.03914613100005,
+        "report_sha256": "5be324c8cee6a129090b02b230c269303e59c52031d266b9ec9b567a81663707"
+      },
+      {
+        "job": "C_Q10",
+        "seconds": 86.63212643800011,
+        "report_sha256": "f0684f21355c0c2e2d69b8f76a19595828a9906bed8026c6c1e2be7080b84230"
+      },
+      {
+        "job": "A_Q40",
+        "seconds": 85.6492950989998,
+        "report_sha256": "d08eb12084eaef888d9cb5cb494384e3d08761006d9bd8da277a97728e97ff3b"
+      },
+      {
+        "job": "B_Q40",
+        "seconds": 86.24886026200011,
+        "report_sha256": "2754f9d8b1cc27d0231643550eacc6d56c722ae12f726d545f7a6836d52b60d7"
+      },
+      {
+        "job": "C_Q40",
+        "seconds": 86.2780602140001,
+        "report_sha256": "c170fce505bd3bdd43343e1e6b43263086c658239e44e9663b2041d8830ca9bf"
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+    "torch": "2.11.0+cu130",
+    "device": "cuda",
+    "cuda": "13.0",
+    "mps_available": false,
+    "device_name": "Tesla T4",
+    "dependencies": {
+      "torch": "2.11.0+cu130",
+      "numpy": "2.1.3",
+      "Pillow": "11.3.0",
+      "PyYAML": "6.0.3",
+      "tqdm": "4.67.3"
+    }
+  },
+  "audit_scope": "Existing exported results only; no inference, training or test reselection performed.",
+  "limitations": [
+    "One training seed and sixteen held-out source images.",
+    "Image-bootstrap intervals are conditional on the observed training seed.",
+    "Ordinary full-image evaluation, qualitative exports and inference latency remain pending.",
+    "Consistency benefit and publishable novelty are not established."
+  ]
+}

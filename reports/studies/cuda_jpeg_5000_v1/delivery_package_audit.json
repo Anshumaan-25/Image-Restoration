@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "package": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/dist/restoration_jpeg_verified_v1.zip",
+  "bytes": 24809054,
+  "sha256": "4f22cb0cc17f5c46e5ec2cf864020e382ec5551992c871a8db394549cf9190a0",
+  "source_files": 61,
+  "selected_checkpoints": [
+    "12781e660c01ef3e63e2acea4946cebb661e7c82aaa63311340e54d1374eed46",
+    "641d49702f83210d2e592bc6b867677cb015e8a14282b24434c018f726dbcedf",
+    "f0c7105bb7d490a36fbffcef29ccff36e9a396ebece5120412ec6eb04cc7fe3d"
+  ],
+  "standalone_inference_check": {
+    "command": [
+      "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+      "inference.py",
+      "--input",
+      "examples/input/0801.png",
+      "--output",
+      "outputs/package_check_A.png",
+      "--weights",
+      "checkpoints/A/best_model.pth",
+      "--device",
+      "cpu"
+    ],
+    "returncode": 0,
+    "stdout": "restored=1 device=cpu output=outputs/package_check_A.png\n",
+    "stderr": "",
+    "scope": "Real selected A checkpoint; existing CPU environment; compressed natural-image 256x256 demonstration only; no research rescoring"
+  },
+  "excluded": [
+    "dataset image payloads",
+    "submitted reports",
+    "full training run histories"
+  ],
+  "source_identity_unchanged": true
+}

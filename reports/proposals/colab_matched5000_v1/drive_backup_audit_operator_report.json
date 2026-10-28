@@ -1,0 +1,30 @@
+{
+  "date_asia_kolkata": "2026-10-22",
+  "evidence_source": "User-pasted output of standalone CPU-only Drive ZIP checksum audit",
+  "A": {
+    "saved_step": 5000,
+    "best_step": 4700,
+    "summary_completed": true,
+    "checksums": "OK",
+    "file": "step_005000_micro_00020000.zip"
+  },
+  "B": {
+    "saved_step": 5000,
+    "best_step": 4400,
+    "summary_completed": true,
+    "checksums": "OK",
+    "file": "step_005000_micro_00020000.zip"
+  },
+  "C": {
+    "saved_step": 3700,
+    "best_step": 3600,
+    "summary_completed": "not recorded",
+    "checksums": "OK",
+    "file": "step_003700_micro_00014800.zip"
+  },
+  "recovery_contract": "Resume C from latest.pth at3700, retaining best_model.pth at3600; keep original5000-update schedule. Do not restart or resume A/B.",
+  "remaining_C_updates": 1300,
+  "GPU_training_status": "paused due to Colab GPU usage limits",
+  "selected_checkpoint_inference_replay": "pending; reading logs alone does not constitute replay",
+  "scope": "CPU read-only artifact auditing; no research training or paid operation"
+}

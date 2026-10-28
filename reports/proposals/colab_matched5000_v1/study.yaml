@@ -1,0 +1,8 @@
+name: colab_matched5000_v1
+arms:
+  A: reports/proposals/colab_matched5000_v1/A.yaml
+  B: reports/proposals/colab_matched5000_v1/B.yaml
+  C: reports/proposals/colab_matched5000_v1/C.yaml
+seeds:
+- 42
+max_seconds_per_run: 9000

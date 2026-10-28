@@ -1,0 +1,27 @@
+{
+  "verified_at_utc": "2026-10-21T04:26:01.369821+00:00",
+  "archive": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/dist/colab_restoration_v1.zip",
+  "sha256": "37066216dcce9ae8f53fa449b22dcdef20a7a83e098001bb39bd62baaf87cb3f",
+  "bytes": 184557192,
+  "MiB": 176.00745391845703,
+  "extracted_cpu_smoke": {
+    "exit_code": 0,
+    "stdout": "device=cpu precision=fp32 run=/var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmp8nztabc7/smoke updates=0/2\nSMOKE PASSED: actual model backward, SR shapes, two CPU updates, validation/checkpoint; auto device=mps\n",
+    "stderr": ""
+  },
+  "file_count": 119,
+  "all_inventory_hashes_passed": true,
+  "zip_crc_passed": true,
+  "core_source_hashes_identical": true,
+  "png_count": 40,
+  "split_counts": {
+    "train": 32,
+    "val": 8
+  },
+  "protected_test_included": false,
+  "weights_included": false,
+  "actual_cuda_executed": false,
+  "notebook_bundle_pin_passed": true,
+  "notebook_sha256": "f307cc937be6c030ecfac47523f65498b5748eadba21705bd47c4ac2a3302329",
+  "status": "passed"
+}

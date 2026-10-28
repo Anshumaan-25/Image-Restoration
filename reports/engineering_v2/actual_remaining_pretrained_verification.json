@@ -1,0 +1,32 @@
+[
+  {
+    "id": "restormer_sidd",
+    "status": "passed",
+    "scope": "Actual official checkpoint FP32 tensor forward parity, no quality scoring",
+    "parameters": 26111668,
+    "sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+    "cpu_upstream_max_abs_delta": 0.0,
+    "cpu_mps_max_abs_delta": 8.940696716308594e-07,
+    "seconds": 0.7655014999909326
+  },
+  {
+    "id": "swinir_x2",
+    "status": "passed",
+    "scope": "Actual official checkpoint FP32 tensor forward parity, no quality scoring",
+    "parameters": 910152,
+    "sha256": "193b229909ca89cd8b55de9c9e7fce146ae759d59dfcd78d8feb9dd1d6fa0fd7",
+    "cpu_upstream_max_abs_delta": 0.0,
+    "cpu_mps_max_abs_delta": 1.1920928955078125e-06,
+    "seconds": 0.6748563339933753
+  },
+  {
+    "id": "swinir_x4",
+    "status": "passed",
+    "scope": "Actual official checkpoint FP32 tensor forward parity, no quality scoring",
+    "parameters": 929628,
+    "sha256": "09fad24e32ae62722e1a055efde9921328f4137981bab0a42a4a3a806306c58e",
+    "cpu_upstream_max_abs_delta": 0.0,
+    "cpu_mps_max_abs_delta": 1.430511474609375e-06,
+    "seconds": 0.27544079200015403
+  }
+]

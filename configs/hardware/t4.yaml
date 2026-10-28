@@ -1,0 +1,6 @@
+# Reference settings to copy into a task config; automatic merge is not implemented.
+training:
+  device: cuda
+  precision: fp16
+  batch_size: 8
+  accumulation_steps: 2

@@ -1,0 +1,2044 @@
+{
+  "count": 8,
+  "psnr": 29.318132363216677,
+  "ssim": 0.8400511837960724,
+  "worst_phase_psnr": 29.241428336639373,
+  "input_worst_phase_psnr": 29.230957739638725,
+  "input_mean_psnr": 29.30812136708704,
+  "input_mean_ssim": 0.8398842351656197,
+  "phase_spread_psnr": 0.15063659064788704,
+  "phase_count": 16,
+  "phase_panel": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "quality": 20,
+  "patch_size": 128,
+  "endpoint": "mean_per_image_worst_phase_psnr",
+  "images": [
+    {
+      "id": "0721",
+      "count": 16,
+      "psnr": 29.306432881066684,
+      "ssim": 0.9090105164403836,
+      "worst_phase_psnr": 29.209444046401106,
+      "input_worst_phase_psnr": 29.235322267882072,
+      "input_mean_psnr": 29.328580719712303,
+      "input_mean_ssim": 0.9112319037790979,
+      "phase_spread_psnr": 0.1993948129799783,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 29.26336425308645,
+          "ssim": 0.9110664357786094,
+          "input_psnr": 29.288133094683225,
+          "input_ssim": 0.9130193624275702,
+          "edge_error": 0.02348349293390315,
+          "boundary_edge_error": 0.03229082081629207,
+          "interior_edge_error": 0.022303940092511777,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 29.316628196894072,
+          "ssim": 0.9083376475883566,
+          "input_psnr": 29.334731136468896,
+          "input_ssim": 0.9104985761408388,
+          "edge_error": 0.02355169734655551,
+          "boundary_edge_error": 0.033515525170279885,
+          "interior_edge_error": 0.022166591236531048,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 29.27843653942962,
+          "ssim": 0.9088726320454396,
+          "input_psnr": 29.302093072742803,
+          "input_ssim": 0.9112260431033283,
+          "edge_error": 0.023636120062690974,
+          "boundary_edge_error": 0.03340001227837591,
+          "interior_edge_error": 0.022278807691900687,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 29.252334027100236,
+          "ssim": 0.9097577589564266,
+          "input_psnr": 29.2797122906363,
+          "input_ssim": 0.9123359210190961,
+          "edge_error": 0.02364336667736114,
+          "boundary_edge_error": 0.033306879206505866,
+          "interior_edge_error": 0.022300008433399316,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 29.253961536031895,
+          "ssim": 0.9095429595692064,
+          "input_psnr": 29.27748765857927,
+          "input_ssim": 0.9120589625624683,
+          "edge_error": 0.023792809196798735,
+          "boundary_edge_error": 0.03353787710845305,
+          "interior_edge_error": 0.022438113657510465,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 29.340843819189605,
+          "ssim": 0.9103533876843819,
+          "input_psnr": 29.369727804088296,
+          "input_ssim": 0.9127121718625969,
+          "edge_error": 0.02351431786232907,
+          "boundary_edge_error": 0.03222851079322216,
+          "interior_edge_error": 0.022258217980398533,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 29.345423875644634,
+          "ssim": 0.91077261782705,
+          "input_psnr": 29.364928327070853,
+          "input_ssim": 0.9130179236749227,
+          "edge_error": 0.023454441814949684,
+          "boundary_edge_error": 0.03219763534062281,
+          "interior_edge_error": 0.02219416166710491,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 29.209444046401106,
+          "ssim": 0.9073990937314209,
+          "input_psnr": 29.235322267882072,
+          "input_ssim": 0.9097119908392921,
+          "edge_error": 0.02391969234718078,
+          "boundary_edge_error": 0.0333087402666384,
+          "interior_edge_error": 0.022566316070502204,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 29.34612683334056,
+          "ssim": 0.9082490724098612,
+          "input_psnr": 29.36650760202905,
+          "input_ssim": 0.9101821650851537,
+          "edge_error": 0.02369817014203702,
+          "boundary_edge_error": 0.032577032249768094,
+          "interior_edge_error": 0.02246388886248696,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 29.408838859381085,
+          "ssim": 0.9083273262485415,
+          "input_psnr": 29.42539810591494,
+          "input_ssim": 0.9105241872902983,
+          "edge_error": 0.02352757529415779,
+          "boundary_edge_error": 0.0327968520987838,
+          "interior_edge_error": 0.02219146332231981,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 29.348801902061787,
+          "ssim": 0.9110250780477123,
+          "input_psnr": 29.36707135530247,
+          "input_ssim": 0.9130778127779626,
+          "edge_error": 0.023384840841815926,
+          "boundary_edge_error": 0.03207592415845776,
+          "interior_edge_error": 0.02213207207545314,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 29.30937890361855,
+          "ssim": 0.907502935087046,
+          "input_psnr": 29.330047023633,
+          "input_ssim": 0.9094174117067968,
+          "edge_error": 0.023748098337102966,
+          "boundary_edge_error": 0.03337133340795617,
+          "interior_edge_error": 0.022360965353916917,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 29.315469579843693,
+          "ssim": 0.9096628316235095,
+          "input_psnr": 29.34123085102089,
+          "input_ssim": 0.9120832500427256,
+          "edge_error": 0.023620535661505855,
+          "boundary_edge_error": 0.03190417585258445,
+          "interior_edge_error": 0.02246899823584022,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 29.298779289097425,
+          "ssim": 0.9084550099242478,
+          "input_psnr": 29.31976667818235,
+          "input_ssim": 0.9108564814167466,
+          "edge_error": 0.023713618949898766,
+          "boundary_edge_error": 0.03283305933012078,
+          "interior_edge_error": 0.022399105021218117,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 29.303546950217985,
+          "ssim": 0.9088847066804897,
+          "input_psnr": 29.321677151598294,
+          "input_ssim": 0.9108407707569751,
+          "edge_error": 0.02356788602072312,
+          "boundary_edge_error": 0.032602665024105214,
+          "interior_edge_error": 0.022265575533749127,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 29.31154748572822,
+          "ssim": 0.9059587698438375,
+          "input_psnr": 29.333457095564096,
+          "input_ssim": 0.9081474297587941,
+          "edge_error": 0.0237706229817427,
+          "boundary_edge_error": 0.033666872276597815,
+          "interior_edge_error": 0.022344136596898722,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0722",
+      "count": 16,
+      "psnr": 22.013987420400454,
+      "ssim": 0.7646800314627163,
+      "worst_phase_psnr": 21.91770989985228,
+      "input_worst_phase_psnr": 21.915828133100717,
+      "input_mean_psnr": 22.012733051527736,
+      "input_mean_ssim": 0.7647778123352502,
+      "phase_spread_psnr": 0.1506914675048101,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 21.980948863326205,
+          "ssim": 0.7626503716971614,
+          "input_psnr": 21.978435300372574,
+          "input_ssim": 0.7626983796918848,
+          "edge_error": 0.08754025533244561,
+          "boundary_edge_error": 0.07723408694000682,
+          "interior_edge_error": 0.08892054574214724,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 22.00607917108156,
+          "ssim": 0.7660121428236966,
+          "input_psnr": 22.00412245253032,
+          "input_ssim": 0.7661029643735084,
+          "edge_error": 0.08767943567580297,
+          "boundary_edge_error": 0.07947541321656351,
+          "interior_edge_error": 0.08881990516565239,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 22.009647780980146,
+          "ssim": 0.7643853840572415,
+          "input_psnr": 22.008575267304696,
+          "input_ssim": 0.7645114435198428,
+          "edge_error": 0.08696179161387138,
+          "boundary_edge_error": 0.07785710763414744,
+          "interior_edge_error": 0.08822746517159086,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 22.047453692381453,
+          "ssim": 0.76653873661876,
+          "input_psnr": 22.04515047275325,
+          "input_ssim": 0.766627412817566,
+          "edge_error": 0.08676093264773649,
+          "boundary_edge_error": 0.07574451744149364,
+          "interior_edge_error": 0.08829236256429938,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 22.044586967831098,
+          "ssim": 0.7656261369052039,
+          "input_psnr": 22.04352915103666,
+          "input_ssim": 0.7657131758323786,
+          "edge_error": 0.08700667973699205,
+          "boundary_edge_error": 0.0766423858163097,
+          "interior_edge_error": 0.08844745602192997,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 22.032532524464035,
+          "ssim": 0.7631259847997794,
+          "input_psnr": 22.032255379503994,
+          "input_ssim": 0.7632615600819895,
+          "edge_error": 0.08716669629875876,
+          "boundary_edge_error": 0.07762221163779752,
+          "interior_edge_error": 0.08854247787150991,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 21.91770989985228,
+          "ssim": 0.7576850717370629,
+          "input_psnr": 21.915828133100717,
+          "input_ssim": 0.7577883565981669,
+          "edge_error": 0.08776476223052368,
+          "boundary_edge_error": 0.07815011958590883,
+          "interior_edge_error": 0.08915065666578348,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 22.013484277157932,
+          "ssim": 0.7663352403567198,
+          "input_psnr": 22.012290723934633,
+          "input_ssim": 0.7664339501094601,
+          "edge_error": 0.08712773292541166,
+          "boundary_edge_error": 0.07799030667572993,
+          "interior_edge_error": 0.08844483941185227,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 22.020931137067148,
+          "ssim": 0.7649209914500856,
+          "input_psnr": 22.019515714079017,
+          "input_ssim": 0.7649936978914305,
+          "edge_error": 0.08703920625287817,
+          "boundary_edge_error": 0.07721104222998282,
+          "interior_edge_error": 0.08840545326951384,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 22.01339390402486,
+          "ssim": 0.7637233570391403,
+          "input_psnr": 22.01341260838955,
+          "input_ssim": 0.7638297521948476,
+          "edge_error": 0.08712290487333874,
+          "boundary_edge_error": 0.07709441097409808,
+          "interior_edge_error": 0.08856845354349954,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 22.016997793539915,
+          "ssim": 0.7632720100908968,
+          "input_psnr": 22.015749109459687,
+          "input_ssim": 0.7633405760303582,
+          "edge_error": 0.08710972131762934,
+          "boundary_edge_error": 0.07876236098788543,
+          "interior_edge_error": 0.08831294442822306,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 22.06840136735709,
+          "ssim": 0.7677546733358739,
+          "input_psnr": 22.067154651558347,
+          "input_ssim": 0.7678443509758794,
+          "edge_error": 0.08703443478931493,
+          "boundary_edge_error": 0.07838567480078495,
+          "interior_edge_error": 0.0882811028957697,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 22.017971941966216,
+          "ssim": 0.7645252138389227,
+          "input_psnr": 22.01669137080202,
+          "input_ssim": 0.7646621418967392,
+          "edge_error": 0.08734407631278836,
+          "boundary_edge_error": 0.07769759850083163,
+          "interior_edge_error": 0.08868506650189445,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 21.965697387793455,
+          "ssim": 0.7619828438426324,
+          "input_psnr": 21.965451905285516,
+          "input_ssim": 0.7621102504383789,
+          "edge_error": 0.08760102939247484,
+          "boundary_edge_error": 0.0784181536705925,
+          "interior_edge_error": 0.08892468715418761,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 22.039462691970844,
+          "ssim": 0.7672554073146368,
+          "input_psnr": 22.038531483409027,
+          "input_ssim": 0.7673422647440877,
+          "edge_error": 0.086901097461204,
+          "boundary_edge_error": 0.07912325719604496,
+          "interior_edge_error": 0.08802222758951522,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 22.028499325613,
+          "ssim": 0.7690869374956472,
+          "input_psnr": 22.027035100923737,
+          "input_ssim": 0.7691847201674854,
+          "edge_error": 0.08669484200278722,
+          "boundary_edge_error": 0.07641211210265435,
+          "interior_edge_error": 0.08817703730370728,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0723",
+      "count": 16,
+      "psnr": 28.863320170815403,
+      "ssim": 0.8224120220131199,
+      "worst_phase_psnr": 28.820232792860768,
+      "input_worst_phase_psnr": 28.82487065837644,
+      "input_mean_psnr": 28.861267498591232,
+      "input_mean_ssim": 0.8225937695173192,
+      "phase_spread_psnr": 0.11563321998823284,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 28.87736842590236,
+          "ssim": 0.8229426259871798,
+          "input_psnr": 28.87701603977372,
+          "input_ssim": 0.8232294592115649,
+          "edge_error": 0.028422738116133824,
+          "boundary_edge_error": 0.03324197304371208,
+          "interior_edge_error": 0.027777304866904592,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 28.885612996589025,
+          "ssim": 0.8255644153839109,
+          "input_psnr": 28.890448897061013,
+          "input_ssim": 0.8258737892208549,
+          "edge_error": 0.028342559399280567,
+          "boundary_edge_error": 0.0333254290962941,
+          "interior_edge_error": 0.0276498734772742,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 28.83397680885626,
+          "ssim": 0.8189527881202052,
+          "input_psnr": 28.82487065837644,
+          "input_ssim": 0.81901606019299,
+          "edge_error": 0.028600459122808244,
+          "boundary_edge_error": 0.033149122551392754,
+          "interior_edge_error": 0.02796813371345345,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 28.840227225732747,
+          "ssim": 0.819472716359734,
+          "input_psnr": 28.83366240662252,
+          "input_ssim": 0.8196374533740806,
+          "edge_error": 0.02851300252885343,
+          "boundary_edge_error": 0.033205499108002946,
+          "interior_edge_error": 0.02786068237659498,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 28.860479615981234,
+          "ssim": 0.8220823036288201,
+          "input_psnr": 28.856682720795632,
+          "input_ssim": 0.8222309321533449,
+          "edge_error": 0.028649856504726234,
+          "boundary_edge_error": 0.03337762614487425,
+          "interior_edge_error": 0.02799263292246351,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 28.84160035595532,
+          "ssim": 0.8216814747091273,
+          "input_psnr": 28.83978105345011,
+          "input_ssim": 0.8220334705729228,
+          "edge_error": 0.028600487567935373,
+          "boundary_edge_error": 0.033790926756561625,
+          "interior_edge_error": 0.027852316153358616,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 28.906362278218175,
+          "ssim": 0.8216702887458633,
+          "input_psnr": 28.902378131878823,
+          "input_ssim": 0.8217287369998267,
+          "edge_error": 0.0284523861116268,
+          "boundary_edge_error": 0.03338896391672582,
+          "interior_edge_error": 0.027740807328909822,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 28.935866012849,
+          "ssim": 0.8223417111731303,
+          "input_psnr": 28.9321907007832,
+          "input_ssim": 0.8224124910651308,
+          "edge_error": 0.02845001652789974,
+          "boundary_edge_error": 0.03317792894366297,
+          "interior_edge_error": 0.027768515639141074,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 28.881426641178276,
+          "ssim": 0.8228398997476316,
+          "input_psnr": 28.885756381924118,
+          "input_ssim": 0.8230612706065197,
+          "edge_error": 0.02837587050918306,
+          "boundary_edge_error": 0.03284492991302633,
+          "interior_edge_error": 0.027754611130173457,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 28.820232792860768,
+          "ssim": 0.8237249185827954,
+          "input_psnr": 28.82507385411199,
+          "input_ssim": 0.8240271143165515,
+          "edge_error": 0.028646659736732832,
+          "boundary_edge_error": 0.03415542714219555,
+          "interior_edge_error": 0.027852603173783252,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 28.834405450257638,
+          "ssim": 0.8215513452128741,
+          "input_psnr": 28.826057843415775,
+          "input_ssim": 0.8215356903884106,
+          "edge_error": 0.028621315917754624,
+          "boundary_edge_error": 0.033576326769813626,
+          "interior_edge_error": 0.027907080119259627,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 28.896431070773932,
+          "ssim": 0.8262354994545223,
+          "input_psnr": 28.8959283349512,
+          "input_ssim": 0.8263834727764967,
+          "edge_error": 0.02851233793945704,
+          "boundary_edge_error": 0.03276469874428282,
+          "interior_edge_error": 0.027899385030653322,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 28.832297702661993,
+          "ssim": 0.8229391332726304,
+          "input_psnr": 28.83538092330877,
+          "input_ssim": 0.8231819359657989,
+          "edge_error": 0.02856784948484265,
+          "boundary_edge_error": 0.033736596686198494,
+          "interior_edge_error": 0.027849324089138476,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 28.8799474616864,
+          "ssim": 0.8230060381455409,
+          "input_psnr": 28.878621630394974,
+          "input_ssim": 0.8232714044938036,
+          "edge_error": 0.028560000284729957,
+          "boundary_edge_error": 0.0341470318659276,
+          "interior_edge_error": 0.027754662399151916,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 28.835930914027546,
+          "ssim": 0.8211236449477266,
+          "input_psnr": 28.833039183147278,
+          "input_ssim": 0.8212462095224294,
+          "edge_error": 0.02859492005945223,
+          "boundary_edge_error": 0.0334108947513414,
+          "interior_edge_error": 0.027900725509270006,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 28.85095697951578,
+          "ssim": 0.822463548738226,
+          "input_psnr": 28.843391217464173,
+          "input_ssim": 0.8226308214163818,
+          "edge_error": 0.02855175198664998,
+          "boundary_edge_error": 0.03334249322271413,
+          "interior_edge_error": 0.027861194691361453,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0724",
+      "count": 16,
+      "psnr": 30.526816637650214,
+      "ssim": 0.8408746211114212,
+      "worst_phase_psnr": 30.46663086037029,
+      "input_worst_phase_psnr": 30.429783779373754,
+      "input_mean_psnr": 30.50027214537967,
+      "input_mean_ssim": 0.8404446334791528,
+      "phase_spread_psnr": 0.1382160934059513,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 30.50232031727919,
+          "ssim": 0.8396559311557505,
+          "input_psnr": 30.470180189812254,
+          "input_ssim": 0.8390861891684219,
+          "edge_error": 0.02383276856499091,
+          "boundary_edge_error": 0.031754850173153194,
+          "interior_edge_error": 0.022771775492469174,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 30.50089013753274,
+          "ssim": 0.8406311018363721,
+          "input_psnr": 30.470728361220445,
+          "input_ssim": 0.8401435848873514,
+          "edge_error": 0.023776329866609137,
+          "boundary_edge_error": 0.031496849072457846,
+          "interior_edge_error": 0.022703073833509096,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 30.58879298354769,
+          "ssim": 0.8403262959102904,
+          "input_psnr": 30.55358571281983,
+          "input_ssim": 0.8396909671641754,
+          "edge_error": 0.02351504035712977,
+          "boundary_edge_error": 0.03059879913989887,
+          "interior_edge_error": 0.022530302589121514,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 30.508317275954887,
+          "ssim": 0.8397557581899902,
+          "input_psnr": 30.47847678833284,
+          "input_ssim": 0.8391619097859557,
+          "edge_error": 0.02378736733093143,
+          "boundary_edge_error": 0.03197721544968586,
+          "interior_edge_error": 0.022648868265095608,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 30.46663086037029,
+          "ssim": 0.8404799500730402,
+          "input_psnr": 30.429783779373754,
+          "input_ssim": 0.8398148764688879,
+          "edge_error": 0.023856380473098588,
+          "boundary_edge_error": 0.03258887028900923,
+          "interior_edge_error": 0.02264244691124554,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 30.500238428928014,
+          "ssim": 0.8409884559639564,
+          "input_psnr": 30.46771124812689,
+          "input_ssim": 0.840498988149766,
+          "edge_error": 0.02371538812535845,
+          "boundary_edge_error": 0.031910222756882455,
+          "interior_edge_error": 0.022534150700994633,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 30.57876507374384,
+          "ssim": 0.8399953777995962,
+          "input_psnr": 30.5584969866645,
+          "input_ssim": 0.839428359556336,
+          "edge_error": 0.023642887499767517,
+          "boundary_edge_error": 0.03179513267555952,
+          "interior_edge_error": 0.02246778909604975,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 30.546876289846608,
+          "ssim": 0.8410522988523835,
+          "input_psnr": 30.519657029003156,
+          "input_ssim": 0.840536325601533,
+          "edge_error": 0.02364314490811379,
+          "boundary_edge_error": 0.03207475536599228,
+          "interior_edge_error": 0.022427777634906082,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 30.497105757337785,
+          "ssim": 0.83982071686526,
+          "input_psnr": 30.476852301679138,
+          "input_ssim": 0.8393751833550777,
+          "edge_error": 0.023738786521856573,
+          "boundary_edge_error": 0.03154279714111595,
+          "interior_edge_error": 0.022653924059089576,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 30.49472213739366,
+          "ssim": 0.8409865018500979,
+          "input_psnr": 30.469332333086445,
+          "input_ssim": 0.8407951199460478,
+          "edge_error": 0.023778885466908786,
+          "boundary_edge_error": 0.03157889526511326,
+          "interior_edge_error": 0.022654559730230662,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 30.575316239087375,
+          "ssim": 0.8448835788349889,
+          "input_psnr": 30.55384350599375,
+          "input_ssim": 0.8445503252931977,
+          "edge_error": 0.023518926163947632,
+          "boundary_edge_error": 0.031146799859849732,
+          "interior_edge_error": 0.022419412838412194,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 30.536076584706507,
+          "ssim": 0.8423481205462118,
+          "input_psnr": 30.524870471708173,
+          "input_ssim": 0.842235340606078,
+          "edge_error": 0.02360651132571106,
+          "boundary_edge_error": 0.03134176082983231,
+          "interior_edge_error": 0.022491520406198083,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 30.467866445229156,
+          "ssim": 0.8385393413350578,
+          "input_psnr": 30.451764318673824,
+          "input_ssim": 0.838463566052808,
+          "edge_error": 0.023921189154928916,
+          "boundary_edge_error": 0.032774564305200524,
+          "interior_edge_error": 0.02269045090533959,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 30.539302087136857,
+          "ssim": 0.8432684554691093,
+          "input_psnr": 30.509736346210193,
+          "input_ssim": 0.8428051375671273,
+          "edge_error": 0.023758639146731986,
+          "boundary_edge_error": 0.03165996063623311,
+          "interior_edge_error": 0.02261970992302011,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 30.520998630532567,
+          "ssim": 0.8396253964162265,
+          "input_psnr": 30.488458545785164,
+          "input_ssim": 0.8392792168732601,
+          "edge_error": 0.023750867914367903,
+          "boundary_edge_error": 0.03203127740644618,
+          "interior_edge_error": 0.02255729537496923,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 30.604846953776242,
+          "ssim": 0.8416366566844067,
+          "input_psnr": 30.580876407584444,
+          "input_ssim": 0.8412490451904212,
+          "edge_error": 0.023685737377066113,
+          "boundary_edge_error": 0.03160380861166345,
+          "interior_edge_error": 0.022544393775682715,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0725",
+      "count": 16,
+      "psnr": 26.27977692263064,
+      "ssim": 0.7936295330358736,
+      "worst_phase_psnr": 26.143217608441947,
+      "input_worst_phase_psnr": 26.139944491375623,
+      "input_mean_psnr": 26.279248440820105,
+      "input_mean_ssim": 0.7937912568055169,
+      "phase_spread_psnr": 0.23235645209839717,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 26.253037599045484,
+          "ssim": 0.7877786788445245,
+          "input_psnr": 26.25164680909934,
+          "input_ssim": 0.7879355284387376,
+          "edge_error": 0.03801044505571387,
+          "boundary_edge_error": 0.04582955677610193,
+          "interior_edge_error": 0.036963242593161895,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 26.273872491693368,
+          "ssim": 0.7879346671473546,
+          "input_psnr": 26.27041983124364,
+          "input_ssim": 0.78806905585869,
+          "edge_error": 0.03790389837532886,
+          "boundary_edge_error": 0.04566345422640014,
+          "interior_edge_error": 0.036825215723386207,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 26.289754313842305,
+          "ssim": 0.7928353777161921,
+          "input_psnr": 26.289172046406698,
+          "input_ssim": 0.7930500697817856,
+          "edge_error": 0.037903903757152746,
+          "boundary_edge_error": 0.04616112265713098,
+          "interior_edge_error": 0.036756039246393445,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 26.270602899421913,
+          "ssim": 0.7936392588982558,
+          "input_psnr": 26.26945621663546,
+          "input_ssim": 0.7938795806498241,
+          "edge_error": 0.0375786847864525,
+          "boundary_edge_error": 0.0447984208156765,
+          "interior_edge_error": 0.0365750443518967,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 26.292455923216625,
+          "ssim": 0.7954789994271684,
+          "input_psnr": 26.291524809050966,
+          "input_ssim": 0.7956381711552237,
+          "edge_error": 0.03775913600925748,
+          "boundary_edge_error": 0.04556111106490613,
+          "interior_edge_error": 0.036674556517216635,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 26.312466697682236,
+          "ssim": 0.7951137949505435,
+          "input_psnr": 26.31587322179289,
+          "input_ssim": 0.7953461465123514,
+          "edge_error": 0.03777155046635069,
+          "boundary_edge_error": 0.04585442002959894,
+          "interior_edge_error": 0.03660645215092752,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 26.368309565308493,
+          "ssim": 0.7991027968216121,
+          "input_psnr": 26.36781220860689,
+          "input_ssim": 0.7993073055317826,
+          "edge_error": 0.03752085113240467,
+          "boundary_edge_error": 0.045786637068744085,
+          "interior_edge_error": 0.036329386492932325,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 26.375574060540345,
+          "ssim": 0.7991895896370989,
+          "input_psnr": 26.37793900713777,
+          "input_ssim": 0.7993599936736624,
+          "edge_error": 0.037447081740437864,
+          "boundary_edge_error": 0.044850170363095763,
+          "interior_edge_error": 0.03637996986690159,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 26.27446576278395,
+          "ssim": 0.7920850511481322,
+          "input_psnr": 26.27564582232019,
+          "input_ssim": 0.7921730523492968,
+          "edge_error": 0.037888804752242024,
+          "boundary_edge_error": 0.04514057124938566,
+          "interior_edge_error": 0.03688071165174223,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 26.277785424334738,
+          "ssim": 0.7918287703183626,
+          "input_psnr": 26.277390399997046,
+          "input_ssim": 0.7919687774207967,
+          "edge_error": 0.03792825069476367,
+          "boundary_edge_error": 0.045631677531758896,
+          "interior_edge_error": 0.036817846826367955,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 26.228875734042365,
+          "ssim": 0.7915959536771915,
+          "input_psnr": 26.225206493019503,
+          "input_ssim": 0.7916275983850333,
+          "edge_error": 0.03804995291549257,
+          "boundary_edge_error": 0.04540896419301058,
+          "interior_edge_error": 0.036989194533147626,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 26.340525836596996,
+          "ssim": 0.7949352643972065,
+          "input_psnr": 26.34293163883187,
+          "input_ssim": 0.7950215881355295,
+          "edge_error": 0.03766497984719024,
+          "boundary_edge_error": 0.04497978811692368,
+          "interior_edge_error": 0.03661059306957101,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 26.169644929866756,
+          "ssim": 0.7892251113708676,
+          "input_psnr": 26.169818123126728,
+          "input_ssim": 0.7894276813368108,
+          "edge_error": 0.03792132325370857,
+          "boundary_edge_error": 0.045503948911465815,
+          "interior_edge_error": 0.03686723627886339,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 26.143217608441947,
+          "ssim": 0.7934914814565129,
+          "input_psnr": 26.139944491375623,
+          "input_ssim": 0.7936265967795867,
+          "edge_error": 0.03823895331098067,
+          "boundary_edge_error": 0.04551565691727433,
+          "interior_edge_error": 0.03719005909746086,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 26.293952359451534,
+          "ssim": 0.7975587132156162,
+          "input_psnr": 26.29360391035187,
+          "input_ssim": 0.7978350403936438,
+          "edge_error": 0.037295649423088474,
+          "boundary_edge_error": 0.044734443315301554,
+          "interior_edge_error": 0.036223390844030735,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 26.311889555821182,
+          "ssim": 0.7962790195473372,
+          "input_psnr": 26.309590024125185,
+          "input_ssim": 0.7963939224855147,
+          "edge_error": 0.03746710877469128,
+          "boundary_edge_error": 0.04527923430799774,
+          "interior_edge_error": 0.036341036625746205,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0726",
+      "count": 16,
+      "psnr": 29.620949641042735,
+      "ssim": 0.7943227519687653,
+      "worst_phase_psnr": 29.560860341454386,
+      "input_worst_phase_psnr": 29.57201789967186,
+      "input_mean_psnr": 29.629323904989096,
+      "input_mean_ssim": 0.7948845574027102,
+      "phase_spread_psnr": 0.11424771480533735,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 29.614018643815385,
+          "ssim": 0.7929232176410453,
+          "input_psnr": 29.61535357697889,
+          "input_ssim": 0.7934176433657236,
+          "edge_error": 0.02895074050845832,
+          "boundary_edge_error": 0.035891056082649204,
+          "interior_edge_error": 0.02802123395834347,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 29.659366600933204,
+          "ssim": 0.7944721242209203,
+          "input_psnr": 29.663803081506693,
+          "input_ssim": 0.7949970594577802,
+          "edge_error": 0.028716236637888377,
+          "boundary_edge_error": 0.03585675848940047,
+          "interior_edge_error": 0.027723608039696115,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 29.590449651450932,
+          "ssim": 0.7931297820639887,
+          "input_psnr": 29.59714126348862,
+          "input_ssim": 0.7936080886694903,
+          "edge_error": 0.02893257550959762,
+          "boundary_edge_error": 0.03608043103489059,
+          "interior_edge_error": 0.027938927432090525,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 29.675108056259724,
+          "ssim": 0.7979822934818658,
+          "input_psnr": 29.680663712187794,
+          "input_ssim": 0.7985914795791923,
+          "edge_error": 0.02877170579657419,
+          "boundary_edge_error": 0.03580993919006697,
+          "interior_edge_error": 0.027793296670124524,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 29.659592150440744,
+          "ssim": 0.7946179728144136,
+          "input_psnr": 29.66705267586628,
+          "input_ssim": 0.7952552741979602,
+          "edge_error": 0.02885233624188732,
+          "boundary_edge_error": 0.03540006960945668,
+          "interior_edge_error": 0.027942113217696064,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 29.661046487513786,
+          "ssim": 0.7964210312583051,
+          "input_psnr": 29.671414467004375,
+          "input_ssim": 0.7969635234458756,
+          "edge_error": 0.028815202524367547,
+          "boundary_edge_error": 0.035170316627699094,
+          "interior_edge_error": 0.027899150041004444,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 29.560860341454386,
+          "ssim": 0.7908279617384423,
+          "input_psnr": 29.57201789967186,
+          "input_ssim": 0.7914161901123801,
+          "edge_error": 0.029097857348210174,
+          "boundary_edge_error": 0.03560002580723184,
+          "interior_edge_error": 0.028160607840603445,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 29.60550685360395,
+          "ssim": 0.7942736403271078,
+          "input_psnr": 29.616553873696954,
+          "input_ssim": 0.794886572124701,
+          "edge_error": 0.028826554240308163,
+          "boundary_edge_error": 0.03524267252133958,
+          "interior_edge_error": 0.02790170836196129,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 29.62224389657354,
+          "ssim": 0.7946139686538797,
+          "input_psnr": 29.63711593413513,
+          "input_ssim": 0.7951634006728366,
+          "edge_error": 0.029098167417421626,
+          "boundary_edge_error": 0.03616608731098622,
+          "interior_edge_error": 0.028115631468092022,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 29.671447696091484,
+          "ssim": 0.7963252442318107,
+          "input_psnr": 29.682887540825604,
+          "input_ssim": 0.7969243204298717,
+          "edge_error": 0.028611329744370088,
+          "boundary_edge_error": 0.03516337404511205,
+          "interior_edge_error": 0.027666890926245122,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 29.663659763091722,
+          "ssim": 0.7968282750260355,
+          "input_psnr": 29.671277142509656,
+          "input_ssim": 0.7973231707569003,
+          "edge_error": 0.028951220953265713,
+          "boundary_edge_error": 0.03616936983148852,
+          "interior_edge_error": 0.027910767060909274,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 29.61070834147584,
+          "ssim": 0.7938469822649677,
+          "input_psnr": 29.62053148386033,
+          "input_ssim": 0.7944177165804557,
+          "edge_error": 0.02885977780771002,
+          "boundary_edge_error": 0.0353786713325519,
+          "interior_edge_error": 0.02792011747980488,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 29.5707341315308,
+          "ssim": 0.7934493077775165,
+          "input_psnr": 29.57499867081321,
+          "input_ssim": 0.7940275113156339,
+          "edge_error": 0.02916375309152662,
+          "boundary_edge_error": 0.03606570160236417,
+          "interior_edge_error": 0.02820428939719494,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 29.60186399684934,
+          "ssim": 0.7925103241941766,
+          "input_psnr": 29.615048897328986,
+          "input_ssim": 0.7931210253860795,
+          "edge_error": 0.028847044301364994,
+          "boundary_edge_error": 0.035097699050254505,
+          "interior_edge_error": 0.027946049022245786,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 29.574037605603124,
+          "ssim": 0.7932521711429104,
+          "input_psnr": 29.57730094117759,
+          "input_ssim": 0.7937291034151904,
+          "edge_error": 0.02907524975671788,
+          "boundary_edge_error": 0.03613328662461868,
+          "interior_edge_error": 0.028057875073056505,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 29.59455003999581,
+          "ssim": 0.7936897346628593,
+          "input_psnr": 29.60602131877357,
+          "input_ssim": 0.7943108389332931,
+          "edge_error": 0.028898381206644376,
+          "boundary_edge_error": 0.036173219260566235,
+          "interior_edge_error": 0.02784975590157456,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0727",
+      "count": 16,
+      "psnr": 34.48330224745855,
+      "ssim": 0.8801142457164357,
+      "worst_phase_psnr": 34.438354342506464,
+      "input_worst_phase_psnr": 34.311425658042346,
+      "input_mean_psnr": 34.35686139400294,
+      "input_mean_ssim": 0.8764067468843046,
+      "phase_spread_psnr": 0.12098409223489881,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 34.43930227926006,
+          "ssim": 0.8799659903220631,
+          "input_psnr": 34.311425658042346,
+          "input_ssim": 0.87592553728278,
+          "edge_error": 0.010065620150367056,
+          "boundary_edge_error": 0.016444864577675213,
+          "interior_edge_error": 0.009211257057423998,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 34.491222965262736,
+          "ssim": 0.8790907884345217,
+          "input_psnr": 34.35345362810706,
+          "input_ssim": 0.8750328359750417,
+          "edge_error": 0.010107456773991289,
+          "boundary_edge_error": 0.016963958681283472,
+          "interior_edge_error": 0.009154310768941703,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 34.4860363109278,
+          "ssim": 0.8805776656373331,
+          "input_psnr": 34.356394492608224,
+          "input_ssim": 0.876973815755933,
+          "edge_error": 0.01016616151448363,
+          "boundary_edge_error": 0.01737098187931547,
+          "interior_edge_error": 0.009164594557937502,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 34.494462531895365,
+          "ssim": 0.8806128318588248,
+          "input_psnr": 34.373010352476435,
+          "input_ssim": 0.8770066387768202,
+          "edge_error": 0.0101040060846161,
+          "boundary_edge_error": 0.016820238052973127,
+          "interior_edge_error": 0.009170359488118037,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 34.48647624410232,
+          "ssim": 0.8803891754469625,
+          "input_psnr": 34.346261708501025,
+          "input_ssim": 0.8765230258018123,
+          "edge_error": 0.01004725762393198,
+          "boundary_edge_error": 0.016261598383754326,
+          "interior_edge_error": 0.009183380657319907,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 34.46503137931452,
+          "ssim": 0.881317805494614,
+          "input_psnr": 34.33783081730497,
+          "input_ssim": 0.8774603497674557,
+          "edge_error": 0.010097845900315532,
+          "boundary_edge_error": 0.01693453025071297,
+          "interior_edge_error": 0.009112377885843828,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 34.44765155081423,
+          "ssim": 0.8801922122595797,
+          "input_psnr": 34.33142349529537,
+          "input_ssim": 0.8767717605246628,
+          "edge_error": 0.0101865439939688,
+          "boundary_edge_error": 0.016987160278214713,
+          "interior_edge_error": 0.009206274980023445,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 34.46253329291825,
+          "ssim": 0.878108013879165,
+          "input_psnr": 34.333973517024866,
+          "input_ssim": 0.8745604489273767,
+          "edge_error": 0.010210918903534467,
+          "boundary_edge_error": 0.016985786837722117,
+          "interior_edge_error": 0.009234361363471381,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 34.45879571704908,
+          "ssim": 0.879254255900077,
+          "input_psnr": 34.331316696527374,
+          "input_ssim": 0.8755919591617726,
+          "edge_error": 0.010128623035419105,
+          "boundary_edge_error": 0.01663507022403205,
+          "interior_edge_error": 0.009224139345522237,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 34.55933843474136,
+          "ssim": 0.8802364142067487,
+          "input_psnr": 34.436420556159526,
+          "input_ssim": 0.8764792521310636,
+          "edge_error": 0.01011774433192979,
+          "boundary_edge_error": 0.016804608342226857,
+          "interior_edge_error": 0.009153872042157242,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 34.451462395386386,
+          "ssim": 0.8799961396657835,
+          "input_psnr": 34.325194854907394,
+          "input_ssim": 0.8763392445601547,
+          "edge_error": 0.010147580009847092,
+          "boundary_edge_error": 0.01714109205776519,
+          "interior_edge_error": 0.009139506201138176,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 34.438354342506464,
+          "ssim": 0.8771869540510859,
+          "input_psnr": 34.31149899671819,
+          "input_ssim": 0.8736009414699807,
+          "edge_error": 0.010220913453971532,
+          "boundary_edge_error": 0.017082900235739846,
+          "interior_edge_error": 0.009231798242185108,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 34.501744064452204,
+          "ssim": 0.8800719488925056,
+          "input_psnr": 34.3958137754587,
+          "input_ssim": 0.8767236141155169,
+          "edge_error": 0.010066399024432803,
+          "boundary_edge_error": 0.0164334156066342,
+          "interior_edge_error": 0.00918129806457521,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 34.537905225779724,
+          "ssim": 0.8822116265268768,
+          "input_psnr": 34.41671585139029,
+          "input_ssim": 0.8783073124322813,
+          "edge_error": 0.010141013241850618,
+          "boundary_edge_error": 0.016947942232491187,
+          "interior_edge_error": 0.00915983428824477,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 34.53502325224454,
+          "ssim": 0.8830217627038954,
+          "input_psnr": 34.389970071431534,
+          "input_ssim": 0.8791309611646149,
+          "edge_error": 0.010048330261389522,
+          "boundary_edge_error": 0.0167465262298568,
+          "interior_edge_error": 0.00908282453620505,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 34.47749597268174,
+          "ssim": 0.8795943461829356,
+          "input_psnr": 34.359077832093774,
+          "input_ssim": 0.8760802523016091,
+          "edge_error": 0.01010048936870895,
+          "boundary_edge_error": 0.01665170166243494,
+          "interior_edge_error": 0.009156170479523221,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    },
+    {
+      "id": "0728",
+      "count": 16,
+      "psnr": 33.45047298466874,
+      "ssim": 0.9153657486198634,
+      "worst_phase_psnr": 33.37497680122774,
+      "input_worst_phase_psnr": 33.41846902928698,
+      "input_mean_psnr": 33.49668378167323,
+      "input_mean_ssim": 0.9149432011216062,
+      "phase_spread_psnr": 0.1335688721654904,
+      "phases": [
+        {
+          "phase": [
+            0,
+            0
+          ],
+          "psnr": 33.386287288262935,
+          "ssim": 0.9125293826730938,
+          "input_psnr": 33.435222827125685,
+          "input_ssim": 0.9120726486519879,
+          "edge_error": 0.011310277928829222,
+          "boundary_edge_error": 0.02066911704314407,
+          "interior_edge_error": 0.010056861976019198,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            2
+          ],
+          "psnr": 33.4297042860901,
+          "ssim": 0.9159783238128798,
+          "input_psnr": 33.46312731744426,
+          "input_ssim": 0.9154490465180672,
+          "edge_error": 0.011124694118660622,
+          "boundary_edge_error": 0.020055373024974038,
+          "interior_edge_error": 0.00988320960702064,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            4
+          ],
+          "psnr": 33.464577106969244,
+          "ssim": 0.9152001637986177,
+          "input_psnr": 33.49230230317319,
+          "input_ssim": 0.9147691348943375,
+          "edge_error": 0.0111132888550402,
+          "boundary_edge_error": 0.020181234884676675,
+          "interior_edge_error": 0.0098527223666154,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            0,
+            6
+          ],
+          "psnr": 33.49688658580043,
+          "ssim": 0.9155942982403272,
+          "input_psnr": 33.53653682291728,
+          "input_ssim": 0.9151815793663816,
+          "edge_error": 0.011180673572974245,
+          "boundary_edge_error": 0.01997832682137678,
+          "interior_edge_error": 0.009957681417366719,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            0
+          ],
+          "psnr": 33.4780273725328,
+          "ssim": 0.914861004585008,
+          "input_psnr": 33.54175503788171,
+          "input_ssim": 0.91451683107284,
+          "edge_error": 0.011229451826337868,
+          "boundary_edge_error": 0.01963873412891952,
+          "interior_edge_error": 0.010060448456920687,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            2
+          ],
+          "psnr": 33.37497680122774,
+          "ssim": 0.9136912581192083,
+          "input_psnr": 33.41846902928698,
+          "input_ssim": 0.9133524552532841,
+          "edge_error": 0.011301658033591015,
+          "boundary_edge_error": 0.02017855708724407,
+          "interior_edge_error": 0.010022105016848233,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            4
+          ],
+          "psnr": 33.46858691387582,
+          "ssim": 0.9169824038766445,
+          "input_psnr": 33.50769803298761,
+          "input_ssim": 0.9164393585964307,
+          "edge_error": 0.011208152716699497,
+          "boundary_edge_error": 0.0201919706235761,
+          "interior_edge_error": 0.009913187973365935,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            2,
+            6
+          ],
+          "psnr": 33.474074019865235,
+          "ssim": 0.9147324568974156,
+          "input_psnr": 33.53496333550374,
+          "input_ssim": 0.9142785650518364,
+          "edge_error": 0.011259027316755666,
+          "boundary_edge_error": 0.020833901339453103,
+          "interior_edge_error": 0.009878865295465946,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            0
+          ],
+          "psnr": 33.45308257815003,
+          "ssim": 0.9141808491232903,
+          "input_psnr": 33.50716775153905,
+          "input_ssim": 0.9138411510800755,
+          "edge_error": 0.011239472855789356,
+          "boundary_edge_error": 0.020564860270936944,
+          "interior_edge_error": 0.009943118551441487,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            2
+          ],
+          "psnr": 33.46371063336825,
+          "ssim": 0.9141516060460667,
+          "input_psnr": 33.511478424583096,
+          "input_ssim": 0.9135730297808996,
+          "edge_error": 0.011205220605314556,
+          "boundary_edge_error": 0.020381905829708558,
+          "interior_edge_error": 0.009882455167564069,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            4
+          ],
+          "psnr": 33.50854567339323,
+          "ssim": 0.9162826529882944,
+          "input_psnr": 33.55016044787049,
+          "input_ssim": 0.9159571397757382,
+          "edge_error": 0.01121619069112191,
+          "boundary_edge_error": 0.020470052976331015,
+          "interior_edge_error": 0.00988230063199267,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            4,
+            6
+          ],
+          "psnr": 33.50091043638713,
+          "ssim": 0.9128897383688702,
+          "input_psnr": 33.54352760753807,
+          "input_ssim": 0.9124353611152293,
+          "edge_error": 0.011219439291538246,
+          "boundary_edge_error": 0.02027449961739573,
+          "interior_edge_error": 0.009914205370693924,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            0
+          ],
+          "psnr": 33.38369430390631,
+          "ssim": 0.9168133576652233,
+          "input_psnr": 33.43307753435666,
+          "input_ssim": 0.9163816827432146,
+          "edge_error": 0.011069526705359463,
+          "boundary_edge_error": 0.02024339353998604,
+          "interior_edge_error": 0.009794235800097471,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            2
+          ],
+          "psnr": 33.428253021158014,
+          "ssim": 0.916344148589375,
+          "input_psnr": 33.47874061876104,
+          "input_ssim": 0.9159000652770587,
+          "edge_error": 0.011153305260913099,
+          "boundary_edge_error": 0.020057125060702674,
+          "interior_edge_error": 0.009869871776258747,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            4
+          ],
+          "psnr": 33.47792247399342,
+          "ssim": 0.9190564567561166,
+          "input_psnr": 33.51756760821628,
+          "input_ssim": 0.9187982052140489,
+          "edge_error": 0.01112823199304774,
+          "boundary_edge_error": 0.020139549388962525,
+          "interior_edge_error": 0.009829303359402367,
+          "psnr_is_infinite": false
+        },
+        {
+          "phase": [
+            6,
+            6
+          ],
+          "psnr": 33.41832825971911,
+          "ssim": 0.9165638763773841,
+          "input_psnr": 33.47514580758642,
+          "input_ssim": 0.9161449635542698,
+          "edge_error": 0.011186818387377714,
+          "boundary_edge_error": 0.020235711435816484,
+          "interior_edge_error": 0.009882473443458611,
+          "psnr_is_infinite": false
+        }
+      ],
+      "psnr_is_infinite": false
+    }
+  ],
+  "protocol": "project_rgb_float_v1",
+  "checkpoint": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/mps_screening_v1/C_seed42/best_model.pth",
+  "step": 900,
+  "dataset_hash": "37c0db83f1eb41975fc6f6ed8fafc7b70b05878282ea9567f02c8cdb2a057561",
+  "split": "val",
+  "procedural_test_only": false,
+  "device": "mps",
+  "checkpoint_sha256": "cbaabf9470e8f3a7275b310f6a7826fe12c872c60d6f7c6fa5f6974b03bea9c4",
+  "training_seed": 42,
+  "training_config": {
+    "device": "mps",
+    "precision": "fp32",
+    "batch_size": 2,
+    "accumulation_steps": 4,
+    "num_workers": 0,
+    "max_steps": 1000,
+    "epochs": null,
+    "max_seconds": 1800,
+    "learning_rate": 0.0002,
+    "min_lr": 1e-06,
+    "weight_decay": 0.0,
+    "warmup_steps": 100,
+    "clip_grad": 1.0,
+    "validation_interval": 100,
+    "checkpoint_interval": 100
+  },
+  "selection_horizon": 1000,
+  "degradation": {
+    "profile": "jpeg_rgb_444_v1",
+    "sigma": 25.0,
+    "sigma_min": 10.0,
+    "sigma_max": 50.0,
+    "peak_photons": 60.0,
+    "jpeg_quality": 20
+  },
+  "training_source_hash": "95f68f81f267dd937c6b50a8f0983bc2167e4f7a1db0fda81fc2805cf00273f1",
+  "model": {
+    "name": "dncnn_rgb_l1",
+    "width": 64,
+    "depth": 20,
+    "scale": 1,
+    "blocks": 16
+  },
+  "jpeg_study": {
+    "mode": "stratified",
+    "augment": true
+  },
+  "codec": {
+    "pillow": "12.2.0",
+    "jpeg_library": "9.0",
+    "subsampling": "4:4:4",
+    "optimize": "false",
+    "progressive": "false"
+  },
+  "phase_constructor": "jpeg_aligned_phase_v1",
+  "reference_crop": "center_P_plus_32_then_center_P",
+  "frozen_study_sha256": null,
+  "psnr_is_infinite": false
+}

@@ -1,0 +1,33 @@
+# Matched two-view study; GPU profile and bounded execution approval precede research runs.
+model:
+  name: dncnn_rgb_l1
+  width: 64
+  depth: 20
+  scale: 1
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/div2k_jpeg_v1/screening/train.jsonl
+  val_manifest: data/manifests/div2k_jpeg_v1/screening/val.jsonl
+  patch_size: 128
+degradation:
+  profile: jpeg_rgb_444_v1
+  jpeg_quality: 20
+training:
+  device: cuda
+  precision: fp16
+  batch_size: 8
+  accumulation_steps: 2
+  max_steps: 1000
+  warmup_steps: 100
+  validation_interval: 100
+  checkpoint_interval: 100
+  num_workers: 0
+loss:
+  kind: l1
+  consistency_weight: 0.05
+output:
+  root: experiments/runs
+jpeg_study:
+  mode: stratified
+  augment: true

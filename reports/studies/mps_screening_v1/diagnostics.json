@@ -1,0 +1,39 @@
+{
+  "device": "mps",
+  "split": "development",
+  "phase_count": 16,
+  "image_count": 8,
+  "primary_border": 0,
+  "additional_diagnostic_border": 20,
+  "diagnostic_note": "20-pixel interior crop checks the radius-20 inference receptive field of 20 stride-one 3x3 convolutions; it does not replace the primary endpoint.",
+  "analysis_script_sha256": "5adf9da1606e45c9089914816b273ccc52e10cb30261648ce761726a0f6b46c1",
+  "models": {
+    "A": {
+      "input_mae": 0.027503026627528016,
+      "restored_mae": 0.02751056031411281,
+      "predicted_residual_rms": 0.002669950337804039,
+      "target_residual_rms": 0.037652091661584564,
+      "input_interior_worst_psnr": 29.55621413693964,
+      "output_interior_worst_psnr": 29.605124817456286,
+      "parameter_l2_change_from_seed_initialization": 1.1271068085297036
+    },
+    "B": {
+      "input_mae": 0.027503026627528016,
+      "restored_mae": 0.02747712883137865,
+      "predicted_residual_rms": 0.002198660905378347,
+      "target_residual_rms": 0.037652091661584564,
+      "input_interior_worst_psnr": 29.55621413693964,
+      "output_interior_worst_psnr": 29.61680604419648,
+      "parameter_l2_change_from_seed_initialization": 1.093177888800055
+    },
+    "C": {
+      "input_mae": 0.027503026627528016,
+      "restored_mae": 0.027525334066012874,
+      "predicted_residual_rms": 0.0022124119068394066,
+      "target_residual_rms": 0.037652091661584564,
+      "input_interior_worst_psnr": 29.55621413693964,
+      "output_interior_worst_psnr": 29.587091080131906,
+      "parameter_l2_change_from_seed_initialization": 1.0965201726423242
+    }
+  }
+}

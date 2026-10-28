@@ -1,0 +1,24 @@
+{
+  "python": "3.12.13",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "torch": "2.12.0",
+  "device": "mps",
+  "cuda": null,
+  "mps_available": true,
+  "device_name": "arm64",
+  "dependencies": {
+    "torch": "2.12.0",
+    "numpy": "1.26.4",
+    "Pillow": "12.2.0",
+    "PyYAML": "6.0.3",
+    "tqdm": "4.68.3"
+  },
+  "codec": {
+    "pillow": "12.2.0",
+    "jpeg_library": "9.0",
+    "subsampling": "4:4:4",
+    "optimize": "false",
+    "progressive": "false"
+  },
+  "procedural_test_only": false
+}

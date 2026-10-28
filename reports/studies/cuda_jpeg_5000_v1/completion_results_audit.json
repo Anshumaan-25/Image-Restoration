@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "archive_sha256": "40ed8add2b269bccab07884629b9d52dcce457698076870ced79332275489967",
+  "archive_bytes": 89700804,
+  "verified_inventory_files": 77,
+  "import_directory": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/cuda_jpeg_5000_v1_completion_import_20261026",
+  "full_image_predictions": 48,
+  "fixed_visual_examples": 3,
+  "png_files_checked": 57,
+  "benchmark_passes_per_arm": 60,
+  "results": {
+    "A": {
+      "psnr": 31.50007486461451,
+      "ssim": 0.8696405898344901,
+      "input_psnr": 30.64721121104333,
+      "gain_over_input_db": 0.8528636535711804,
+      "peak_full_image_allocated_GiB": 1.5336418151855469,
+      "peak_full_image_reserved_GiB": 2.921875,
+      "latency_ms": {
+        "256": {
+          "median": 50.9157155001958,
+          "p95": 51.28672555019875
+        },
+        "512": {
+          "median": 209.439373999885,
+          "p95": 210.99456429992642
+        }
+      }
+    },
+    "B": {
+      "psnr": 31.54833192479524,
+      "ssim": 0.8703864954135999,
+      "input_psnr": 30.64721121104333,
+      "gain_over_input_db": 0.9011207137519079,
+      "peak_full_image_allocated_GiB": 1.5336418151855469,
+      "peak_full_image_reserved_GiB": 2.921875,
+      "latency_ms": {
+        "256": {
+          "median": 48.489247998986684,
+          "p95": 48.92074485023841
+        },
+        "512": {
+          "median": 199.3196920002447,
+          "p95": 202.30234069995277
+        }
+      }
+    },
+    "C": {
+      "psnr": 31.541076835814415,
+      "ssim": 0.8702434004939982,
+      "input_psnr": 30.64721121104333,
+      "gain_over_input_db": 0.8938656247710846,
+      "peak_full_image_allocated_GiB": 1.5336418151855469,
+      "peak_full_image_reserved_GiB": 2.921875,
+      "latency_ms": {
+        "256": {
+          "median": 48.54240899931028,
+          "p95": 49.490049749692844
+        },
+        "512": {
+          "median": 199.84666649997962,
+          "p95": 200.956908349508
+        }
+      }
+    }
+  },
+  "child_wall_seconds": 2285.795332066996,
+  "frozen_source_files_unchanged": true,
+  "new_inference_or_training_executed_by_audit": false,
+  "visual_review": "All three comparison panels inspected: labels readable; consistent content and crops; no visible layout errors. Restored crops reduce some block artifacts but soften fine texture; A/B/C differences are subtle. This inspection is not a perceptual-quality benchmark.",
+  "limitations": [
+    "One seed and sixteen held-out images; no general benchmark or novelty claim.",
+    "Latency is synthetic model-only, not end-to-end application throughput.",
+    "Tiny speed differences between identical architectures are not algorithmic speedups.",
+    "SR and real/synthetic denoising research experiments and transformer comparators remain staged."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+    "scripts/evaluate_pretrained.py",
+    "--approved",
+    "--id",
+    "restormer_sidd",
+    "--weights",
+    "experiments/pretrained/approved_v2/real_denoising.pth",
+    "--weights-sha256",
+    "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+    "--data-dir",
+    "data/processed/SIDD_validation_v2",
+    "--manifest",
+    "val_first_block_per_parent40.jsonl",
+    "--split",
+    "val",
+    "--device",
+    "mps",
+    "--max-seconds",
+    "120",
+    "--output",
+    "reports/engineering_v2/restormer_sidd_validation40_project_rgb.json"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 22.82451362500433,
+  "stdout": "Pretrained evaluation complete: 40 sources, report=reports/engineering_v2/restormer_sidd_validation40_project_rgb.json\n",
+  "stderr": "",
+  "training": false
+}

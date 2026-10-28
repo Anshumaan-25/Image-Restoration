@@ -1,0 +1,6 @@
+{
+  "machine_name": "MacBook Air",
+  "chip_type": "Apple M5",
+  "physical_memory": "16 GB",
+  "number_processors": "proc 10:4:0:6"
+}

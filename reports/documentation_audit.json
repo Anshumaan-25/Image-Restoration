@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "markdown_links_checked": 167,
+  "broken_local_links": [],
+  "notebook_python_cells_syntax_checked": 5,
+  "notebook_cloud_execution": false,
+  "pipeline_matches_poststudy_acceptance": true,
+  "selected_checkpoint_source_matches_current": {
+    "A": true,
+    "B": true,
+    "C": true
+  },
+  "selected_checkpoint_hash_and_step_match_reports": true,
+  "analysis_script_hash_matches_diagnostics": true,
+  "next_run_config_schema_valid": true,
+  "protected_test_scored": false
+}

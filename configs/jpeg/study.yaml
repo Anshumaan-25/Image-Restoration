@@ -1,0 +1,8 @@
+# Planning is safe by default; --execute starts three separately bounded research runs.
+name: div2k_jpeg_phase_screening_v1
+arms:
+  A: configs/jpeg/random_phase.yaml
+  B: configs/jpeg/stratified_phase.yaml
+  C: configs/jpeg/phase_consistency.yaml
+seeds: [42]
+max_seconds_per_run: 1800

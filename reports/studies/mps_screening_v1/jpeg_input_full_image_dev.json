@@ -1,0 +1,9 @@
+{
+  "count": 8,
+  "psnr": 31.28165049612933,
+  "ssim": 0.8533819958907705,
+  "split": "development",
+  "reference": "JPEG input, full-image Q20 RGB 4:4:4",
+  "trained": false,
+  "psnr_is_infinite": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Whole Colab cell compiles",
+    "Three synthetic backup inventories/hash sets pass",
+    "Incomplete .partial files ignored",
+    "Incomplete C summary is labeled not recorded",
+    "Corrupt complete backup fails visibly"
+  ],
+  "actual_Drive_or_GPU_accessed": false,
+  "cell_sha256": "52dd0e49b41ff134263d33072afc4a1aee91df048bed0f7866f65a98b0dd61c8"
+}

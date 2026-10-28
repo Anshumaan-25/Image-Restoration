@@ -1,0 +1,13 @@
+{
+  "status": "acquired_and_imported",
+  "approved_bytes": 461780640,
+  "actual_bytes": 461780640,
+  "sha256": "1139c32896697e960159ae845070751e58894ddf607ebfe8f6d83ef012e2fbff",
+  "route": "Normal authenticated Google Drive official file page -> Download -> ordinary large-file confirmation; no copies, alternate accounts or quota bypass",
+  "archive": "/Users/anshu/Downloads/test.zip",
+  "paired_blocks": 1280,
+  "import_receipt": "reports/engineering_v2/sidd_import_receipt.json",
+  "prior_blocker_retained": "reports/engineering_v2/sidd_acquisition_blocker.json",
+  "training": false,
+  "spending_usd": 0
+}

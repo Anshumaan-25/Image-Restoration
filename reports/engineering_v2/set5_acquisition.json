@@ -1,0 +1,115 @@
+{
+  "status": "downloaded",
+  "spending_usd": 0,
+  "bytes": 1178051,
+  "source": "Official SwinIR repository pinned sample Set5 HR and supplied bicubic LR x2/x4",
+  "source_commit": "6545850fbf8df298df73d81f3e8cba638787c8bd",
+  "scope_authority": "User requests completion; this small ~1.2MB fixture/benchmark acquisition is below the large-download gate.",
+  "files": [
+    {
+      "path": "data/raw/Set5_official_swinir/HR/baby.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/HR/baby.png",
+      "bytes": 371264,
+      "sha256": "158417bf319058274bbea8b7d4995a12cb70dc7ff1cdf6351bde7e3d4e22d06a",
+      "git_blob_sha1": "d5b91f6b06e995282b6297d96f39762d658d60f8"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/HR/bird.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/HR/bird.png",
+      "bytes": 120453,
+      "sha256": "1b20dfba6635f99d501144a949e1568363a91cc08231dc92d9537f883c23c9a8",
+      "git_blob_sha1": "13bf5e1bc4290fabccbf3a1b5a1ee27ef3b7682c"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/HR/butterfly.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/HR/butterfly.png",
+      "bytes": 127529,
+      "sha256": "58be740fd17ead6029eb8344c46720c392eaf120907dc623475aa768260e6548",
+      "git_blob_sha1": "f6acb9a57b70d0eeec34eea46fef7811f74eac31"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/HR/head.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/HR/head.png",
+      "bytes": 113787,
+      "sha256": "ec18fffd17f8a54ff04a19d03697988e9ba8ad4092ac4c792d19dbf7c967d59d",
+      "git_blob_sha1": "c14b1fdbc25e8043ddcaf2c12498228ca5bb6a68"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/HR/woman.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/HR/woman.png",
+      "bytes": 118848,
+      "sha256": "b15112110e3e7d91b840d6131a00f0f5c22d54f4ac93a81e3ed0f6ab62d08106",
+      "git_blob_sha1": "e6d55382515ad3b0bcb6d93bd5463955883e6d2e"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X2/babyx2.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X2/babyx2.png",
+      "bytes": 109515,
+      "sha256": "62d724234fba1ff128561ed8c6a10ecc975ed4d13e485946f59720146dd6de37",
+      "git_blob_sha1": "0650d46ff2b22200bfa83fa2fad114c23ae047a4"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X2/birdx2.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X2/birdx2.png",
+      "bytes": 38256,
+      "sha256": "dcb22582c045833b711b57bd20a35a091b0d2b9347b95d8174fbc2a91be8d355",
+      "git_blob_sha1": "cd5603d65b3febbc63c851a094d627575ffe078a"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X2/butterflyx2.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X2/butterflyx2.png",
+      "bytes": 35925,
+      "sha256": "10b9fe5f300ce8ce34d80efb87aecf538fddfd989d61081d0472868b3ce2fa93",
+      "git_blob_sha1": "a9557514b30b375a3b9a277b386ce20bb7ccd209"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X2/headx2.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X2/headx2.png",
+      "bytes": 33123,
+      "sha256": "e5e3ed19d6978f19024f3f8a043c9b04d7404bdfa8189594b5da97c9e2995f37",
+      "git_blob_sha1": "26a13e279f3f6bc8a211e5e71e19ac5df8e40da1"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X2/womanx2.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X2/womanx2.png",
+      "bytes": 36618,
+      "sha256": "488ca3c7d96991758943902ffdbd7792ae6187300be92f9e1dd10fb90b7a09fd",
+      "git_blob_sha1": "be24dc1e41235e338b222fce69b7620fa4c130a3"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X4/babyx4.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X4/babyx4.png",
+      "bytes": 31182,
+      "sha256": "4d4d9c30a16c2d17b1c51197cb40d3f008888442416d9ef9ba3ec36766f2851a",
+      "git_blob_sha1": "1ecbb31fe3bb6052b2d08bbfb294519e80d7fd2b"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X4/birdx4.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X4/birdx4.png",
+      "bytes": 11286,
+      "sha256": "519059a89ef4fc082f0e0aa9b692a6248dd69dfa816c0b59b3feef3cd976dc97",
+      "git_blob_sha1": "f3037c864ce94f749e26983fe3678aec400a5580"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X4/butterflyx4.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X4/butterflyx4.png",
+      "bytes": 10392,
+      "sha256": "c69c6bddf867bfe9aa6ea6f331960aed49d5adb71603d38922c4e24b88a55c7a",
+      "git_blob_sha1": "b55686b453e6b9a1b41bcfe874dc4256529deb23"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X4/headx4.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X4/headx4.png",
+      "bytes": 9060,
+      "sha256": "a034c85fe72b1594aad9a0ef93b8abbc51cf51ea5b409b206c0c4c66caa5ea44",
+      "git_blob_sha1": "8926d01aa42a931a529c2fbfed5891411e441184"
+    },
+    {
+      "path": "data/raw/Set5_official_swinir/LR_bicubic/X4/womanx4.png",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/testsets/Set5/LR_bicubic/X4/womanx4.png",
+      "bytes": 10813,
+      "sha256": "2e0390a78cb8b3d38586e77437b09d8a20f85573c20c26def107122867b6bad6",
+      "git_blob_sha1": "ca7de118ff34e5c0370d95920acd19b3480ed7c2"
+    }
+  ]
+}

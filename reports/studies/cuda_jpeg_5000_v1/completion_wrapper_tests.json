@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "test_count": 5,
+  "command": [
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/reports/studies/cuda_jpeg_5000_v1/test_completion_checks.py"
+  ],
+  "stdout": "Saved image 0801: 1/2; PSNR=16.248839\nSaved image 0802: 2/2; PSNR=16.297719\n",
+  "stderr": "test_authorization_precedes_drive_or_cuda_access (__main__.CompletionChecksTests.test_authorization_precedes_drive_or_cuda_access) ... ok\ntest_fixed_panels_use_identical_coordinates_and_preserve_source_exports (__main__.CompletionChecksTests.test_fixed_panels_use_identical_coordinates_and_preserve_source_exports) ... ok\ntest_full_image_metrics_match_existing_validation_and_save_progress (__main__.CompletionChecksTests.test_full_image_metrics_match_existing_validation_and_save_progress) ... ok\ntest_nonfinite_and_shape_failure_never_produces_success_report (__main__.CompletionChecksTests.test_nonfinite_and_shape_failure_never_produces_success_report) ... ok\ntest_perfect_psnr_is_strict_json_and_other_nonfinite_values_fail (__main__.CompletionChecksTests.test_perfect_psnr_is_strict_json_and_other_nonfinite_values_fail) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.097s\n\nOK\n"
+}

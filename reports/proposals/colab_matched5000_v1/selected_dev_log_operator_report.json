@@ -1,0 +1,18 @@
+{
+  "source": "User pasted output of standalone CSV read from checksum-verified final Drive archives",
+  "date": "2026-10-22",
+  "scope": "Selected development log metrics; independent inference replay pending",
+  "A": {
+    "best_step": 4700,
+    "worst_phase_psnr": 30.09633,
+    "psnr": 30.186341,
+    "ssim": 0.857434
+  },
+  "B": {
+    "best_step": 4400,
+    "worst_phase_psnr": 30.162796,
+    "psnr": 30.257334,
+    "ssim": 0.857106
+  },
+  "C": "Incomplete; latest3700/best3600"
+}

@@ -1,0 +1,14 @@
+{
+  "count": 72,
+  "selected_step": 4800,
+  "checkpoint_sha256": "db32a6373fad66a5d2e86bc6b2cc00ffc8e9935bad3aeb8b8e42ff553c0bdcb9",
+  "worst_phase_psnr": 29.91428591709603,
+  "input_worst_phase_psnr": 29.032814543670398,
+  "worst_phase_gain_over_input_db": 0.881471373425633,
+  "mean_phase_psnr": 30.02458593028001,
+  "mean_phase_ssim": 0.8531298741788161,
+  "input_mean_ssim": 0.8323237904931164,
+  "independent_aggregation_verified": true,
+  "protected_test_scored": false,
+  "role": "Supplementary development sources unused for checkpoint selection; prepared after observing interim primary improvement, not confirmatory test inference."
+}

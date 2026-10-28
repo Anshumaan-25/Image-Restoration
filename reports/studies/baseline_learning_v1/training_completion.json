@@ -1,0 +1,95 @@
+{
+  "run_dir": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/baseline_learning_v1/B_seed42",
+  "step": 5000,
+  "target_steps": 5000,
+  "cursor": 40000,
+  "completed": true,
+  "stop_reason": "complete",
+  "best_step": 4800,
+  "skipped_updates": 0,
+  "microsteps": 20000,
+  "elapsed_seconds": 5347.168834207987,
+  "clipped_updates": 26,
+  "procedural_test_only": false,
+  "count": 8,
+  "psnr": 30.25007370635936,
+  "ssim": 0.8581505130788148,
+  "worst_phase_psnr": 30.15475510015922,
+  "input_worst_phase_psnr": 29.230957739638725,
+  "input_mean_psnr": 29.30812136708704,
+  "input_mean_ssim": 0.8398842351656197,
+  "phase_spread_psnr": 0.19718735277649646,
+  "phase_count": 16,
+  "phase_panel": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "quality": 20,
+  "patch_size": 128,
+  "endpoint": "mean_per_image_worst_phase_psnr",
+  "profile_only": false,
+  "model_parameters": 669379,
+  "psnr_is_infinite": false
+}

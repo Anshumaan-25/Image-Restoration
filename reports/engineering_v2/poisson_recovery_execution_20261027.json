@@ -1,0 +1,31 @@
+{
+  "status": "completed_and_imported",
+  "approval": "poisson_recovery_approval_20261027.json",
+  "source_step": 4100,
+  "target_steps": 5000,
+  "max_additional_training_seconds": 900,
+  "run_dir": "/content/Image_Restoration_Extension_v3/experiments/cloud/poisson_rgb_5000_v3_cache/poisson_seed42_resume_f7c78664",
+  "initial_backup_observed": "/content/drive/MyDrive/RestorationProject/studies/poisson_rgb_5000_v3_cache/poisson_seed42_resume_f7c78664/step_004100_micro_00008200.zip",
+  "environment_differences": {},
+  "platform_note": "Current Linux kernel6.6.159 differs from original6.6.122; all explicit frozen Python/torch/CUDA/device/dependency/codec gates match. No cross-runtime bitwise CUDA guarantee.",
+  "spending_usd": 0,
+  "protected_test_scoring": false,
+  "subsequent_approved_stages": [
+    "development CPU replay/export",
+    "full SIDD public validation after its own CUDA profile gate"
+  ],
+  "step": 5000,
+  "best_step": 4500,
+  "skipped_updates": 0,
+  "microsteps": 10000,
+  "resume_training_seconds": 354.7647913380001,
+  "resume_including_setup_backup_seconds": 361.3,
+  "export_sha256": "f944a3474664439d73ba50ee10e749d106a5dea52e3597389d67b1b28eeeccb6",
+  "export_bytes": 15255883,
+  "local_import": "experiments/studies/poisson_completed_v3_import_20261027",
+  "selected_checkpoint_sha256": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+  "audit": "poisson_completed_import_audit_20261027.json",
+  "actual_cli": "poisson_actual_inference_verification.json",
+  "original_training_elapsed_seconds": null,
+  "original_elapsed_note": "Not retained in original periodic snapshot; recovery time is not whole training time."
+}

@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "scope": "Authored procedural data, tiny test model, two CPU updates and all three explicit evaluation levels; not natural-image training or a research result",
+  "summary": {
+    "run_dir": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2",
+    "step": 2,
+    "target_steps": 2,
+    "cursor": 2,
+    "completed": true,
+    "stop_reason": "complete",
+    "best_step": 2,
+    "skipped_updates": 0,
+    "microsteps": 2,
+    "elapsed_seconds": 0.01548162501421757,
+    "clipped_updates": 1,
+    "procedural_test_only": true,
+    "count": 2,
+    "psnr": 21.202032673864636,
+    "ssim": 0.7877884936591688,
+    "profile_only": false,
+    "model_parameters": 375
+  },
+  "commands": [
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "eval.py",
+        "--checkpoint",
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/best_model.pth",
+        "--device",
+        "cpu",
+        "--peak-photons",
+        "30",
+        "--output",
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/eval_peak30.json"
+      ],
+      "exit_code": 0,
+      "stdout": "evaluated=2 report=/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/eval_peak30.json\n"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "eval.py",
+        "--checkpoint",
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/best_model.pth",
+        "--device",
+        "cpu",
+        "--peak-photons",
+        "60",
+        "--output",
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/eval_peak60.json"
+      ],
+      "exit_code": 0,
+      "stdout": "evaluated=2 report=/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/eval_peak60.json\n"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "eval.py",
+        "--checkpoint",
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/best_model.pth",
+        "--device",
+        "cpu",
+        "--peak-photons",
+        "120",
+        "--output",
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/eval_peak120.json"
+      ],
+      "exit_code": 0,
+      "stdout": "evaluated=2 report=/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/verification/poisson_pipeline_v2/eval_peak120.json\n"
+    }
+  ]
+}

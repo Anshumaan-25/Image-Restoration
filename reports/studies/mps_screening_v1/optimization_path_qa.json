@@ -1,0 +1,24 @@
+{
+  "diagnostic_only": true,
+  "device": "cpu",
+  "checkpoint_step": 200,
+  "model_weights_not_saved_or_changed": true,
+  "eval_mode_train_patch": {
+    "psnr": 28.294903443199864,
+    "ssim": 0.8035606452845919,
+    "psnr_is_infinite": false
+  },
+  "train_mode_same_patch_batch2": {
+    "psnr": 28.294553017596627,
+    "ssim": 0.8035637165038672,
+    "psnr_is_infinite": false
+  },
+  "last_training_loss": 0.029664350673556328,
+  "first_training_loss": 0.29083675146102905,
+  "all_parameter_gradients_present": true,
+  "all_parameter_gradients_finite": true,
+  "nonzero_gradient_tensors": 58,
+  "parameter_tensor_count": 58,
+  "conclusion": "No disconnected/nonfinite parameter gradient found. Both train- and eval-mode restoration remain close to input quality; this does not establish an optimization root cause or convergence.",
+  "protected_test_scored": false
+}

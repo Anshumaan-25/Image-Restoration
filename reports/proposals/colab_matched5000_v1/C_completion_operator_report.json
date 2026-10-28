@@ -1,0 +1,33 @@
+{
+  "date_asia_kolkata": "2026-10-23",
+  "evidence_source": "User-pasted actual Colab completion output",
+  "run_dir": "/content/Image_Degradatation_Restoration/experiments/cloud/cuda_jpeg_5000_v1/C_seed42_resume_45934e2e",
+  "drive_archive": "/content/drive/MyDrive/RestorationProject/studies/cuda_jpeg_5000_v1/C_seed42_resume_45934e2e/step_005000_micro_00020000.zip",
+  "step": 5000,
+  "target_steps": 5000,
+  "best_step": 4900,
+  "completed": true,
+  "stop_reason": "complete",
+  "cursor": 40000,
+  "microsteps": 20000,
+  "skipped_updates": 0,
+  "clipped_updates": 25,
+  "resume_elapsed_including_setup_backup_seconds": 1733.2,
+  "resume_training_elapsed_seconds": 1721.7046934139998,
+  "final_step_metrics": {
+    "count": 8,
+    "psnr": 30.245939450860902,
+    "ssim": 0.8570883737733745,
+    "worst_phase_psnr": 30.151158537132893,
+    "input_worst_phase_psnr": 29.209202820684066,
+    "input_mean_psnr": 29.283943478049466,
+    "input_mean_ssim": 0.8400445724968326,
+    "phase_spread_psnr": 0.20501736516072322,
+    "phase_count": 16,
+    "quality": 20,
+    "patch_size": 128
+  },
+  "model_parameters": 669379,
+  "selected_checkpoint_independent_evaluation": "pending; do not compare final step metrics with A/B best-step logs",
+  "research_status": "All three cloud training arms complete; development replay and held-out evaluation pending"
+}

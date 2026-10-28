@@ -1,0 +1,38 @@
+{
+  "status": "prepared_not_authorized_not_executed",
+  "device": "cpu",
+  "model_precision": "fp32",
+  "spending_usd": 0,
+  "new_downloads": false,
+  "new_training": false,
+  "dataset": "DIV2K project held-out IDs0801\u20130816;16 source-disjoint images",
+  "selection": "A4700 B4400 C4900; fixed by verified development best",
+  "qualities_in_order": [
+    20,
+    10,
+    40
+  ],
+  "phase_panel": "all64",
+  "primary": "paired mean per-image worst-phase PSNR; C-A combined effect and C-B added consistency; B-A sampling control",
+  "secondary": [
+    "mean RGB PSNR/SSIM",
+    "input references",
+    "phase spread",
+    "boundary and interior edge error"
+  ],
+  "runs": 9,
+  "model_predictions": 9216,
+  "seconds_per_arm_quality": 600,
+  "max_evaluation_seconds_total": 5400,
+  "limits": "90 minutes upper execution allowance plus setup/checkpoint loading/saving; not a measured estimate. Stop on any error/timeout; no automatic retry, model selection or tuning from test outcomes.",
+  "environment": "Colab CPU with Pillow11.3.0 and JPEG6.2 matching frozen codec; CPU environment recorded separately",
+  "bundle": "dist/colab_frozen_test16_v1.zip",
+  "bundle_bytes": 70466126,
+  "bundle_sha256": "3c570cda7806d96535264373652fa85634a4d450a118937130cc44729e982519",
+  "frozen_study_sha256": "400aa655d20b23a41c065a190811e38a52762e8a9ab9e6bc4c87e94bb0d52fb8",
+  "full_image_test": "not included in this phase-panel invocation; separate remaining ordinary-quality check",
+  "no_significance_guarantee": true,
+  "launcher_sha256": "4b7afc278147f85c4cae6e1d89a6ba83ed3aea380eb30b955213999d38dcbeb7",
+  "offline_safeguard_tests_passed": 4,
+  "core_acceptance_report": "acceptance_after_import.json"
+}

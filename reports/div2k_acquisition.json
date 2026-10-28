@@ -1,0 +1,82 @@
+{
+  "status": "acquired_and_validated",
+  "approval_date_local": "2026-10-21",
+  "approval": "User explicitly approved both official DIV2K HR archives and split preparation",
+  "prepared_at_utc": "2026-10-20T18:53:26.199184+00:00",
+  "archives": [
+    {
+      "name": "DIV2K_train_HR.zip",
+      "bytes": 3530603713,
+      "sha256": "9d0b9c463f6e35b6c62cc6a930ee2224f670b34c1df841a57670f9acf0f6c335",
+      "images": 800,
+      "existing_images_reused": 0,
+      "zip_crc": "passed",
+      "url": "https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.zip"
+    },
+    {
+      "name": "DIV2K_valid_HR.zip",
+      "bytes": 448993893,
+      "sha256": "20dd31fd84d777bc1cf5d6b7654a3f569c0aec74458ae094122ad1d0489900fc",
+      "images": 100,
+      "existing_images_reused": 100,
+      "zip_crc": "passed",
+      "url": "https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_valid_HR.zip"
+    }
+  ],
+  "integrity_note": "Size, local SHA256, exact file set and ZIP CRC verified; no publisher SHA256 was supplied",
+  "manifests": {
+    "data/manifests/div2k_jpeg_v1/full/train.jsonl": {
+      "count": 720,
+      "file_sha256": "b09f59501e264aec043d07dc2524ff9ff8bfe98cfc0c9dc5dcdb22cfd6c06781",
+      "records_sha256": "98450c1713598df9e79d1a2572ed931f3569788644359068a4737432f4765f1c",
+      "first_id": "0001",
+      "last_id": "0720"
+    },
+    "data/manifests/div2k_jpeg_v1/screening/train.jsonl": {
+      "count": 32,
+      "file_sha256": "811dbd375dfb2c64b3cd32ff908100cb6ab175a4d223140fff43f0be8749385b",
+      "records_sha256": "ac7dbb57cd2b2b086b548f5d7c58794b2fb34b54d5e04e729a827daec0e48848",
+      "first_id": "0001",
+      "last_id": "0032"
+    },
+    "data/manifests/div2k_jpeg_v1/full/val.jsonl": {
+      "count": 80,
+      "file_sha256": "1a6c320c5bab9a54124debfb4954f2d7eeb63c95e6b34adcb0b2cc2f6057a88c",
+      "records_sha256": "170f30ea0c136499f57955e84061718da9e5c0a53e5458c3582d760d69fa48a9",
+      "first_id": "0721",
+      "last_id": "0800"
+    },
+    "data/manifests/div2k_jpeg_v1/screening/val.jsonl": {
+      "count": 8,
+      "file_sha256": "1e57edae17331cf1cfff7ac40fda83cc7775b9a91fa7f754949909ec5eef0b28",
+      "records_sha256": "37c0db83f1eb41975fc6f6ed8fafc7b70b05878282ea9567f02c8cdb2a057561",
+      "first_id": "0721",
+      "last_id": "0728"
+    },
+    "data/manifests/div2k_jpeg_v1/full/test.jsonl": {
+      "count": 100,
+      "file_sha256": "7492d9ab22792347df916ed4dcbea4b61589846ac094e245cda0831415b3c4b8",
+      "records_sha256": "ec523ef76124c509bf9efdbedc1a55666634d07be37023659e8f035fc9b59322",
+      "first_id": "0801",
+      "last_id": "0900"
+    },
+    "data/manifests/div2k_jpeg_v1/screening/test.jsonl": {
+      "count": 16,
+      "file_sha256": "1013c8998272f32895db3b610f82541a00279416b0b9ace41fe4ec21a8507cc6",
+      "records_sha256": "2e2cf70ecb9942f6679c15a8f4ade93fc6a7e348dfca1f614476480fbd166294",
+      "first_id": "0801",
+      "last_id": "0816"
+    }
+  },
+  "total_images": 900,
+  "split_leakage_checks": "passed",
+  "dimensions": {
+    "min_height": 648,
+    "min_width": 1116,
+    "max_height": 2040,
+    "max_width": 2040
+  },
+  "elapsed_seconds": 101.4984502090083,
+  "training_started": false,
+  "pretrained_weights_downloaded": false
+}

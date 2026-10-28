@@ -1,0 +1,14 @@
+{
+  "date_asia_kolkata": "2026-10-22",
+  "user_request": "Automatically start the next approved arm while AFK and preserve progress if Colab quota ends",
+  "authorization": "Existing explicit 3-arm study approval; direct follow-up additionally authorizes automatic B/C continuation",
+  "evidence_source": "User-pasted live Colab backup messages",
+  "last_reported_arm": "A_seed42",
+  "last_reported_backed_up_step": 2700,
+  "last_reported_backed_up_microsteps": 10800,
+  "last_reported_backup": "/content/drive/MyDrive/RestorationProject/studies/cuda_jpeg_5000_v1/A_seed42/step_002700_micro_00010800.zip",
+  "fraction_backed_up": 0.54,
+  "execution_contract": "Queue one continuation cell below running A. Do not interrupt, rerun A, or edit trainer/helper source. B then C start only after completed predecessors; any error stops the sequence. Existing 9000-second per-arm/27000-second combined caps remain.",
+  "persistence_contract": "Existing validated latest/best/config/optimizer/RNG/log snapshots every ~200 successful updates plus exit. Abrupt termination cannot guarantee a final save. Recover only from a complete verified ZIP under matching environment/source/config. No quota bypass, paid fallback, device migration or automatic retry.",
+  "status": "queued_continuation_prepared; user has not yet confirmed queuing; A completion not established"
+}

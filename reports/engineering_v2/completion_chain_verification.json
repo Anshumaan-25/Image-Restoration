@@ -1,0 +1,6 @@
+{
+  "status": "guard_verified",
+  "scope": "Execution chain syntax and missing-approval guard; stage bodies independently checked in their existing verification receipts",
+  "launcher_sha256": "4c31b8e243e6148ad2a1c2eede65bd12df8c1437f31fb8d97b9ac80bd90d2bf8",
+  "no_cloud_execution_claimed": true
+}

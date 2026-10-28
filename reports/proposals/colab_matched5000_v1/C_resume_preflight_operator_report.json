@@ -1,0 +1,27 @@
+{
+  "date_asia_kolkata": "2026-10-23",
+  "source": "User-pasted actual Colab recovery preflight",
+  "gpu": "Tesla T4",
+  "latest_step": 3700,
+  "best_step": 3600,
+  "remaining_updates": 1300,
+  "environment_differences": {},
+  "archive_checksum_validation": "passed",
+  "helper_identity": "passed",
+  "training_started": false,
+  "proposed_invocation": {
+    "arm": "C_seed42",
+    "original_target_steps": 5000,
+    "device": "cuda",
+    "precision": "fp16",
+    "max_seconds": 9000,
+    "expected_minutes_on_similar_T4": "30\u201340 plus final evaluation/backup overhead",
+    "cost_usd": 0,
+    "new_downloads": false,
+    "protected_test_scoring": false,
+    "automatic_retries": false,
+    "A_or_B_execution": false
+  },
+  "approval_status": "pending specific resumed-invocation approval",
+  "verification": "Recovery cell AST parsed; no training executed"
+}

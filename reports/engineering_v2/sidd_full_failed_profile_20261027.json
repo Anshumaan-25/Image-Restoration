@@ -1,0 +1,8 @@
+{
+  "measured_blocks": 10,
+  "warmup_forwards": 3,
+  "mean_block_seconds": 0.9797214474999691,
+  "projected_full_seconds": 1254.0434527999605,
+  "peak_allocated_bytes": 708752896,
+  "timing_scope": "paired PNG decode, FP32 forward, transfer, restoration and input CPU float64 metrics"
+}

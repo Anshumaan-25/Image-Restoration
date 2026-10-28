@@ -1,0 +1,122 @@
+{
+  "date_asia_kolkata": "2026-10-26",
+  "evidence_source": "User-pasted completed Colab final evaluator output; full JSON import pending",
+  "device": "cuda",
+  "hardware": "Tesla T4",
+  "evaluation_precision": "fp32",
+  "run_status": "complete",
+  "drive_directory": "/content/drive/MyDrive/RestorationProject/studies/cuda_jpeg_5000_v1/final_test_v1",
+  "images_per_arm_quality": 16,
+  "phases_per_image": 64,
+  "training_seed": 42,
+  "qualities": {
+    "20": {
+      "A": {
+        "worst_phase_psnr": 29.721401,
+        "ssim": 0.828079
+      },
+      "B": {
+        "worst_phase_psnr": 29.757143,
+        "ssim": 0.828749
+      },
+      "C": {
+        "worst_phase_psnr": 29.756548,
+        "ssim": 0.828156
+      },
+      "B_minus_A": {
+        "delta_db": 0.035741,
+        "ci95": [
+          0.0017741830052331446,
+          0.06702798164912202
+        ]
+      },
+      "C_minus_B": {
+        "delta_db": -0.000595,
+        "ci95": [
+          -0.028323620889794832,
+          0.02803278291063315
+        ]
+      },
+      "C_minus_A": {
+        "delta_db": 0.035147,
+        "ci95": [
+          0.005148838672552521,
+          0.06489151693474154
+        ]
+      }
+    },
+    "10": {
+      "A": {
+        "worst_phase_psnr": 26.970494,
+        "ssim": 0.741627
+      },
+      "B": {
+        "worst_phase_psnr": 27.021176,
+        "ssim": 0.7437
+      },
+      "C": {
+        "worst_phase_psnr": 27.042974,
+        "ssim": 0.744135
+      },
+      "B_minus_A": {
+        "delta_db": 0.050682,
+        "ci95": [
+          0.0324140385489456,
+          0.06975857685372622
+        ]
+      },
+      "C_minus_B": {
+        "delta_db": 0.021798,
+        "ci95": [
+          -3.5708291341412717e-05,
+          0.04673201488678013
+        ]
+      },
+      "C_minus_A": {
+        "delta_db": 0.072479,
+        "ci95": [
+          0.046153416846562066,
+          0.10360027592359593
+        ]
+      }
+    },
+    "40": {
+      "A": {
+        "worst_phase_psnr": 31.854779,
+        "ssim": 0.880337
+      },
+      "B": {
+        "worst_phase_psnr": 31.861663,
+        "ssim": 0.879195
+      },
+      "C": {
+        "worst_phase_psnr": 31.820262,
+        "ssim": 0.87802
+      },
+      "B_minus_A": {
+        "delta_db": 0.006885,
+        "ci95": [
+          -0.03155577071064074,
+          0.04888466763364745
+        ]
+      },
+      "C_minus_B": {
+        "delta_db": -0.041401,
+        "ci95": [
+          -0.08660603172004157,
+          0.0016527008268277879
+        ]
+      },
+      "C_minus_A": {
+        "delta_db": -0.034517,
+        "ci95": [
+          -0.08023742789891292,
+          0.008626046148807869
+        ]
+      }
+    }
+  },
+  "interpretation": "At primaryQ20 stratified sampling B-A has a small positive descriptive image-bootstrap interval; additional consistency C-B has no demonstrated improvement. All C-B intervals span zero. Single seed and small panel; no general superiority or novelty established. No test-based retuning.",
+  "next": "Import full per-image results, verify counts/checkpoint/protocol/codec and recompute aggregates/intervals. Ordinary full-image checks, qualitative inference outputs and latency remain pending.",
+  "submitted_documents_modified": false
+}

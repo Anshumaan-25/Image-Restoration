@@ -1,0 +1,44 @@
+{
+  "status": "approved_conditional_pending_actual_cuda_profile",
+  "scope": "One DnCNN RGB Poisson training run, no pretrained weights, no test scoring",
+  "config": "configs/denoising/poisson_research_v2.yaml",
+  "seed": 42,
+  "train_sources": 32,
+  "development_sources": 8,
+  "development_crop": 128,
+  "training_target": 128,
+  "training_photon_peaks": [
+    30,
+    60,
+    120
+  ],
+  "fixed_development_peak": 60,
+  "optimizer_updates": 5000,
+  "microbatch": 8,
+  "accumulation": 2,
+  "precision": "cuda_fp16",
+  "max_training_seconds": 5400,
+  "profile": {
+    "warmup": 10,
+    "measured_updates": 50,
+    "max_seconds": 300,
+    "required_amp_skips": 0,
+    "max_peak_allocated_GiB": 12,
+    "max_projected_update_seconds": 4320
+  },
+  "backup": "Immutable Drive snapshots every 200 updates and on clean exit; next run/resume never automatic",
+  "spending_usd": 0,
+  "downloads": false,
+  "data_already_acquired": true,
+  "source_bundle": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/dist/colab_extension_v2.zip",
+  "bundle_sha256": "f3665a079fb7c028244a8df6cbf4b6f9bb1808834bb1ad6e15fd9e944550024b",
+  "launcher": "reports/engineering_v2/colab_poisson_launcher.py",
+  "launcher_sha256": "d02dd7e708d9bd0a7aa92e70b9abbabe0b634d447df6b04ec404f91a10c040c9",
+  "purpose": "Deliver an actual task-specific Poisson checkpoint; not a novelty claim or full camera noise reproduction.",
+  "authorization": "User explicitly approved conditional Poisson run on 2026-10-26; profile gates and 5400-second/5000-update cap retained",
+  "bootstrap_correction": {
+    "reason": "Create reports parent on fresh extraction; explicitly reject unmounted Drive before profile/training. Budget, source bundle and research settings unchanged.",
+    "current_launcher_sha256": "bbbe6ffdf8490337cb1682facec1296c12857b288f36f3d00f82fca9329424be",
+    "verification": "reports/engineering_v2/poisson_bootstrap_verification.json"
+  }
+}

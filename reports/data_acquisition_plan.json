@@ -1,0 +1,32 @@
+{
+  "status": "acquired_and_validated",
+  "source": "https://data.vision.ee.ethz.ch/cvl/DIV2K/",
+  "method_used": "Approved official HTTPS downloads; byte counts, SHA256, exact image IDs and ZIP CRC checked; all 900 references decoded and independently manifest-validated",
+  "archives": [
+    {
+      "name": "DIV2K_train_HR.zip",
+      "url": "https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.zip",
+      "bytes": 3530603713,
+      "destination": "data/raw/DIV2K_train_HR.zip",
+      "sha256": "9d0b9c463f6e35b6c62cc6a930ee2224f670b34c1df841a57670f9acf0f6c335",
+      "zip_crc": "passed"
+    },
+    {
+      "name": "DIV2K_valid_HR.zip",
+      "url": "https://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_valid_HR.zip",
+      "bytes": 448993893,
+      "destination": "data/raw/DIV2K_valid_HR.zip",
+      "sha256": "20dd31fd84d777bc1cf5d6b7654a3f569c0aec74458ae094122ad1d0489900fc",
+      "zip_crc": "passed"
+    }
+  ],
+  "total_bytes": 3979597606,
+  "approval_date_local": "2026-10-21",
+  "approval": "User explicitly approved both DIV2K HR archives and source-disjoint split preparation",
+  "completed_report": "reports/div2k_acquisition.json",
+  "verified_at_utc": "2026-10-20T18:56:15.324264+00:00",
+  "image_bytes": 3983267330,
+  "total_payload_bytes": 7962864936,
+  "training_started": false,
+  "pretrained_weights_downloaded": false
+}

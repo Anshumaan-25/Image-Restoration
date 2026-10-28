@@ -1,0 +1,27 @@
+{
+  "status": "complete_imported_audited",
+  "approval": "sidd_optimized_validation_approval_20261027.json",
+  "notebook": "https://colab.research.google.com/drive/1NnLlX-IhljFFGHdS_xtXfwhmmwIVmZqM",
+  "cell": "Cell 6, APPROVED OPTIMIZED SIDD VALIDATION ONLY",
+  "prior_full_scoring_started": false,
+  "prior_profile": "sidd_full_failed_profile_20261027.json",
+  "spending_usd": 0,
+  "training": false,
+  "count": 1280,
+  "psnr": 40.01557105902148,
+  "ssim": 0.9224636313977967,
+  "export_sha256": "b5fb7aa44a12b469574d9c50e234baffcb5e30fa0f9ea1f209a8d056ef801717",
+  "export_bytes": 297204,
+  "audit": "sidd_full_results_audit_20261027.json",
+  "elapsed_scoring_seconds": 407.9904704380001,
+  "profile": {
+    "measured_blocks": 10,
+    "warmup_forwards": 3,
+    "mean_block_seconds": 0.28148645890000806,
+    "projected_full_seconds": 360.30266739201033,
+    "peak_allocated_bytes": 708752896,
+    "max_reference_ssim_error": 1.5432100042289676e-14,
+    "reference_parity_pairs": 20,
+    "timing_scope": "paired PNG decode, FP32 forward, transfer, restoration and input CPU float64 metrics"
+  }
+}

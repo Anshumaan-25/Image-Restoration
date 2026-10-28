@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+    "scripts/evaluate_pretrained.py",
+    "--approved",
+    "--pretrained-id",
+    "restormer_sidd",
+    "--weights",
+    "experiments/pretrained/approved_v2/real_denoising.pth",
+    "--weights-sha256",
+    "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+    "--data-dir",
+    "data/processed/SIDD_validation_v2",
+    "--manifest",
+    "val_first_block_per_parent40.jsonl",
+    "--split",
+    "val",
+    "--device",
+    "mps",
+    "--max-seconds",
+    "120",
+    "--output",
+    "reports/engineering_v2/restormer_sidd_validation40_project_rgb.json"
+  ],
+  "exit_code": 2,
+  "elapsed_seconds": 0.6612880829779897,
+  "stdout": "",
+  "stderr": "usage: evaluate_pretrained.py [-h] [--approved] --id ID --weights WEIGHTS\n                              --weights-sha256 WEIGHTS_SHA256 --data-dir\n                              DATA_DIR --manifest MANIFEST\n                              [--split {val,test}] --device {cpu,mps,cuda}\n                              [--sigma SIGMA] [--crop-size CROP_SIZE]\n                              [--max-seconds MAX_SECONDS] --output OUTPUT\n                              [--protocol {project_rgb_float_v1,swinir_sr_replay_v1}]\nevaluate_pretrained.py: error: the following arguments are required: --id\n",
+  "training": false
+}

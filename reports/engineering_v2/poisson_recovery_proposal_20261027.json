@@ -1,0 +1,27 @@
+{
+  "status": "prepared_pending_specific_recovery_approval",
+  "reason": "Original Colab session ended before target; no automatic restart was authorized",
+  "snapshot_sha256": "db13d20b37564c390e732453db0b1601ff4123feb1c6ac542c80ae01bf483127",
+  "from_step": 4100,
+  "remaining_updates": 900,
+  "training_horizon": 5000,
+  "best_step_retained": 4100,
+  "max_additional_training_seconds": 900,
+  "projected_update_seconds": 323.2920953700341,
+  "spending_usd": 0,
+  "device": "cuda/Tesla T4",
+  "precision": "fp16",
+  "downloads": false,
+  "protected_test_scoring": false,
+  "required_environment": "Exact existing Python/torch/CUDA/dependency/codec/device-name values; mismatch fails",
+  "source_files_unchanged": true,
+  "schedule_data_rng_optimizer_scaler_unchanged": true,
+  "launcher": "reports/engineering_v2/colab_poisson_resume_900.py",
+  "launcher_sha256": "27c0176505797e00a91bc24231cfd057505eb86fcd5f51081d82c84e3bb68562",
+  "verification": {
+    "syntax": "passed",
+    "missing_approval_guard": "passed before cloud access",
+    "wall_cap_preserves_actual_checkpoint_compatibility": "passed"
+  },
+  "backup": "Every200 updates and final, unique resumed folder; original snapshots retained"
+}

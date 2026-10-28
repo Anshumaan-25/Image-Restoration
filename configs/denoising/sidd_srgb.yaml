@@ -1,0 +1,18 @@
+# Separate task configuration; supply and validate the named manifests before training.
+model:
+  name: dncnn_rgb_l1
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/sidd_srgb/train.jsonl
+  val_manifest: data/manifests/sidd_srgb/val.jsonl
+  patch_size: 128
+degradation:
+  profile: sidd_srgb_pairs_v1
+training:
+  device: cuda
+  precision: fp16
+  batch_size: 8
+  accumulation_steps: 2
+loss:
+  kind: l1

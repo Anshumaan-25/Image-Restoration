@@ -1,0 +1,6 @@
+# Reference settings to copy into a task config; automatic merge is not implemented.
+training:
+  device: cpu
+  precision: fp32
+  batch_size: 1
+  accumulation_steps: 1

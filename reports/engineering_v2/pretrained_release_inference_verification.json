@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "scope": "Standalone extracted official SwinIR x2 CPU inference, actual checkpoint and included supplied LR sample",
+  "zip_sha256": "cbae4bdc64bb07d25fe392ffeecac81326a580c5d666529b390d37f3abd193b0",
+  "command": [
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+    "inference.py",
+    "--input",
+    "data/raw/Set5_official_swinir/LR_bicubic/X2/birdx2.png",
+    "--output",
+    "verified_sr.png",
+    "--weights",
+    "experiments/pretrained/approved_v2/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth",
+    "--pretrained-id",
+    "swinir_x2",
+    "--weights-sha256",
+    "193b229909ca89cd8b55de9c9e7fce146ae759d59dfcd78d8feb9dd1d6fa0fd7",
+    "--device",
+    "cpu"
+  ],
+  "exit_code": 0,
+  "output_shape": [
+    288,
+    288,
+    3
+  ],
+  "stdout": "restored=1 device=cpu output=verified_sr.png\n",
+  "stderr": ""
+}

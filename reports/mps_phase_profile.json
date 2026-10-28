@@ -1,0 +1,32 @@
+{
+  "device": "mps",
+  "precision": "fp32",
+  "procedural_test_only": false,
+  "measured_updates": 50,
+  "warmup_updates": 10,
+  "median_update_seconds": 1.0067633124999702,
+  "mean_update_seconds": 1.011818651620124,
+  "batch_size": 2,
+  "accumulation_steps": 4,
+  "patch_size": 128,
+  "run_dir": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/runs/20261020T192045Z_0cb9c305",
+  "peak_cuda_allocated_bytes": null,
+  "peak_cuda_reserved_bytes": null,
+  "mps_current_allocated_bytes": 0,
+  "mps_driver_allocated_bytes": 1136787456,
+  "model": {
+    "name": "dncnn_rgb_l1",
+    "width": 64,
+    "depth": 20,
+    "scale": 1,
+    "blocks": 16
+  },
+  "jpeg_study": {
+    "mode": "stratified",
+    "augment": true
+  },
+  "completed": true,
+  "stop_reason": "complete",
+  "validation_executed": false,
+  "timing_scope": "sample loading/degradation, forward, backward, clipping, optimizer and scheduler; excludes validation/log/checkpoint"
+}

@@ -1,0 +1,48 @@
+model:
+  name: dncnn_rgb_l1
+  width: 64
+  depth: 20
+  scale: 1
+  blocks: 16
+dataset:
+  kind: manifest
+  root: .
+  train_manifest: data/manifests/div2k_jpeg_v1/screening/train.jsonl
+  val_manifest: data/manifests/div2k_jpeg_v1/screening/val.jsonl
+  patch_size: 128
+  train_samples: 32
+  val_samples: 8
+degradation:
+  profile: jpeg_rgb_444_v1
+  sigma: 25.0
+  sigma_min: 10.0
+  sigma_max: 50.0
+  peak_photons: 60.0
+  jpeg_quality: 20
+training:
+  device: mps
+  precision: fp32
+  batch_size: 2
+  accumulation_steps: 4
+  num_workers: 0
+  max_steps: 5000
+  epochs: null
+  max_seconds: 6000
+  learning_rate: 0.0002
+  min_lr: 1.0e-06
+  weight_decay: 0.0
+  warmup_steps: 100
+  clip_grad: 1.0
+  seed: 42
+  validation_interval: 100
+  checkpoint_interval: 100
+loss:
+  kind: l1
+  epsilon: 0.001
+  perceptual_weight: 0.0
+  consistency_weight: 0.05
+jpeg_study:
+  mode: stratified
+  augment: true
+output:
+  root: experiments/runs

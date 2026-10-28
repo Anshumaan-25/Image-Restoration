@@ -1,0 +1,7 @@
+# Core baseline; tested local versions are recorded under requirements/locks/.
+torch>=2.4,<3
+numpy>=1.26,<3
+pillow>=10,<13
+pyyaml>=6,<7
+tqdm>=4.66,<5
+# stdlib unittest is the offline test runner. Optional extras are separate.

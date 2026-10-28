@@ -1,0 +1,40 @@
+{
+  "status": "prepared_not_authorized",
+  "scope": "One complete fixed official pretrained SIDD public-validation pass over all 1280 paired256x256 blocks; no training, hidden benchmark or task retuning",
+  "device": "Colab T4 cuda:0",
+  "precision": "fp32",
+  "batch_size": 1,
+  "profile": {
+    "warmup_forwards": 3,
+    "measured_blocks": 10,
+    "max_seconds": 60,
+    "max_peak_allocated_GiB": 12,
+    "max_projected_full_seconds": 960
+  },
+  "max_full_evaluation_seconds": 1200,
+  "upload_and_data_preparation": "Additional setup overhead; not GPU training",
+  "prerequisite": "Approved Poisson run completed5000 updates; same frozen runtime source; real Drive mount",
+  "spending_usd": 0,
+  "downloads": false,
+  "transfers_to_private_RestorationProject_Drive": {
+    "real_denoising.pth": {
+      "source": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/pretrained/approved_v2/real_denoising.pth",
+      "bytes": 104611957,
+      "sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387"
+    },
+    "test.zip": {
+      "source": "/Users/anshu/Downloads/test.zip",
+      "bytes": 461780640,
+      "sha256": "1139c32896697e960159ae845070751e58894ddf607ebfe8f6d83ef012e2fbff"
+    }
+  },
+  "backup": "Fixed plan/profile + per-image results saved every32 blocks to new unique Drive study; partial remains incomplete, no auto retry or fallback",
+  "launcher": "reports/engineering_v2/colab_sidd_full_validation.py",
+  "launcher_sha256": "d126750663c4d981e8ea74ad6a3135036f3cbf04a8a08d355002cd6e754bc461",
+  "verification": {
+    "syntax": "passed",
+    "missing_approval_guard_before_cloud_access": "passed",
+    "loop_completion_partial_failure_wall_cap": "3 offline tests passed; reports/engineering_v2/sidd_full_launcher_verification.json"
+  },
+  "limitation": "Project RGB float validation protocol; not an exact published SIDD benchmark reproduction. Does not establish research novelty."
+}

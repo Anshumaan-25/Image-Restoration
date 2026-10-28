@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "command": [
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+    "inference.py",
+    "--input",
+    "outputs/examples_poisson_v3/poisson_peak60_input.png",
+    "--output",
+    "outputs/examples_poisson_v3/restored_cpu.png",
+    "--weights",
+    "experiments/studies/poisson_completed_v3_import_20261027/run/best_model.pth",
+    "--device",
+    "cpu"
+  ],
+  "stdout": "restored=1 device=cpu output=outputs/examples_poisson_v3/restored_cpu.png\n",
+  "seconds": 1.5420649169827811,
+  "selected_step": 4500,
+  "selected_checkpoint_sha256": "7a230332d587ab33a9a21c8ac90870882033d5a594e7a9c5dc05812b77421fed",
+  "output_shape": [
+    3,
+    128,
+    128
+  ],
+  "export_matches_direct_quantized_prediction": true,
+  "environment": {
+    "python": "3.12.13",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "torch": "2.12.0",
+    "device": "cpu",
+    "cuda": null,
+    "mps_available": true,
+    "device_name": "arm64",
+    "dependencies": {
+      "torch": "2.12.0",
+      "numpy": "1.26.4",
+      "Pillow": "12.2.0",
+      "PyYAML": "6.0.3",
+      "tqdm": "4.68.3"
+    }
+  },
+  "scope": "Actual selected-model CLI inference on one newly generated local development sample; PNG round-trip; not frozen Colab metric reproduction",
+  "reference_input_local_float": {
+    "psnr": 23.30221273038303,
+    "ssim": 0.5676590313812359
+  },
+  "prediction_local_export_quantized": {
+    "psnr": 30.400320026293606,
+    "ssim": 0.934962744181768
+  }
+}

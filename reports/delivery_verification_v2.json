@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "archive": "dist/restoration_source_v2.zip",
+  "archive_sha256": "8586abfe6fecaa0fa81c21411ffdae6428e243f6e319d9d97a5576a5e6b1483b",
+  "archive_bytes": 7089593,
+  "file_count": 211,
+  "crc_and_all_entry_hashes_verified": true,
+  "raw_data_weights_environment_git_excluded": true,
+  "extracted_bundle_smoke": {
+    "exit_code": 0,
+    "stdout": "device=cpu precision=fp32 run=/var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmpilcshoyn/smoke updates=0/2\nSMOKE PASSED: actual model backward, SR shapes, two CPU updates, validation/checkpoint; auto device=cpu\n",
+    "stderr": ""
+  },
+  "core_source_matches_47_test_acceptance": true,
+  "protected_test_scored": false,
+  "v1_retained": true
+}

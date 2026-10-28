@@ -1,0 +1,27 @@
+model:
+  name: dncnn_rgb_l1
+  width: 8
+  depth: 3
+  scale: 1
+dataset:
+  kind: procedural
+  patch_size: 24
+  train_samples: 8
+  val_samples: 2
+degradation:
+  profile: awgn_unclipped_v1
+  sigma: 25.0
+training:
+  device: auto
+  precision: fp32
+  batch_size: 2
+  accumulation_steps: 2
+  max_steps: 2
+  warmup_steps: 0
+  validation_interval: 1
+  checkpoint_interval: 1
+  num_workers: 0
+loss:
+  kind: l1
+output:
+  root: experiments/runs

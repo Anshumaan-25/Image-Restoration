@@ -1,0 +1,21 @@
+{
+  "status": "awaiting_specific_download_approval",
+  "dataset": "SIDD public validation sRGB blocks, author-provided Restormer test archive",
+  "official_code_source": "https://github.com/swz30/Restormer/blob/68dc6ac472db26f16361150cb7a96a1bc87da93f/Denoising/download_data.py",
+  "url": "https://drive.google.com/file/d/11vfqV-lqousZTuAit1Qkqghiv_taY0KZ/view",
+  "filename": "test.zip",
+  "remote_metadata_bytes": 461780640,
+  "download_cap_bytes": 461780640,
+  "disk_budget_bytes": 2147483648,
+  "spending_usd": 0,
+  "training": false,
+  "model_inference": false,
+  "purpose": "Import actual noisy/clean public validation pairs; preserve official source/block IDs, no synthesis and no claim of hidden benchmark scoring.",
+  "hash_policy": "No independent author checksum exposed; record archive SHA256, verify ZIP safety/CRC, exact MAT keys/layout/dtype and derived PNG/hash manifests.",
+  "exclusions": [
+    "SIDD training data",
+    "raw/Bayer processing",
+    "long GPU evaluation",
+    "hidden benchmark submission"
+  ]
+}

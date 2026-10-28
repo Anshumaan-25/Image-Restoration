@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "name": "colab_matched5000_v1",
+  "status": "planned",
+  "runs": [
+    {
+      "id": "A_seed42",
+      "arm": "A",
+      "seed": 42,
+      "config": {
+        "model": {
+          "name": "dncnn_rgb_l1",
+          "width": 64,
+          "depth": 20,
+          "scale": 1,
+          "blocks": 16
+        },
+        "dataset": {
+          "kind": "manifest",
+          "root": ".",
+          "train_manifest": "data/manifests/div2k_jpeg_v1/screening/train.jsonl",
+          "val_manifest": "data/manifests/div2k_jpeg_v1/screening/val.jsonl",
+          "patch_size": 128,
+          "train_samples": 32,
+          "val_samples": 8
+        },
+        "degradation": {
+          "profile": "jpeg_rgb_444_v1",
+          "sigma": 25.0,
+          "sigma_min": 10.0,
+          "sigma_max": 50.0,
+          "peak_photons": 60.0,
+          "jpeg_quality": 20
+        },
+        "training": {
+          "device": "cuda",
+          "precision": "fp16",
+          "batch_size": 2,
+          "accumulation_steps": 4,
+          "num_workers": 0,
+          "max_steps": 5000,
+          "epochs": null,
+          "max_seconds": 9000,
+          "learning_rate": 0.0002,
+          "min_lr": 1e-06,
+          "weight_decay": 0.0,
+          "warmup_steps": 100,
+          "clip_grad": 1.0,
+          "seed": 42,
+          "validation_interval": 100,
+          "checkpoint_interval": 100
+        },
+        "loss": {
+          "kind": "l1",
+          "epsilon": 0.001,
+          "perceptual_weight": 0.0,
+          "consistency_weight": 0.0
+        },
+        "jpeg_study": {
+          "mode": "random",
+          "augment": true
+        },
+        "output": {
+          "root": "experiments/runs"
+        }
+      }
+    },
+    {
+      "id": "B_seed42",
+      "arm": "B",
+      "seed": 42,
+      "config": {
+        "model": {
+          "name": "dncnn_rgb_l1",
+          "width": 64,
+          "depth": 20,
+          "scale": 1,
+          "blocks": 16
+        },
+        "dataset": {
+          "kind": "manifest",
+          "root": ".",
+          "train_manifest": "data/manifests/div2k_jpeg_v1/screening/train.jsonl",
+          "val_manifest": "data/manifests/div2k_jpeg_v1/screening/val.jsonl",
+          "patch_size": 128,
+          "train_samples": 32,
+          "val_samples": 8
+        },
+        "degradation": {
+          "profile": "jpeg_rgb_444_v1",
+          "sigma": 25.0,
+          "sigma_min": 10.0,
+          "sigma_max": 50.0,
+          "peak_photons": 60.0,
+          "jpeg_quality": 20
+        },
+        "training": {
+          "device": "cuda",
+          "precision": "fp16",
+          "batch_size": 2,
+          "accumulation_steps": 4,
+          "num_workers": 0,
+          "max_steps": 5000,
+          "epochs": null,
+          "max_seconds": 9000,
+          "learning_rate": 0.0002,
+          "min_lr": 1e-06,
+          "weight_decay": 0.0,
+          "warmup_steps": 100,
+          "clip_grad": 1.0,
+          "seed": 42,
+          "validation_interval": 100,
+          "checkpoint_interval": 100
+        },
+        "loss": {
+          "kind": "l1",
+          "epsilon": 0.001,
+          "perceptual_weight": 0.0,
+          "consistency_weight": 0.0
+        },
+        "jpeg_study": {
+          "mode": "stratified",
+          "augment": true
+        },
+        "output": {
+          "root": "experiments/runs"
+        }
+      }
+    },
+    {
+      "id": "C_seed42",
+      "arm": "C",
+      "seed": 42,
+      "config": {
+        "model": {
+          "name": "dncnn_rgb_l1",
+          "width": 64,
+          "depth": 20,
+          "scale": 1,
+          "blocks": 16
+        },
+        "dataset": {
+          "kind": "manifest",
+          "root": ".",
+          "train_manifest": "data/manifests/div2k_jpeg_v1/screening/train.jsonl",
+          "val_manifest": "data/manifests/div2k_jpeg_v1/screening/val.jsonl",
+          "patch_size": 128,
+          "train_samples": 32,
+          "val_samples": 8
+        },
+        "degradation": {
+          "profile": "jpeg_rgb_444_v1",
+          "sigma": 25.0,
+          "sigma_min": 10.0,
+          "sigma_max": 50.0,
+          "peak_photons": 60.0,
+          "jpeg_quality": 20
+        },
+        "training": {
+          "device": "cuda",
+          "precision": "fp16",
+          "batch_size": 2,
+          "accumulation_steps": 4,
+          "num_workers": 0,
+          "max_steps": 5000,
+          "epochs": null,
+          "max_seconds": 9000,
+          "learning_rate": 0.0002,
+          "min_lr": 1e-06,
+          "weight_decay": 0.0,
+          "warmup_steps": 100,
+          "clip_grad": 1.0,
+          "seed": 42,
+          "validation_interval": 100,
+          "checkpoint_interval": 100
+        },
+        "loss": {
+          "kind": "l1",
+          "epsilon": 0.001,
+          "perceptual_weight": 0.0,
+          "consistency_weight": 0.05
+        },
+        "jpeg_study": {
+          "mode": "stratified",
+          "augment": true
+        },
+        "output": {
+          "root": "experiments/runs"
+        }
+      }
+    }
+  ],
+  "manifests": {
+    "train_manifest": {
+      "path": "data/manifests/div2k_jpeg_v1/screening/train.jsonl",
+      "sha256": "811dbd375dfb2c64b3cd32ff908100cb6ab175a4d223140fff43f0be8749385b"
+    },
+    "val_manifest": {
+      "path": "data/manifests/div2k_jpeg_v1/screening/val.jsonl",
+      "sha256": "1e57edae17331cf1cfff7ac40fda83cc7775b9a91fa7f754949909ec5eef0b28"
+    }
+  },
+  "total_optimizer_updates": 15000,
+  "max_run_seconds": 9000,
+  "max_total_training_seconds": 27000,
+  "views_per_clean_crop": 2,
+  "selection": "development_mean_per_image_worst_phase_psnr",
+  "protected_test_used": false,
+  "novelty_established": false,
+  "cloud_launcher_sha256": "32d80e3f0f4a7b7d7b0e45f22cd3ea6466a1b500e78c3f9f71316b0fea26461c",
+  "cloud_policy": {
+    "spending_usd": 0,
+    "long_run_approved": false,
+    "local_mps_baseline_reused": false,
+    "protected_test_included": false
+  }
+}

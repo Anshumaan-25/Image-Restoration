@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "markdown_links_checked": 211,
+  "broken_local_links": [],
+  "notebook_python_cells_syntax_checked": 5,
+  "notebook_cloud_executed": false,
+  "analysis_scripts_compiled_and_executed": true,
+  "core_source_matches_47_test_acceptance": true,
+  "selected_and_latest_source_match": true,
+  "selected_step": 4800,
+  "completed_step": 5000,
+  "next_A_C_configs_exactly_matched_except_approved_method_fields": true,
+  "next_A_C_runs_started": false,
+  "core_tests_rerun_this_diagnostic": false,
+  "core_test_count_previously_verified": 47,
+  "protected_test_scored": false,
+  "postprocessing_verified": true
+}

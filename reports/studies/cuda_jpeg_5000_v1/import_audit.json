@@ -1,0 +1,305 @@
+{
+  "status": "passed",
+  "import_source": "/Users/anshu/Downloads/restoration_completed_study_28aebcdf.zip",
+  "export_sha256": "55795ddf1a1b3dc44903db8c137fe29cf93ba2914e5886d7c0b90ee031aab834",
+  "import_directory": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/studies/cuda_jpeg_5000_v1_import_20261025",
+  "checks": {
+    "A": {
+      "completed_steps": 5000,
+      "selected_step": 4700,
+      "selected_sha256": "12781e660c01ef3e63e2acea4946cebb661e7c82aaa63311340e54d1374eed46",
+      "archive_sha256": "78b2a8b6b63b7a99e0bc7dc5cf92e8ebf3f18033322fc09438b568561da9aeed",
+      "logged_vs_cpu_replay_worst_phase_delta_db": -7.423704317943702e-09,
+      "count": 8,
+      "phase_count": 16,
+      "worst_phase_psnr": 30.09632986361542,
+      "psnr": 30.18634056681028,
+      "ssim": 0.8574343362682664,
+      "state_keys": [
+        "model",
+        "optimizer",
+        "scheduler",
+        "scaler",
+        "config",
+        "step",
+        "cursor",
+        "total_steps",
+        "microsteps",
+        "skipped_updates",
+        "clipped_updates",
+        "consecutive_skipped",
+        "best_metric",
+        "best_step",
+        "rng",
+        "compatibility",
+        "datasets",
+        "environment",
+        "source",
+        "data_identity",
+        "profile_only",
+        "resume_source",
+        "metric_protocol",
+        "ssim_protocol",
+        "schema_version"
+      ]
+    },
+    "B": {
+      "completed_steps": 5000,
+      "selected_step": 4400,
+      "selected_sha256": "641d49702f83210d2e592bc6b867677cb015e8a14282b24434c018f726dbcedf",
+      "archive_sha256": "783d56cfaa06c6e25133f68de289902cd1d5904b2b897538b53601d144dca813",
+      "logged_vs_cpu_replay_worst_phase_delta_db": -2.9714777483036414e-07,
+      "count": 8,
+      "phase_count": 16,
+      "worst_phase_psnr": 30.162796126902666,
+      "psnr": 30.257333602507515,
+      "ssim": 0.8571062859839802,
+      "state_keys": [
+        "model",
+        "optimizer",
+        "scheduler",
+        "scaler",
+        "config",
+        "step",
+        "cursor",
+        "total_steps",
+        "microsteps",
+        "skipped_updates",
+        "clipped_updates",
+        "consecutive_skipped",
+        "best_metric",
+        "best_step",
+        "rng",
+        "compatibility",
+        "datasets",
+        "environment",
+        "source",
+        "data_identity",
+        "profile_only",
+        "resume_source",
+        "metric_protocol",
+        "ssim_protocol",
+        "schema_version"
+      ]
+    },
+    "C": {
+      "completed_steps": 5000,
+      "selected_step": 4900,
+      "selected_sha256": "f0c7105bb7d490a36fbffcef29ccff36e9a396ebece5120412ec6eb04cc7fe3d",
+      "archive_sha256": "848de0d4309591395e46db443001c8142c8fde74af685cfa87bd009f3278628b",
+      "logged_vs_cpu_replay_worst_phase_delta_db": -2.0531508226895312e-07,
+      "count": 8,
+      "phase_count": 16,
+      "worst_phase_psnr": 30.165986244290128,
+      "psnr": 30.261092643615278,
+      "ssim": 0.8564551752939809,
+      "state_keys": [
+        "model",
+        "optimizer",
+        "scheduler",
+        "scaler",
+        "config",
+        "step",
+        "cursor",
+        "total_steps",
+        "microsteps",
+        "skipped_updates",
+        "clipped_updates",
+        "consecutive_skipped",
+        "best_metric",
+        "best_step",
+        "rng",
+        "compatibility",
+        "datasets",
+        "environment",
+        "source",
+        "data_identity",
+        "profile_only",
+        "resume_source",
+        "metric_protocol",
+        "ssim_protocol",
+        "schema_version"
+      ]
+    }
+  },
+  "comparisons": {
+    "B_minus_A": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.06646626328724503,
+      "image_bootstrap_ci95_db": [
+        -0.0007673062069073287,
+        0.13784776109110491
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 8,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.06646626328724503
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0721",
+          "delta_db": 0.16636051146374697
+        },
+        {
+          "id": "0722",
+          "delta_db": 0.008729163568343523
+        },
+        {
+          "id": "0723",
+          "delta_db": -0.02918768032559882
+        },
+        {
+          "id": "0724",
+          "delta_db": 0.12120111240249187
+        },
+        {
+          "id": "0725",
+          "delta_db": 0.08533288867494804
+        },
+        {
+          "id": "0726",
+          "delta_db": -0.06429521580517417
+        },
+        {
+          "id": "0727",
+          "delta_db": -0.006318549544026553
+        },
+        {
+          "id": "0728",
+          "delta_db": 0.24990787586322938
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_B": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.003190117387461555,
+      "image_bootstrap_ci95_db": [
+        -0.020559860376564664,
+        0.024813121291406986
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 8,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.003190117387461555
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0721",
+          "delta_db": 0.026388335405659546
+        },
+        {
+          "id": "0722",
+          "delta_db": -0.004870360588885347
+        },
+        {
+          "id": "0723",
+          "delta_db": 0.029896939530548394
+        },
+        {
+          "id": "0724",
+          "delta_db": -0.006885421296637162
+        },
+        {
+          "id": "0725",
+          "delta_db": 0.04734151858541935
+        },
+        {
+          "id": "0726",
+          "delta_db": -0.04227862809238658
+        },
+        {
+          "id": "0727",
+          "delta_db": 0.026015305759329976
+        },
+        {
+          "id": "0728",
+          "delta_db": -0.050086750203355734
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    },
+    "C_minus_A": {
+      "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+      "delta_db": 0.06965638067470659,
+      "image_bootstrap_ci95_db": [
+        -0.0005287660691943863,
+        0.13709656815227866
+      ],
+      "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+      "bootstrap_repetitions": 10000,
+      "image_count": 8,
+      "seeds": [
+        42
+      ],
+      "seed_mean_deltas_db": [
+        0.06965638067470659
+      ],
+      "seed_delta_std_db": null,
+      "per_image": [
+        {
+          "id": "0721",
+          "delta_db": 0.19274884686940652
+        },
+        {
+          "id": "0722",
+          "delta_db": 0.0038588029794581757
+        },
+        {
+          "id": "0723",
+          "delta_db": 0.000709259204949575
+        },
+        {
+          "id": "0724",
+          "delta_db": 0.11431569110585471
+        },
+        {
+          "id": "0725",
+          "delta_db": 0.1326744072603674
+        },
+        {
+          "id": "0726",
+          "delta_db": -0.10657384389756075
+        },
+        {
+          "id": "0727",
+          "delta_db": 0.019696756215303424
+        },
+        {
+          "id": "0728",
+          "delta_db": 0.19982112565987364
+        }
+      ],
+      "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty."
+    }
+  },
+  "frozen_source_files_unchanged": true,
+  "cloud_codec": {
+    "pillow": "11.3.0",
+    "jpeg_library": "6.2",
+    "subsampling": "4:4:4",
+    "optimize": "false",
+    "progressive": "false"
+  },
+  "local_codec": {
+    "pillow": "12.2.0",
+    "jpeg_library": "9.0",
+    "subsampling": "4:4:4",
+    "optimize": "false",
+    "progressive": "false"
+  },
+  "test_source_integrity_and_disjointness": "16 protected images checked; no scoring",
+  "research_training_executed": false,
+  "protected_test_scored": false,
+  "evaluation_origin": "Imported Colab CPU inference reports independently reaggregated locally; local model inference not executed in this audit"
+}

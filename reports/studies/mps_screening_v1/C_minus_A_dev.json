@@ -1,0 +1,54 @@
+{
+  "endpoint": "candidate_minus_baseline_mean_per_image_worst_phase_psnr",
+  "delta_db": 0.0017328321709264571,
+  "image_bootstrap_ci95_db": [
+    -0.00902717368982131,
+    0.011333608948114637
+  ],
+  "bootstrap_unit": "source_image_after_averaging_paired_seed_deltas",
+  "bootstrap_repetitions": 10000,
+  "image_count": 8,
+  "seeds": [
+    42
+  ],
+  "seed_mean_deltas_db": [
+    0.0017328321709264571
+  ],
+  "seed_delta_std_db": null,
+  "per_image": [
+    {
+      "id": "0721",
+      "delta_db": 0.0024291449497759743
+    },
+    {
+      "id": "0722",
+      "delta_db": 0.0005189672610441676
+    },
+    {
+      "id": "0723",
+      "delta_db": 0.020261262488229903
+    },
+    {
+      "id": "0724",
+      "delta_db": -0.0045256944708320646
+    },
+    {
+      "id": "0725",
+      "delta_db": 0.01598212005324129
+    },
+    {
+      "id": "0726",
+      "delta_db": 0.014776244345753753
+    },
+    {
+      "id": "0727",
+      "delta_db": -0.028665183123777638
+    },
+    {
+      "id": "0728",
+      "delta_db": -0.006914204136023727
+    }
+  ],
+  "limitation": "Image bootstrap is conditional on observed training seeds; small samples do not establish publishable novelty.",
+  "selection_bias_note": "Development data selected these checkpoints. Intervals are descriptive and do not estimate held-out generalization."
+}

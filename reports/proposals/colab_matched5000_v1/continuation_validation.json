@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "coordinator_tests": 4,
+  "test_log": "test_B_exception_or_incomplete_blocks_C (<run_path>.ContinuationTests.test_B_exception_or_incomplete_blocks_C)\nA wall-time stop, backup failure or GPU error never advances to C. ... ok\ntest_failed_A_blocks_everything (<run_path>.ContinuationTests.test_failed_A_blocks_everything)\nA failed/absent/incomplete result cannot launch another arm. ... ok\ntest_success_runs_only_B_then_C (<run_path>.ContinuationTests.test_success_runs_only_B_then_C)\nThe already-running A is never restarted. ... ok\ntest_unapproved_or_duplicate_execution_is_blocked (<run_path>.ContinuationTests.test_unapproved_or_duplicate_execution_is_blocked)\nRepeated queue clicks cannot retrain completed arms. ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n",
+  "core_acceptance": "reports/colab_continuation_core_acceptance_v1.json",
+  "core_tests": 47,
+  "all_frozen_training_source_hashes_unchanged": true,
+  "actual_CUDA_or_training_executed_by_continuation_tests": false,
+  "queue_cell_sha256": "5c3127349db98f1a179037365f252754086e4699ed0063f5e1c558bf2edfc398",
+  "colab_UI_queue_not_directly_verified": true,
+  "limits": "Browser/runtime may disconnect; periodic verified backups cannot force a last-second save or obtain new quota"
+}

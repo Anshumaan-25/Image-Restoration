@@ -1,0 +1,12 @@
+{
+  "status": "fixed_locally_cloud_recovery_pending",
+  "failure": "Unindexed torch.device(cuda) rejected by set_per_process_memory_fraction before any image inference.",
+  "fix": "Pass explicit current CUDA device integer, preserving explicit indexes.",
+  "original_launcher_sha256": "845643531cdf037c4b55b7091972d80b422347177efd943c9f72666341a7ce9e",
+  "corrected_launcher_sha256": "abcefa1b0e9cdd8bf86c0fbcac3929d5a3e8d0f62e89833fc2de3f5faa23788a",
+  "old_run_preserved": "completion_checks_v1",
+  "new_run": "completion_checks_v1_cuda_index_fix",
+  "new_export": "restoration_completion_checks_v1_cuda_index_fix.zip",
+  "scope_budget_changes": false,
+  "actual_cuda_test": "Pending execution in the user Colab session; CPU mock regression covers indexed and unindexed calls."
+}

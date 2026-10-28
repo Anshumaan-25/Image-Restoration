@@ -1,0 +1,304 @@
+{
+  "repository": "JingyunLiang/SwinIR",
+  "commit": "6545850fbf8df298df73d81f3e8cba638787c8bd",
+  "files": {
+    "models/network_swinir.py": {
+      "local": "reports/engineering_v2/upstream/SwinIR/models_network_swinir.py",
+      "sha256": "9e143898679ebeebc5d2fc94ad1b89c38aa4a4d43da4e0fcba0f93e476994913",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/models/network_swinir.py"
+    },
+    "LICENSE": {
+      "local": "reports/engineering_v2/upstream/SwinIR/LICENSE",
+      "sha256": "d66ccc11682c7458b19b376e1335e8665cbe412ff71f554bfec25f1791cddfa0",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/LICENSE"
+    },
+    "main_test_swinir.py": {
+      "local": "reports/engineering_v2/upstream/SwinIR/main_test_swinir.py",
+      "sha256": "812671208d948a7a36241aeb2cd7371dfb19cac9cd976c7bc296fd786ebfca2e",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/main_test_swinir.py"
+    },
+    "README.md": {
+      "local": "reports/engineering_v2/upstream/SwinIR/README.md",
+      "sha256": "bb18003aa632ed06fa453556979ad46ca6eb57fc636af674d1a8b03fe2959816",
+      "url": "https://raw.githubusercontent.com/JingyunLiang/SwinIR/6545850fbf8df298df73d81f3e8cba638787c8bd/README.md"
+    }
+  },
+  "assets": [
+    {
+      "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x2.pth",
+      "bytes": 67277475,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x2.pth",
+      "digest": null
+    },
+    {
+      "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x3.pth",
+      "bytes": 68016035,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x3.pth",
+      "digest": null
+    },
+    {
+      "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+      "bytes": 67869037,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x4.pth",
+      "digest": null
+    },
+    {
+      "name": "001_classicalSR_DF2K_s64w8_SwinIR-M_x8.pth",
+      "bytes": 68460535,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DF2K_s64w8_SwinIR-M_x8.pth",
+      "digest": null
+    },
+    {
+      "name": "001_classicalSR_DIV2K_s48w8_SwinIR-M_x2.pth",
+      "bytes": 59019939,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DIV2K_s48w8_SwinIR-M_x2.pth",
+      "digest": null
+    },
+    {
+      "name": "001_classicalSR_DIV2K_s48w8_SwinIR-M_x3.pth",
+      "bytes": 59758497,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DIV2K_s48w8_SwinIR-M_x3.pth",
+      "digest": null
+    },
+    {
+      "name": "001_classicalSR_DIV2K_s48w8_SwinIR-M_x4.pth",
+      "bytes": 59611499,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DIV2K_s48w8_SwinIR-M_x4.pth",
+      "digest": null
+    },
+    {
+      "name": "001_classicalSR_DIV2K_s48w8_SwinIR-M_x8.pth",
+      "bytes": 60202999,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/001_classicalSR_DIV2K_s48w8_SwinIR-M_x8.pth",
+      "digest": null
+    },
+    {
+      "name": "002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth",
+      "bytes": 17147989,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth",
+      "digest": null
+    },
+    {
+      "name": "002_lightweightSR_DIV2K_s64w8_SwinIR-S_x3.pth",
+      "bytes": 17180437,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x3.pth",
+      "digest": null
+    },
+    {
+      "name": "002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.pth",
+      "bytes": 17225941,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN-with-dict-keys-params-and-params_ema.pth",
+      "bytes": 284951549,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN-with-dict-keys-params-and-params_ema.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth",
+      "bytes": 142473939,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_PSNR-with-dict-keys-params-and-params_ema.pth",
+      "bytes": 284951549,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_PSNR-with-dict-keys-params-and-params_ema.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_PSNR.pth",
+      "bytes": 142473947,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_PSNR.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_GAN-with-dict-keys-params-and-params_ema.pth",
+      "bytes": 133949837,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_GAN-with-dict-keys-params-and-params_ema.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_GAN.pth",
+      "bytes": 66974517,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_GAN.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_PSNR-with-dict-keys-params-and-params_ema.pth",
+      "bytes": 133949837,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_PSNR-with-dict-keys-params-and-params_ema.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_PSNR.pth",
+      "bytes": 66974517,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x2_PSNR.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN-with-dict-keys-params-and-params_ema.pth",
+      "bytes": 134262205,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN-with-dict-keys-params-and-params_ema.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN.pth",
+      "bytes": 67129861,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_PSNR-with-dict-keys-params-and-params_ema.pth",
+      "bytes": 134262207,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_PSNR-with-dict-keys-params-and-params_ema.pth",
+      "digest": null
+    },
+    {
+      "name": "003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_PSNR.pth",
+      "bytes": 67129849,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_PSNR.pth",
+      "digest": null
+    },
+    {
+      "name": "004_grayDN_DFWB_s128w8_SwinIR-M_noise15.pth",
+      "bytes": 122879887,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/004_grayDN_DFWB_s128w8_SwinIR-M_noise15.pth",
+      "digest": null
+    },
+    {
+      "name": "004_grayDN_DFWB_s128w8_SwinIR-M_noise25.pth",
+      "bytes": 122879887,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/004_grayDN_DFWB_s128w8_SwinIR-M_noise25.pth",
+      "digest": null
+    },
+    {
+      "name": "004_grayDN_DFWB_s128w8_SwinIR-M_noise50.pth",
+      "bytes": 122879887,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/004_grayDN_DFWB_s128w8_SwinIR-M_noise50.pth",
+      "digest": null
+    },
+    {
+      "name": "005_colorDN_DFWB_s128w8_SwinIR-M_noise15.pth",
+      "bytes": 122905743,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/005_colorDN_DFWB_s128w8_SwinIR-M_noise15.pth",
+      "digest": null
+    },
+    {
+      "name": "005_colorDN_DFWB_s128w8_SwinIR-M_noise25.pth",
+      "bytes": 122905743,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/005_colorDN_DFWB_s128w8_SwinIR-M_noise25.pth",
+      "digest": null
+    },
+    {
+      "name": "005_colorDN_DFWB_s128w8_SwinIR-M_noise50.pth",
+      "bytes": 122905743,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/005_colorDN_DFWB_s128w8_SwinIR-M_noise50.pth",
+      "digest": null
+    },
+    {
+      "name": "006_CAR_DFWB_s126w7_SwinIR-M_jpeg10.pth",
+      "bytes": 102855821,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_CAR_DFWB_s126w7_SwinIR-M_jpeg10.pth",
+      "digest": null
+    },
+    {
+      "name": "006_CAR_DFWB_s126w7_SwinIR-M_jpeg20.pth",
+      "bytes": 102855799,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_CAR_DFWB_s126w7_SwinIR-M_jpeg20.pth",
+      "digest": null
+    },
+    {
+      "name": "006_CAR_DFWB_s126w7_SwinIR-M_jpeg30.pth",
+      "bytes": 102855795,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_CAR_DFWB_s126w7_SwinIR-M_jpeg30.pth",
+      "digest": null
+    },
+    {
+      "name": "006_CAR_DFWB_s126w7_SwinIR-M_jpeg40.pth",
+      "bytes": 102855823,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_CAR_DFWB_s126w7_SwinIR-M_jpeg40.pth",
+      "digest": null
+    },
+    {
+      "name": "006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg10.pth",
+      "bytes": 102873665,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg10.pth",
+      "digest": null
+    },
+    {
+      "name": "006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg20.pth",
+      "bytes": 102873665,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg20.pth",
+      "digest": null
+    },
+    {
+      "name": "006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg30.pth",
+      "bytes": 102873665,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg30.pth",
+      "digest": null
+    },
+    {
+      "name": "006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg40.pth",
+      "bytes": 102873665,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/006_colorCAR_DFWB_s126w7_SwinIR-M_jpeg40.pth",
+      "digest": null
+    },
+    {
+      "name": "RealSRSet+5images.zip",
+      "bytes": 2847928,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/RealSRSet%2B5images.zip",
+      "digest": null
+    },
+    {
+      "name": "SwinIR_supplementary.pdf",
+      "bytes": 142742,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/SwinIR_supplementary.pdf",
+      "digest": null
+    },
+    {
+      "name": "visual_results_001_bicSR_DF2K_s64w8_SwinIR-M_x4.tar.gz",
+      "bytes": 296663040,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/visual_results_001_bicSR_DF2K_s64w8_SwinIR-M_x4.tar.gz",
+      "digest": null
+    },
+    {
+      "name": "visual_results_001_bicSR_DIV2K_s48w8_SwinIR-M_x4.tar.gz",
+      "bytes": 301312000,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/visual_results_001_bicSR_DIV2K_s48w8_SwinIR-M_x4.tar.gz",
+      "digest": null
+    },
+    {
+      "name": "visual_results_002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.tar.gz",
+      "bytes": 295598080,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/visual_results_002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.tar.gz",
+      "digest": null
+    },
+    {
+      "name": "visual_results_003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN.tar.gz",
+      "bytes": 218408960,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/visual_results_003_realSR_BSRGAN_DFO_s64w8_SwinIR-M_x4_GAN.tar.gz",
+      "digest": null
+    },
+    {
+      "name": "visual_results_004_grayDN_DFWB_s128w8_SwinIR-M_noise50.tar.gz",
+      "bytes": 136857600,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/visual_results_004_grayDN_DFWB_s128w8_SwinIR-M_noise50.tar.gz",
+      "digest": null
+    },
+    {
+      "name": "visual_results_005_colorDN_DFWB_s128w8_SwinIR-M_noise50.tar.gz",
+      "bytes": 67338240,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/visual_results_005_colorDN_DFWB_s128w8_SwinIR-M_noise50.tar.gz",
+      "digest": null
+    },
+    {
+      "name": "visual_results_006_CAR_DFWB_s126w7_SwinIR-M_jpeg10.tar.gz",
+      "bytes": 5427200,
+      "url": "https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/visual_results_006_CAR_DFWB_s126w7_SwinIR-M_jpeg10.tar.gz",
+      "digest": null
+    }
+  ]
+}

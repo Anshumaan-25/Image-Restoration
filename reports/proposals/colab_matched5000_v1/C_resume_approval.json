@@ -1,0 +1,16 @@
+{
+  "date_asia_kolkata": "2026-10-23",
+  "user_message": "approve c resume",
+  "scope": "One C_seed42 resumed invocation from verified update3700 to original target5000, CUDA FP16, original config and scheduler horizon",
+  "max_seconds": 9000,
+  "budget_usd": 0,
+  "exclusions": [
+    "A/B reruns",
+    "new downloads",
+    "protected test scoring",
+    "automatic retries"
+  ],
+  "preflight": "C_resume_preflight_operator_report.json",
+  "cell": "resume_C_cell.py",
+  "local_training_executed": false
+}

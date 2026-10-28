@@ -1,0 +1,14 @@
+{
+  "status": "same_research_run_budget_with_verified_io_optimization",
+  "scope": "Conditional 5000 updates / 5400 seconds, existing approval retained; measured gates unchanged",
+  "engineering_change": "1536 MiB per-dataset decoded float32 CPU reference cache; identical samples, keys, model, L1, optimizer, batch/accumulation, seed and schedule. Source and config identities updated explicitly; no prior checkpoints resumed.",
+  "verification": "acceptance_cache_v3.json",
+  "tests": 68,
+  "first_profile_failed": "2.3063072738 seconds/update -> 192.1922728 update-only minutes; no research training began",
+  "new_artifacts": {
+    "bundle_sha256": "db81ac9de44a48699de33c00d5dba16aa476f11f376f797a8f0bee38ee8c2240",
+    "launcher_sha256": "71790fa7380d06aa2c826b2be901a7c20b4c14b4516733c2432e33325612a9a4",
+    "bootstrap_verification": "poisson_bootstrap_v3_verification.json"
+  },
+  "spending_usd": 0
+}

@@ -1,0 +1,22 @@
+{
+  "status": "frozen_before_inference",
+  "role": "public validation subset, not official full SIDD score or hidden benchmark",
+  "selection": "block_index=0 from every one of 40 supplied MAT parent indexes; no quality-based selection",
+  "count": 40,
+  "shape": [
+    256,
+    256,
+    3
+  ],
+  "manifest": "data/processed/SIDD_validation_v2/val_first_block_per_parent40.jsonl",
+  "manifest_sha256": "7a72e0e2885c9330be11b82de5b2da46f4091c53700ab9bd6011d4a0ea3f4c4c",
+  "weights": "restormer_sidd",
+  "weights_sha256": "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387",
+  "device": "mps",
+  "precision": "fp32",
+  "max_seconds": 120,
+  "protocol": "project_rgb_float_v1",
+  "training": false,
+  "spending_usd": 0,
+  "authorization": "Broad project completion and light local inference authorized; actual data and official weight acquisition separately explicitly approved. This short validation pass is not a long training/GPU run."
+}

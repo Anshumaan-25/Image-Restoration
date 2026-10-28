@@ -1,0 +1,26 @@
+{
+  "status": "prepared_requesting_approval",
+  "reason": "Initial fixed profile failed time gate before full scoring; optimize equivalent CPU metric calculation rather than raise approved time/memory limits",
+  "prior_mean_seconds": 0.9797214474999691,
+  "prior_projection_seconds": 1254.0434527999605,
+  "prior_allocated_bytes": 708752896,
+  "source_core_modified": false,
+  "helper": "reports/engineering_v2/colab_sidd_full_validation_optimized_v3.py",
+  "sha256": "6960ca00d159b57fe2386a3d998aaad96c71ac1d440883f2beaae91e135d3c58",
+  "same_model_weights_dataset_protocol": true,
+  "profile": {
+    "warmup_forwards": 3,
+    "measured_blocks": 10,
+    "cap_seconds": 60,
+    "max_projected_seconds": 960,
+    "max_allocated_GiB": 12,
+    "reference_parity_pairs": 20,
+    "max_ssim_error": 1e-10,
+    "exact_psnr": true
+  },
+  "max_full_scoring_seconds": 1200,
+  "spending_usd": 0,
+  "training": false,
+  "downloads": false,
+  "verification": "2 offline parity/invalid-input tests passed; max SSIM error4.064e-14; local metric time0.1125s ->0.0198s. Actual cloud timing unknown."
+}

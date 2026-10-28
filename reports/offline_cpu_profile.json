@@ -1,0 +1,18 @@
+{
+  "device": "cpu",
+  "precision": "fp32",
+  "procedural_test_only": true,
+  "measured_updates": 2,
+  "warmup_updates": 1,
+  "median_update_seconds": 0.0014701665058964863,
+  "mean_update_seconds": 0.0014701665058964863,
+  "batch_size": 2,
+  "accumulation_steps": 2,
+  "patch_size": 24,
+  "run_dir": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/experiments/runs/20261020T182150Z_99213b12",
+  "peak_cuda_allocated_bytes": null,
+  "peak_cuda_reserved_bytes": null,
+  "mps_current_allocated_bytes": null,
+  "mps_driver_allocated_bytes": null,
+  "timing_scope": "sample loading/degradation, forward, backward, clipping, optimizer and scheduler; excludes validation/log/checkpoint"
+}

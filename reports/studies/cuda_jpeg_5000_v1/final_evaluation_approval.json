@@ -1,0 +1,12 @@
+{
+  "status": "approved_not_executed",
+  "date_asia_kolkata": "2026-10-25",
+  "user_message": "bro dont work on only report or files, those arae submitted forget them, i have gpu access btw lets continue , approve final evaluation",
+  "device": "cuda",
+  "device_reason": "User explicitly reports GPU access and requests continuation; all frozen models evaluated on the same explicitly selected device, no CPU fallback",
+  "precision": "fp32 evaluation; no training",
+  "scope": "Selected A4700/B4400/C4900; sixteen held-out sources; all64 phases; Q20 then Q10/Q40; nine jobs capped600sec each/5400sec total plus setup/save; $0; no tuning/retraining/new downloads/automatic retries",
+  "frozen_study_sha256": "400aa655d20b23a41c065a190811e38a52762e8a9ab9e6bc4c87e94bb0d52fb8",
+  "launcher_sha256": "ae2d95addff84cd6de75fc089ab9006bed9a3e04337f7344cc3e43bbcd5203dd",
+  "submitted_documents": "Out of scope; do not modify further"
+}

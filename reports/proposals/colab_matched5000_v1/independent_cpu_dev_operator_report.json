@@ -1,0 +1,54 @@
+{
+  "date_asia_kolkata": "2026-10-23",
+  "evidence_source": "User-pasted actual independent CPU evaluation CLI and comparison output",
+  "report_origin": "/content/drive/MyDrive/RestorationProject/studies/cuda_jpeg_5000_v1/dev_replay_cpu_016f7784",
+  "count_per_arm": 8,
+  "phase_count": 16,
+  "quality": 20,
+  "split": "development",
+  "training_seed": 42,
+  "A": {
+    "selected_step": 4700,
+    "worst_phase_psnr": 30.09633,
+    "psnr": 30.186341,
+    "ssim": 0.857434
+  },
+  "B": {
+    "selected_step": 4400,
+    "worst_phase_psnr": 30.162796,
+    "psnr": 30.257334,
+    "ssim": 0.857106
+  },
+  "C": {
+    "selected_step": 4900,
+    "worst_phase_psnr": 30.165986,
+    "psnr": 30.261093,
+    "ssim": 0.856455
+  },
+  "comparisons": {
+    "B_minus_A": {
+      "delta_db": 0.066466,
+      "image_bootstrap_ci95_db": [
+        -0.0007673062069073287,
+        0.13784776109110491
+      ]
+    },
+    "C_minus_B": {
+      "delta_db": 0.00319,
+      "image_bootstrap_ci95_db": [
+        -0.020559860376564664,
+        0.024813121291406986
+      ]
+    },
+    "C_minus_A": {
+      "delta_db": 0.069656,
+      "image_bootstrap_ci95_db": [
+        -0.0005287660691943863,
+        0.13709656815227866
+      ]
+    }
+  },
+  "scope": "All three selected models reloaded/evaluated on CPU; aggregate output operator-reported, full JSON/checkpoint export not yet locally inspected. Matches logs to displayed precision.",
+  "protected_test_scored": false,
+  "novelty_established": false
+}

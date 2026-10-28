@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "command": [
+    "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+    "inference.py",
+    "--input",
+    "data/raw/Set5_official_swinir/LR_bicubic/X2/birdx2.png",
+    "--output",
+    "outputs/swinir_x2_bird_v2.png",
+    "--weights",
+    "experiments/pretrained/approved_v2/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth",
+    "--pretrained-id",
+    "swinir_x2",
+    "--weights-sha256",
+    "193b229909ca89cd8b55de9c9e7fce146ae759d59dfcd78d8feb9dd1d6fa0fd7",
+    "--device",
+    "mps"
+  ],
+  "stdout": "restored=1 device=mps output=outputs/swinir_x2_bird_v2.png\n",
+  "stderr": "",
+  "dimensions": [
+    288,
+    288
+  ]
+}

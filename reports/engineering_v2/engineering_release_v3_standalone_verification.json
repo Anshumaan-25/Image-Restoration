@@ -1,0 +1,239 @@
+{
+  "status": "passed",
+  "archive_sha256": "4551ed10207c99f45c4284c017a0097a46d4206aca561534292260ce9f73c3d1",
+  "payload_files": 150,
+  "all_eight_assets_inferred": true,
+  "dry_run_two_updates_checkpoint_reload": true,
+  "device": "cpu",
+  "checks": [
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "train.py",
+        "--dry-run",
+        "--epochs",
+        "1",
+        "--batch-size",
+        "2",
+        "--device",
+        "cpu"
+      ],
+      "exit_code": 0,
+      "seconds": 2.7103413330041803,
+      "stdout": "device=cpu precision=fp32 run=experiments/runs/20261027T110419Z_6c4a6fa0 updates=0/2\ncompleted=True steps=2 checkpoint/reload passed\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/jpeg_q20.png",
+        "--output",
+        "outputs/verified_jpeg_A.png",
+        "--weights",
+        "weights/jpeg_A.pth",
+        "--device",
+        "cpu"
+      ],
+      "exit_code": 0,
+      "seconds": 1.3105544999998529,
+      "stdout": "restored=1 device=cpu output=outputs/verified_jpeg_A.png\n",
+      "stderr": "",
+      "output_size": [
+        128,
+        128
+      ],
+      "output_sha256": "3a9b0da15bb8c76b23a6c75a2d593882c54a4c0a9c6f9e5a40dbac13f9333ce1",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/jpeg_q20.png",
+        "--output",
+        "outputs/verified_jpeg_B.png",
+        "--weights",
+        "weights/jpeg_B.pth",
+        "--device",
+        "cpu"
+      ],
+      "exit_code": 0,
+      "seconds": 1.310550249996595,
+      "stdout": "restored=1 device=cpu output=outputs/verified_jpeg_B.png\n",
+      "stderr": "",
+      "output_size": [
+        128,
+        128
+      ],
+      "output_sha256": "6cf50397761e82531b6cf43f2f7dabd8491d47f5c8b4b17f69565d253a06df75",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/jpeg_q20.png",
+        "--output",
+        "outputs/verified_jpeg_C.png",
+        "--weights",
+        "weights/jpeg_C.pth",
+        "--device",
+        "cpu"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2746578750084154,
+      "stdout": "restored=1 device=cpu output=outputs/verified_jpeg_C.png\n",
+      "stderr": "",
+      "output_size": [
+        128,
+        128
+      ],
+      "output_sha256": "53993e1f1ffdc29371f83fc0f745ad163a49827348fb65a4e3e96e2e26ab9b15",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/poisson_peak60.png",
+        "--output",
+        "outputs/verified_poisson.png",
+        "--weights",
+        "weights/poisson_best.pth",
+        "--device",
+        "cpu"
+      ],
+      "exit_code": 0,
+      "seconds": 1.2654399579914752,
+      "stdout": "restored=1 device=cpu output=outputs/verified_poisson.png\n",
+      "stderr": "",
+      "output_size": [
+        128,
+        128
+      ],
+      "output_sha256": "a3253d7c740e7d916fd84604dbc148245be21c602d83f43304d6a637eba29355",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/real_noise_crop.png",
+        "--output",
+        "outputs/verified_real.png",
+        "--weights",
+        "weights/real_denoising.pth",
+        "--device",
+        "cpu",
+        "--pretrained-id",
+        "restormer_sidd",
+        "--weights-sha256",
+        "4cae18bed8a291b9a5deeeab48756bbe6f61fcf7f31a4cca0969b24608601387"
+      ],
+      "exit_code": 0,
+      "seconds": 1.442279167007655,
+      "stdout": "restored=1 device=cpu output=outputs/verified_real.png\n",
+      "stderr": "",
+      "output_size": [
+        33,
+        35
+      ],
+      "output_sha256": "b7cc1341880808ccc51af60b5846e6634923c89edd4c03923326c9224f61d1c7",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/real_noise_crop.png",
+        "--output",
+        "outputs/verified_gaussian.png",
+        "--weights",
+        "weights/gaussian_color_denoising_blind.pth",
+        "--device",
+        "cpu",
+        "--pretrained-id",
+        "restormer_gaussian",
+        "--weights-sha256",
+        "4e2314dae77bb907184da6e2ac625b921491d6b33de26a52512eff1c6bb37fbd"
+      ],
+      "exit_code": 0,
+      "seconds": 1.4078218329814263,
+      "stdout": "restored=1 device=cpu output=outputs/verified_gaussian.png\n",
+      "stderr": "",
+      "output_size": [
+        33,
+        35
+      ],
+      "output_sha256": "7de33bc9cd799c4851325cea7513037b63a9d65a577082882708e1fa2efe61a9",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/bird_x2.png",
+        "--output",
+        "outputs/verified_sr_x2.png",
+        "--weights",
+        "weights/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x2.pth",
+        "--device",
+        "cpu",
+        "--pretrained-id",
+        "swinir_x2",
+        "--weights-sha256",
+        "193b229909ca89cd8b55de9c9e7fce146ae759d59dfcd78d8feb9dd1d6fa0fd7"
+      ],
+      "exit_code": 0,
+      "seconds": 2.4439400830015074,
+      "stdout": "restored=1 device=cpu output=outputs/verified_sr_x2.png\n",
+      "stderr": "",
+      "output_size": [
+        288,
+        288
+      ],
+      "output_sha256": "972beb2b83a0e1487f83a174f7cd367b2e7e3da700716b9479356668eeacaf82",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    },
+    {
+      "command": [
+        "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+        "inference.py",
+        "--input",
+        "samples/bird_x4.png",
+        "--output",
+        "outputs/verified_sr_x4.png",
+        "--weights",
+        "weights/002_lightweightSR_DIV2K_s64w8_SwinIR-S_x4.pth",
+        "--device",
+        "cpu",
+        "--pretrained-id",
+        "swinir_x4",
+        "--weights-sha256",
+        "09fad24e32ae62722e1a055efde9921328f4137981bab0a42a4a3a806306c58e"
+      ],
+      "exit_code": 0,
+      "seconds": 1.4524419579829555,
+      "stdout": "restored=1 device=cpu output=outputs/verified_sr_x4.png\n",
+      "stderr": "",
+      "output_size": [
+        288,
+        288
+      ],
+      "output_sha256": "7263bc7ecb7802f58a5ea88534e47519248987663939e7c454f12180bf8ae025",
+      "role": "Inference contract verification only; no quality score from this fixture"
+    }
+  ],
+  "no_downloads": true,
+  "spending_usd": 0,
+  "extraction": "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/dist/release_verification_v3/restoration_engineering_v3",
+  "novelty_established": false
+}

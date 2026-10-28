@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+.venv/
+ENV/
+
+# Data directories (keep directory structure, ignore data files)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/degradation/*
+!data/degradation/.gitkeep
+
+# Checkpoints and logs
+experiments/checkpoints/*
+!experiments/checkpoints/.gitkeep
+experiments/logs/*
+!experiments/logs/.gitkeep
+experiments/runs/
+*.pth
+*.pt
+*.ckpt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Output / Restored images
+outputs/
+results/
+temp/
+
+# Controlled study outputs
+experiments/studies/
+
+# Local source delivery bundles
+dist/
+
+# Local submission documents and generated document QA (not source delivery)
+reports/submission/
+
+# Generated local verification runs; retain versioned audit receipts instead
+experiments/verification/
+
+# Archived authenticated web page; may contain embedded service keys/session data
+reports/engineering_v2/upstream/sidd_public_mirror_metadata.html
+
+# Local credential/environment variants
+.env.*
+*.pem
+*.key

@@ -1,0 +1,114 @@
+{
+  "date_asia_kolkata": "2026-10-22",
+  "evidence_source": "User-pasted Colab completion output; checkpoint bytes/logs not yet independently retrieved/replayed",
+  "arm": "A_seed42",
+  "training_completion_reported": true,
+  "operator_elapsed_including_setup_backup_seconds": 6676.1,
+  "operator_elapsed_minutes": 111.26833333333335,
+  "final_drive_backup_reported": "/content/drive/MyDrive/RestorationProject/studies/cuda_jpeg_5000_v1/A_seed42/step_005000_micro_00020000.zip",
+  "summary": {
+    "run_dir": "/content/Image_Degradatation_Restoration/experiments/cloud/cuda_jpeg_5000_v1/A_seed42",
+    "step": 5000,
+    "target_steps": 5000,
+    "cursor": 40000,
+    "completed": true,
+    "stop_reason": "complete",
+    "best_step": 4700,
+    "skipped_updates": 0,
+    "microsteps": 20000,
+    "elapsed_seconds": 6668.454563093999,
+    "clipped_updates": 25,
+    "procedural_test_only": false,
+    "count": 8,
+    "psnr": 30.15888051046457,
+    "ssim": 0.8573535376595034,
+    "worst_phase_psnr": 30.065719923229537,
+    "input_worst_phase_psnr": 29.209202820684066,
+    "input_mean_psnr": 29.283943478049466,
+    "input_mean_ssim": 0.8400445724968326,
+    "phase_spread_psnr": 0.19016763701228623,
+    "phase_count": 16,
+    "phase_panel": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "quality": 20,
+    "patch_size": 128,
+    "endpoint": "mean_per_image_worst_phase_psnr",
+    "profile_only": false,
+    "model_parameters": 669379
+  },
+  "metric_scope": "Final update 5000 development panel; not selected update4700 replay, not full-image or protected-test scores",
+  "final_update_worst_phase_gain_over_input_db": 0.856517102545471,
+  "selected_checkpoint": {
+    "step": 4700,
+    "expected_filename": "best_model.pth",
+    "sha256": null,
+    "selected_metrics_independently_verified": false
+  },
+  "remaining_status": "B and C completion/start not confirmed by this output; queued continuation may already be executing",
+  "comparison_constraints": "Do not compare against old MPS baseline as a matched CUDA result; match B/C under same environment and selection horizon",
+  "novelty_established": false
+}

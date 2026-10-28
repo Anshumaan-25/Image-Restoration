@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "layout": "nkhwc",
+  "encoding": "uint8_srgb_lossless_png",
+  "noisy_key": "ValidationNoisyBlocksSrgb",
+  "clean_key": "ValidationGtBlocksSrgb",
+  "noisy_mat_sha256": "850e91ac1426fd953cfe50a12b8e43faca41081dc68d2e0701faa85d3fd62624",
+  "clean_mat_sha256": "fe17438ff6c25e4888260613c9dbaae485c2a90db46808471f33fde661f1434f",
+  "expected_count": 1280,
+  "split": "val",
+  "scene_identity": "MAT parent index preserved; true capture-scene identity not supplied",
+  "count": 1280,
+  "manifest_sha256": "8e7da2a4753dc450d11edc780d8a7ee590408f9477452d31ad5e6ea739d8fbc0",
+  "archive_sha256": "1139c32896697e960159ae845070751e58894ddf607ebfe8f6d83ef012e2fbff",
+  "archive": "/Users/anshu/Downloads/test.zip",
+  "origin": "authors_public_validation_mirror",
+  "training_performed": false
+}

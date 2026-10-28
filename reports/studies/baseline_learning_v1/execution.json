@@ -1,0 +1,44 @@
+{
+  "status": "authorized_work_complete_saved_and_verified",
+  "approval": "User explicitly replied: Approve baseline diagnostic",
+  "max_updates": 5000,
+  "max_training_seconds_soft_cap": 6000,
+  "device": "mps",
+  "precision": "fp32",
+  "spending_usd": 0,
+  "downloads": false,
+  "protected_test_scored": false,
+  "pipeline_changes": false,
+  "proposal": "reports/proposals/baseline_learning_v1/proposal.json",
+  "not_matched_to_1000_step_study": "Total schedule horizon differs; this is a baseline-learning diagnostic, not an isolated duration-effect experiment or a matched C comparison.",
+  "shutdown_request": {
+    "authorized_by_user": true,
+    "request": "Shut down this Mac after the current work is finished; do not stop work midway.",
+    "received_at_utc": "2026-10-20T21:39:10.423107+00:00",
+    "gate": "Only after the approved training process has exited, results/checkpoints are saved, development analysis and verification are complete, and the final report is persisted. Request normal OS shutdown; do not force-discard unsaved unrelated documents.",
+    "preflight": {
+      "normal_system_events_read_permission": "passed",
+      "native_dictionary_command": "System Events: shut down; default state saving enabled",
+      "noninteractive_sudo_available": false,
+      "shutdown_not_started": true
+    },
+    "idle_sleep_prevention": "Temporary 7200-second assertion active to cover training and verification; explicit shutdown is unaffected.",
+    "verification_finished": true,
+    "shutdown_not_started": true,
+    "gate_passed": true,
+    "ready_at_utc": "2026-10-21T02:27:01.016036+00:00",
+    "status": "normal_shutdown_queued",
+    "normal_shutdown_only": true,
+    "queued_at_utc": "2026-10-21T02:33:05.045458+00:00",
+    "delay_seconds": 45,
+    "tool_session_id": 14327,
+    "command": [
+      "/usr/bin/osascript",
+      "-e",
+      "delay 45",
+      "-e",
+      "tell application \"System Events\" to shut down"
+    ],
+    "power_off_independently_observed": false
+  }
+}

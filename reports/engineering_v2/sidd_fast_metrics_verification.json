@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tests": 2,
+  "timing_seconds_256_local_cpu": {
+    "reference": 0.11250196250039153,
+    "separable": 0.019806287498795427
+  },
+  "tolerance": 1e-10,
+  "cloud_profile": "not yet performed"
+}

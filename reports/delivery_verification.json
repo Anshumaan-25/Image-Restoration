@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "archive": "dist/restoration_source_v1.zip",
+  "archive_sha256": "f0f07e435bae61772e37f8aa05536ab9925c20c4ba69880e59a7a5b110bad1a9",
+  "archive_bytes": 3912498,
+  "file_count": 160,
+  "all_manifest_entry_hashes_verified": true,
+  "zip_crc_verified": true,
+  "raw_data_weights_environment_git_excluded": true,
+  "source_manifest": "reports/delivery_manifest.json",
+  "protected_test_scored": false,
+  "extracted_bundle_smoke": {
+    "command": [
+      "/Users/anshu/Documents/Minor Project/Image_Degradatation_Restoration/.venv/bin/python",
+      "tests/smoke_test.py"
+    ],
+    "exit_code": 0,
+    "seconds": 1.1674742090108339,
+    "stdout": "device=cpu precision=fp32 run=/var/folders/z3/ydsqxxsd1j93zx0gst5c5bzr0000gn/T/tmpz83czqlu/smoke updates=0/2\nSMOKE PASSED: actual model backward, SR shapes, two CPU updates, validation/checkpoint; auto device=cpu\n",
+    "stderr": ""
+  },
+  "final_pipeline_source_matches_acceptance": true
+}
